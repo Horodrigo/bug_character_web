@@ -1,0 +1,51 @@
+﻿{
+    "id":  "PATH_DREAM",
+    "name":  "Dream",
+    "type":  "mystical",
+    "description":  "\"When a bug dies, their spirit does not vanish. Our memories remain, lingering in places we have been, upon things that we loved.\"",
+    "ranks":  [
+                  {
+                      "rank":  1,
+                      "title":  "Dream Initiate",
+                      "customPool":  [
+                                                    {
+                                                        "Essence":  5
+                                                    }
+                                        ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Dream Nail",
+                                            "description":  "Gain Essence Pool (max 5). Manifest weightless Dream Nail (Quality = Insight). Strikes spirits for 3 damage. Can cast Touch Dream Spells when striking."
+                                        },
+                                        {
+                                            "name":  "Essence Tap",
+                                            "description":  "When striking with Dream Nail, gain 1 Soul and 1 Essence. Target must rest before being Tapped again."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  2,
+                      "title":  "Dream Adept",
+                      "abilities":  [
+                                        {
+                                            "name":  "Transference",
+                                            "description":  "On Dream Nail hit, opposed Insight check establishes Soul-leeching link. Target loses 1 Soul/turn, Adept gains 1 Soul/turn. Spend 1 Essence to increase leech rate."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  3,
+                      "title":  "Dream Sage",
+                      "abilities":  [
+                                        {
+                                            "name":  "Flicker of Foresight",
+                                            "description":  "While has Essence, may guess attack successes. If correct, defense dice count as 6s."
+                                        },
+                                        {
+                                            "name":  "Whisper me the Way",
+                                            "description":  "Spend 5 Essence for vision of future relevant to goals (may be cryptic)."
+                                        }
+                                    ]
+                  }
+              ]
+}

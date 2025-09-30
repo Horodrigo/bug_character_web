@@ -1,0 +1,34 @@
+[
+  {
+    "id": "button_shield",
+    "name": "Button Shield",
+    "quality": 1,
+    "bulk": "L",
+    "cost": 50,
+    "description": "If the bearer of this shield has Grace equal to or higher than their Might, they may add an extra die to their parry attempts with the shield."
+  },
+  {
+    "id": "coin_shield",
+    "name": "Coin Shield",
+    "quality": 3,
+    "bulk": 1,
+    "cost": 100,
+    "description": "No additional effect."
+  },
+  {
+    "id": "wing_shield",
+    "name": "Wing Shield",
+    "quality": 2,
+    "bulk": 1,
+    "cost": 150,
+    "description": "The bearer is treated as having 1/4 cover from ranged attacks, and receives no penalty to parry them."
+  },
+  {
+    "id": "carapace_shield",
+    "name": "Carapace Shield",
+    "quality": 0,
+    "bulk": 2,
+    "cost": 200,
+    "description": "The bearer of this shield, at the end of their turn, may choose a side of the square(s) they occupy. This shield acts as a wall along that side of the bug until they choose to end this effect. The side the shield is facing may be changed off-turn for 1 Stamina. This shield weighs 3 Bulk for Large sized bugs. Attacks against the shield may be parried using the shield. Carapace shields have a Durability score of 4, plus their Quality, an Absorption of 4, and a Soak score of 3. Weapon damage to this shield is dealt to Durability instead of Quality."
+  }
+]

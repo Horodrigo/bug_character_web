@@ -1,0 +1,79 @@
+[
+  {
+    "id": "S_BLIND",
+    "category": "Sense Traits",
+    "name": "Blind",
+    "hungerCost": -5,
+    "description": "This bug completely lacks a sense of sight. Scent and Tremorsense may be taken as sub-Traits of Blind.",
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "S_COMPOUND_EYES",
+    "category": "Sense Traits",
+    "name": "Compound Eyes",
+    "hungerCost": 4,
+    "description": "This bug has a pair of large compound eyes and a keen spatial awareness. It gets +1 reroll on rolls to detect things by sight, and may increase the range of any ranged attack they make by 1 square.",
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "S_DARKVISION",
+    "category": "Sense Traits",
+    "name": "Darkvision",
+    "hungerCost": 2,
+        "statEffects": {
+      "creep": -0.5
+    },
+    "description": "This bug can see just as far in any darkness as they could in fully lit conditions. This bug’s eyes also faintly glow, making it very easy to spot in total darkness unless its eyes are closed.",
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "S_NEARSIGHTED",
+    "category": "Sense Traits",
+    "name": "Nearsighted",
+    "hungerCost": -2,
+    "description": "This bug has particularly poor eyesight. It is blind beyond 10 squares.",
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "S_SCENT",
+    "category": "Sense Traits",
+    "name": "Scent",
+    "hungerCost": 4,
+    "description": "This bug may effectively 'see' as long as they are not adjacent to more than three bugs. This sense is not affected by darkness, though especially smelly things nearby may reduce this sense's range as darkness would for sight. Can be taken as a sub-Trait of Blind",
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "S_TREMORSENSE",
+    "category": "Sense Traits",
+    "name": "Tremorsense",
+    "hungerCost": 4,
+    "description": "This bug may effectively 'see' when in contact with the ground or a wall, or within a liquid. Airborne bugs are harder to pinpoint, and this bug receives -2 dice penalty on attack rolls made to hit them when using this sense alone. Bugs on the other side of solid surfaces can be detected unless they remain perfectly still. This sense is not affected by darkness, though especially noisy things nearby may reduce this sense's range as darkness would for sight. Can be taken as a sub-Trait of Blind.",
+    "prerequisites": null, 
+    "maxInstances": 1
+  },
+  {
+    "id": "S_SCENT_SUB",
+    "category": "Sense Traits",
+    "name": "Scent",
+    "hungerCost": 4,
+    "description": "This bug may effectively 'see' as long as they are not adjacent to more than three bugs. This sense is not affected by darkness, though especially smelly things nearby may reduce this sense's range as darkness would for sight. Can be taken as a sub-Trait of Blind",
+    "parentTraitId": "S_BLIND",
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "S_TREMORSENSE_SUB",
+    "category": "Sense Traits",
+    "name": "Tremorsense",
+    "hungerCost": 4,
+    "description": "This bug may effectively 'see' when in contact with the ground or a wall, or within a liquid. Airborne bugs are harder to pinpoint, and this bug receives -2 dice penalty on attack rolls made to hit them when using this sense alone. Bugs on the other side of solid surfaces can be detected unless they remain perfectly still. This sense is not affected by darkness, though especially noisy things nearby may reduce this sense's range as darkness would for sight. Can be taken as a sub-Trait of Blind.",
+    "parentTraitId": "S_BLIND",
+    "prerequisites": null, 
+    "maxInstances": 1
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "thorn_antivenom",
+    "name": "Antivenom",
+    "difficulty": 0,
+    "range": "Touch",
+    "duration": null,
+    "description": "Target may consume doses of the poison applied to their weapon to cleanse an equal number of DoT points or debuffs. Spending 1 Stash during casting applies the spell as if the target had consumed 3 doses."
+  },
+  {
+    "id": "thorn_bog",
+    "name": "Bog",
+    "difficulty": 2,
+    "range": "Far",
+    "duration": "Brief",
+    "description": "Creates a 3x3 patch of sticky ground that applies effects of a known Common poison (chosen when Attuning this Arcana as a spell), creates rough terrain costing 2 Speed to leave. Creatures in area suffer poison while inside and for 1 round after leaving; stacking effects reapply when ending a turn inside. Spending 1 Stash allows any known Common or Uncommon poison to be applied."
+  },
+  {
+    "id": "thorn_envenomate",
+    "name": "Envenomate",
+    "difficulty": 1,
+    "range": "Touch",
+    "duration": null,
+    "description": "Instills a mystical venom that bypasses poison immunity but inflicts half effect (rounded up) on immune creatures. When attuned as a spell, caster chooses DoT or Paralysis: spell inflicts 3 poison DoT or 6 Paralysis points depending on attunement."
+  },
+  {
+    "id": "thorn_infest",
+    "name": "Infest",
+    "difficulty": 2,
+    "range": "Close",
+    "duration": "Concentration",
+    "description": "Afflicts the target with 1 poison DoT that does not decay and cannot be burned off by normal means for the Duration (max Duration = Brief). Spending 1 Stash on caster's turn spreads the infestation to an adjacent creature (same spell, same remaining duration). Additional DoT points beyond 1 behave normally."
+  },
+  {
+    "id": "thorn_poison_wave",
+    "name": "Poison Wave",
+    "difficulty": 1,
+    "range": "Touch",
+    "duration": "Brief",
+    "description": "For the duration, the target's melee weapon gains +1 Reach while it has a poison applied. Increasing the spell's Difficulty by 1 increases granted Reach by another +1."
+  },
+  {
+    "id": "thorn_smog",
+    "name": "Smog",
+    "difficulty": 2,
+    "range": "Far",
+    "duration": "Brief",
+    "description": "Creates a 3x3 poisonous cloud carrying effects of a known Common poison (chosen when Attuning); obscures vision/hearing/tremorsense beyond adjacent. Creatures inside suffer poison while within and for 1 round after leaving. Spending 1 Stash allows any known Common or Uncommon poison to be applied."
+  },
+  {
+    "id": "thorn_spine_strip",
+    "name": "Spine Strip",
+    "difficulty": 1,
+    "range": "Close",
+    "duration": null,
+    "description": "Forms a contiguous line of thorny spines up to the spell's range as an AoE (max Far). Creatures in the AoE risk 1 base soakable damage and have Speed -1 until end of next turn. Spines persist until start of caster's next turn and affect creatures that step on them. Spending Stash equal to a known poison cost applies that poison to the spines."
+  },
+  {
+    "id": "thorn_thorns",
+    "name": "Thorns",
+    "difficulty": 0,
+    "range": "Self",
+    "duration": "Brief",
+    "description": "Target is covered in brambles that lash out when hurt: when the target is hit, thorns attack adjacent enemies with a 1-success attack dealing 1 base soakable damage. Spending Stash equal to a known poison cost applies that poison to the thorns."
+  }
+]

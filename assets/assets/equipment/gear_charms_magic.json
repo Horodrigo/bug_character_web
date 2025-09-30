@@ -1,0 +1,90 @@
+[
+  {
+    "id": "leeching_soul",
+    "category": "magic",
+    "name": "Leeching Soul",
+    "rarity": "unique",
+    "notches": 3,
+    "description": "After dealing damage with a combat spell, the bearer may heal Hearts equal to half of the damage dealt to a single target, rounded down."
+  },
+  {
+    "id": "shaman_stone",
+    "category": "magic",
+    "name": "Shaman Stone",
+    "rarity": "common",
+    "notches": 2,
+    "description": "If 2 or more Soul are spent on a spell or Art, gain a +1 die bonus on the attack roll."
+  },
+  {
+    "id": "soul_catcher",
+    "category": "magic",
+    "name": "Soul Catcher",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "When the bearer damages an enemy with a weapon attack that would generate Soul, roll a 1d6. On a success, the bearer gains 1 additional Soul."
+  },
+  {
+    "id": "soul_eater",
+    "category": "magic",
+    "name": "Soul Eater",
+    "rarity": "unique",
+    "notches": 4,
+    "description": "When the bearer hits an enemy with a weapon attack, the bearer gains 1 Soul. The normal Soul generation still occurs if damage is also dealt."
+  },
+  {
+    "id": "soul_prism_flukenest",
+    "category": "magic",
+    "name": "Soul Prism, Flukenest",
+    "rarity": "uncommon",
+    "notches": 3,
+    "description": "The bearer's Close range non-AoE spells are fired in a Short Cone AoE. Higher range spells' Cone size is increased by the number of their range tiers above Close. This does not bypass the cost increase of damage and healing for AoE spells."
+  },
+  {
+    "id": "soul_siphon",
+    "category": "magic",
+    "name": "Soul Siphon",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "When a Path ability the bearer possesses generates Soul, it generates 1 more."
+  },
+  {
+    "id": "soulburn",
+    "category": "magic",
+    "name": "Soulburn",
+    "rarity": "uncommon",
+    "notches": 1,
+    "description": "When the bearer hits an enemy with a melee arcane focus or a Dream Nail, they may spend 1 Soul to inflict 1 magic damage to that target."
+  },
+  {
+    "id": "soulseeker",
+    "category": "magic",
+    "name": "Soulseeker",
+    "rarity": "rare",
+    "notches": 3,
+    "description": "The bearer’s Spells home in on their targets. When the bearer casts a ranged Spell that is not an area of effect, the Spell has a Speed value equal to its range, instead of a range value. When the Spell enters a bug’s space, the Spell attack check is made. If the Spell misses, or is fully defended, it may continue moving using its remaining Speed to find a new target - but never the same bug twice."
+  },
+  {
+    "id": "spell_twister",
+    "category": "magic",
+    "name": "Spell Twister",
+    "rarity": "rare",
+    "notches": 2,
+    "description": "The bearer may attune an Arcana into a spell in one of their Technique slots with a +1 bonus to one of its elements, by decreasing one other element of the spell by 1. This can include the spell’s damage, buff or debuff value, range level or duration level."
+  },
+  {
+    "id": "spellblade",
+    "category": "magic",
+    "name": "Spellblade",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "If the bearer hits an enemy with a weapon attack and then casts a spell, or vice versa, the second action has a +1 die bonus to hit and on opposed rolls to overcome resistance."
+  },
+  {
+    "id": "violent_rejuvenation",
+    "category": "magic",
+    "name": "Violent Rejuvenation",
+    "rarity": "rare",
+    "notches": 3,
+    "description": "If the bearer kills an enemy with a spell, the bearer heals 2 Heart. This may only be triggered once per round."
+  }
+]

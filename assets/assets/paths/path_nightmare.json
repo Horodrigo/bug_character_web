@@ -1,0 +1,66 @@
+﻿{
+    "id":  "PATH_NIGHTMARE",
+    "name":  "Nightmare",
+    "type":  "mystical",
+    "description":  "\"The world is a stage, and we the actors.\" Shrouded between light and shadow, performers of all shades have flocked to the bonfire.",
+    "ranks":  [
+                  {
+                      "rank":  1,
+                      "title":  "Nightmare Initiate",
+                      "customPool":  [
+                                                    {
+                                                        "Essence":  5
+                                                    }
+                                        ],
+                    "bonusAttribute":  [
+                                                    {
+                                                        "creep":  0.5
+                                                    }
+                                        ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Flame Bearer",
+                                            "description":  "Gain Essence Pool (max 5). Flickering red glow gives warmth/light within 7 range. Visible glow increases Creep by 0.5 per Nightmare Rank."
+                                        },
+                                        {
+                                            "name":  "Ensnared Embers",
+                                            "description":  "Gain 1 Essence when living bug dies adjacent. Gain Essence equal to successes when performing for audience (once per rest per audience)."
+                                        },
+                                        {
+                                            "name":  "Transfix",
+                                            "description":  "May dedicate 1 Essence for +1 die bonus to Spell attacks/opposed rolls or defense actions."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  2,
+                      "title":  "Nightmare Adept",
+                      "bonusAttribute":  [
+                                                    {
+                                                        "creep":  0.5
+                                                    }
+                                        ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Nightmare Breach",
+                                            "description":  "Spend 1 Essence to create eerie red flames in sensed square. Deals 1 environmental fire damage immediately, 2 damage to entrants/enders. Flames last 1 round (3 rounds on corpse)."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  3,
+                      "title":  "Nightmare Sage",
+                      "bonusAttribute":  [
+                                                    {
+                                                        "creep":  0.5
+                                                    }
+                                        ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Nightmare Hearts",
+                                            "description":  "Once per turn, when gaining Soul from damaging enemy, may gain 1 Heart instead. May spend Heart instead of Soul for Spells/Soul-cost actions."
+                                        }
+                                    ]
+                  }
+              ]
+}

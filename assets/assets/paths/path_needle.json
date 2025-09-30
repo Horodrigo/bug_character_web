@@ -1,0 +1,52 @@
+﻿{
+    "id":  "PATH_NEEDLE",
+    "name":  "Needle",
+  "type":  "martial",
+    "description":  "Artful thrusts, pirouettes, and deadly footwork. Puncturing, weaving, and sewing through all manner of foe and beast.",
+    "ranks":  [
+                  {
+                      "rank":  1,
+                      "title":  "Needlesbug",
+                      "abilities":  [
+                                        {
+                                            "name":  "Swift Strikes",
+                                            "description":  "The Needlesbug may attack using Grace, rather than Might, to hit with melee weapons, but not with weapons of 2 Bulk or greater. Needle-type weapons are an exception."
+                                        },
+                                        {
+                                            "name":  "Sharp Lunge",
+                                            "description":  "The Needlesbug may accept a -1 die penalty on their attack roll to increase the range of the attack by 1. Treated as a free dash."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  2,
+                      "title":  "Needlemaster",
+                      "customPool":  [
+                                                    {
+                                                        "Momentum":  2
+                                                    }
+                                        ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Battle Dance",
+                                            "description":  "When dashing, jumping, or moving while dodging, gain 1 Momentum. Momentum can be dedicated as additional Stamina for attacks/dodges. Max Momentum equal to Needle Rank."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  3,
+                      "title":  "Needlelord",
+                      "customPool":  [
+                                                    {
+                                                        "Momentum":  1
+                                                    }
+                                        ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Untouchable",
+                                            "description":  "6s on dodge attempts count as two successes. When moving after dodging, they do not suffer Off-Balance."
+                                        }
+                                    ]
+                  }
+              ]
+}

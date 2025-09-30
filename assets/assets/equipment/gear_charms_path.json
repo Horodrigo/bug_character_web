@@ -1,0 +1,178 @@
+[
+  {
+    "id": "awakened_nail",
+    "category": "path_aligned",
+    "name": "Awakened Nail",
+    "rarity": "rare",
+    "notches": 2,
+    "prerequisite": [{"path": "Dream", "rank": 1}],
+    "description": "The bearer may generate Glory Soul above their maximum when generating Soul via attacks with a Dream Nail, up to 2."
+  },
+  {
+    "id": "cinders_grasp",
+    "category": "path_aligned",
+    "name": "Cinder’s Grasp",
+    "rarity": "common",
+    "notches": 1,
+    "prerequisite": [{"path": "Nightmare", "rank": 1}],
+    "description": "The bearer may start small sparks that can kindle mundane fires, so long as they possess at least 1 Essence."
+  },
+  {
+    "id": "dream_shield",
+    "category": "path_aligned",
+    "name": "Dream Shield",
+    "rarity": "uncommon",
+    "notches": 2,
+    "prerequisite": [{"path": "Dream", "rank": 1}],
+    "description": "The bearer of this Charm always counts as wielding a weightless shield. This shield has a Quality equal to the bearer’s Ranks in Dream. It has no penalty when parrying ranged weapons, can parry spells, and may parry using Insight instead of Might. If the shield is used to parry a physical melee weapon, it breaks until the bearer takes a Focus action to restore it."
+  },
+  {
+    "id": "dream_tune",
+    "category": "path_aligned",
+    "name": "Dream Tune",
+    "rarity": "common",
+    "notches": 1,
+    "prerequisite": [{"path": "Dream", "rank": 1}],
+    "description": "The bearer hears a faint tune when around an individual, and each tune is unique. This gives +2 bonus dice when searching for enemies, and negates the penalty Tremorsense has against flying enemies."
+  },
+  {
+    "id": "dream_wielder",
+    "category": "path_aligned",
+    "name": "Dream Wielder",
+    "rarity": "uncommon",
+    "notches": 1,
+    "prerequisite": [{"path": "Dream", "rank": 1}],
+    "description": "The bearer’s Dream Nail may tap each target an additional time per rest, dealing 1 magic damage when it taps a target for the second time."
+  },
+  {
+    "id": "flesh_imprints",
+    "category": "path_aligned",
+    "name": "Flesh Imprints",
+    "rarity": "rare",
+    "notches": 3,
+    "prerequisite": [{"path": "Nightmare", "rank": 1}],
+    "description": "The bearer may spend 1 Heart, or the Heart of any willing bug, to gain a point of Essence. In addition, Essence may be Focused as if the bearer were Focusing Soul, to gain Soul instead of Hearts."
+  },
+  {
+    "id": "gardeners_thorn",
+    "category": "path_aligned",
+    "name": "Gardener's Thorn",
+    "rarity": "common",
+    "notches": 2,
+    "prerequisite": [{"path": "Bloom", "rank": 1}],
+    "description": "Any Bud Buddy the bearer summon gains the Spiky trait, though it still cannot attack."
+  },
+  {
+    "id": "hidden_flame",
+    "category": "path_aligned",
+    "name": "Hidden Flame",
+    "rarity": "rare",
+    "notches": 2,
+    "prerequisite": [{"path": "Nightmare", "rank": 1}],
+    "description": "For 1 Essence, the bearer may choose to imbue an object or part of an object up to 1 square in area with flame by touching it, which counts as a trap created with Stash. When another bug touches the object, they are singed by a jet of flame, for 2 environmental fire damage. The trap is not disarmed when activated, and lasts for rounds equal to the creator's Rank in Nightmare. The trap may only activate once for each bug. Additionally, any bug touching the imbued object at the end of their turn takes 1 environmental fire damage."
+  },
+  {
+    "id": "hunters_promise",
+    "category": "path_aligned",
+    "name": "Hunter's Promise",
+    "rarity": "uncommon",
+    "notches": 3,
+    "prerequisite": [{"path": "Hook", "rank": 1}, {"path": "Flask", "rank": 1}, {"path": "Thorn", "rank": 1}],
+    "description": "When striking down a foe in combat, the bearer regains 1 Stash."
+  },
+  {
+    "id": "mass_heal",
+    "category": "path_aligned",
+    "name": "Mass Heal",
+    "rarity": "rare",
+    "notches": 3,
+    "prerequisite": [{"path": "Bloom", "rank": 1}],
+    "description": "Instead of healing one ally with a Soul Focus, the bearer may choose to heal two allies within 4 squares of each other, only one of which must be within range. They are both healed, but they each receive 2 fewer Hearts, to a minimum of 1 Heart."
+  },
+  {
+    "id": "oppressors_badge",
+    "category": "path_aligned",
+    "name": "Oppressor’s Badge",
+    "rarity": "common",
+    "notches": 2,
+    "prerequisite": [{"path": "Dust", "rank": 1}],
+    "description": "While the bearer has two or more of their own Husks within 10 squares, the bearer’s spells have a +1 die bonus to attack and opposed affliction rolls."
+  },
+  {
+    "id": "saints_prize",
+    "category": "path_aligned",
+    "name": "Saint’s Prize",
+    "rarity": "uncommon",
+    "notches": 3,
+    "prerequisite": [{"path": "Bloom", "rank": 1}],
+    "description": "When healing an ally, the bearer also heals half of the Heart healed, rounded down."
+  },
+  {
+    "id": "servants_duty",
+    "category": "path_aligned",
+    "name": "Servant’s Duty",
+    "rarity": "unique",
+    "notches": 3,
+    "prerequisite": [{"path": "Dust", "rank": 1}],
+    "description": "If a Husk is in a square adjacent to the bearer, and the bearer is targeted with a successful attack, they may use 1 Stamina to command the Husk to interpose itself before the attack. The bearer switches spaces with the Husk. This does not provoke attacks of opportunity. The Husk takes the full damage of the attack."
+  },
+  {
+    "id": "sharp_shadow",
+    "category": "path_aligned",
+    "name": "Sharp Shadow",
+    "rarity": "common",
+    "notches": 2,
+    "prerequisite": [{"path": "Cloak", "rank": 1}],
+    "description": "Once per turn, when the bearer moves through a creature’s space or ends a dash or post-dodge move next to it, they can choose to deal 2 damage to it, as a 1-success attack."
+  },
+  {
+    "id": "soul_blade",
+    "category": "path_aligned",
+    "name": "Soul Blade",
+    "rarity": "rare",
+    "notches": 2,
+    "prerequisite": [{"path": "Nightmare", "rank": 1}, {"path": "Dream", "rank": 1}],
+    "description": "The bearer may spend 1 Essence to deal +1 damage with a weapon attack."
+  },
+  {
+    "id": "soul_flensing",
+    "category": "path_aligned",
+    "name": "Soul Flensing",
+    "rarity": "uncommon",
+    "notches": 2,
+    "prerequisite": [{"path": "Nightmare", "rank": 1}, {"path": "Dream", "rank": 1}],
+    "description": "When dealing damage to a foe, the bearer may deal -1 damage and gain 1 Essence."
+  },
+  {
+    "id": "soul_impulse",
+    "category": "path_aligned",
+    "name": "Soul Impulse",
+    "rarity": "uncommon",
+    "notches": 2,
+    "prerequisite": [{"path": "Nightmare", "rank": 1}, {"path": "Dream", "rank": 1}],
+    "description": "Spending an Essence while bearing this Charm allows the bearer to peer into their target’s Soul to determine their next move. Bearer gains a +1 die bonus on attack rolls and defense rolls against that target until the end of the bearer's next turn."
+  },
+  {
+    "id": "soul_vessel",
+    "category": "path_aligned",
+    "name": "Soul Vessel",
+    "rarity": "common",
+    "notches": 2,
+    "prerequisite": [{"path": "Nightmare", "rank": 1}, {"path": "Dream", "rank": 1}],
+    "customPool":  [
+                                                    {
+                                                        "Essence":  1
+                                                    }
+                                        ],
+    "description": "This Charm can hold 1 Essence for the bearer, increasing their maximum Essence to 6."
+  },
+  {
+    "id": "strings_of_malady",
+    "category": "path_aligned",
+    "name": "Strings of Malady",
+    "rarity": "uncommon",
+    "notches": 3,
+    "prerequisite": [{"path": "Dust", "rank": 1}],
+    "description": "Any corpse the bearer touches becomes a Husk under their control for as long as they are touching it. Treat the touch as a one-handed grapple."
+  }
+]

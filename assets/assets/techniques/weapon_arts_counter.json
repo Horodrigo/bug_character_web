@@ -1,0 +1,29 @@
+[
+{
+"id": "ART_ARACHNIDS_GAMBIT",
+"name": "Arachnid's Gambit",
+"type": "Reaction",
+"staminaCost": 1,
+"soulCost": 0,
+"weaponTypes": ["natural", "needle", "sling"],
+"description": "When the user dodges an attack with at least 1 success, they may activate this Art. The user makes an attack against the attacker if they are in range. If the attack hits, it deals 1 less damage, but afflicts the target with a stack of Off-Balance."
+},
+{
+"id": "ART_SCORPIONS_RIPOSTE",
+"name": "Scorpion's Riposte",
+"type": "Reaction",
+"staminaCost": 1,
+"soulCost": 0,
+"weaponTypes": ["nail", "needle", "shield"],
+"description": "Like a patient hunter, the user waits for an opening to strike. After parrying an attack with at least 1 success, the user may immediately use this Art and strike with a weapon against an enemy within range."
+},
+  {
+    "id": "ART_VESPID_DEFLECTION",
+    "name": "Vespid Deflection",
+    "type": "Reaction",
+    "staminaCost": 2,
+    "soulCost": 0,
+    "weaponTypes": ["shield", "tusk"],
+    "description": "When targeted by a successful parryable ranged attack, the user may parry it using this art. The user receives no penalty on the parry due to it being a ranged attack, and gains an extra die on the parry. If the parry has at least 1 success, the user redirects the attack back at the attacker - treat it as if it has all of the same effects it had when it targeted the user, and the same number of successes. The user still takes damage if the attack wasn't negated by this parry. For every Stamina spent past activation, add an extra die to the parry."
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+  "id": "ART_CYCLONE_SLASH",
+  "name": "Cyclone Slash",
+  "type": "Augmentation",
+  "staminaCost": 3,
+  "soulCost": 0,
+  "weaponTypes": ["nail"],
+  "description": "The user swiftly spins about, whirling their blade, striking all adjacent foes. The user's next attack targets all hostile bugs horizontally adjacent to their space. Resolve a single attack roll as if it were made against each bug independently."
+},
+  {
+    "id": "ART_DASHING_SLASH",
+    "name": "Dashing Slash",
+    "type": "Augmentation",
+    "staminaCost": 2,
+    "soulCost": 0,
+    "weaponTypes": ["nail"],
+    "description": "When the user makes their next melee attack, they may move up to 2 squares in a straight line without provoking attacks of opportunity. They may make the attack at any time during or at the end of this movement, with a +1 bonus to damage. The user may move through the spaces of other bugs during this Art, though may not end their movement in a space they cannot occupy. Each additional Stamina spent allows an additional square of movement, and counts as being dedicated to the attack."
+  },
+  {
+    "id": "ART_GREAT_SLASH",
+    "name": "Great Slash",
+    "type": "Augmentation",
+    "staminaCost": 3,
+    "soulCost": 0,
+    "weaponTypes": ["nail"],
+    "description": "The user pours their effort into a single, mighty strike. The user's next attack is made with a +2 bonus to damage, and an extra square of reach."
+  }
+]

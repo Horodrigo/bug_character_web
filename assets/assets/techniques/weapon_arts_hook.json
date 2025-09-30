@@ -1,0 +1,38 @@
+[
+{
+"id": "ART_FEINTING_BLOW",
+"name": "Feinting Blow",
+"type": "Unique",
+"staminaCost": 1,
+"soulCost": 0,
+"weaponTypes": ["hook", "nail"],
+"description": "If the next attack the user makes fails, the user may immediately make a normal attack with a compatible weapon they are currently holding. The user gains rerolls for this attack equal to their Insight score, rounded up, and it costs no Stamina. This Art does not reduce the Stamina cost of the user's next attack. This Art may be stacked with another Weapon Art, treating them as a single Art."
+},
+{
+"id": "ART_HOBBLING_STRIKE",
+"name": "Hobbling Strike",
+"type": "Augmentation",
+"staminaCost": 2,
+"soulCost": 0,
+"weaponTypes": ["hook"],
+"description": "The user carefully strikes a vulnerability to hamper enemy movement, stopping them in their tracks. Instead of dealing damage, this attack applies a debuff with the effect: 'Movement costs 3 times as much Speed, or 2 times as much if this bug could ignore rough terrain.' This debuff has stacks equal to the damage that would have been risked by the attack. This Art may be used as a Reaction to augment an Attack of Opportunity."
+},
+{
+"id": "ART_MANTID_INSISTENCE",
+"name": "Mantid Insistence",
+"type": "Normal",
+"staminaCost": 2,
+"soulCost": 0,
+"weaponTypes": ["hook"],
+"description": "With a lash of one's own Hook, the user brings distant foes within your reach. The user makes an attack with a range of 4 squares. If the attack is successful, the target is brought to the closest open space adjacent to the user, or the closest possible space if all adjacent spaces are occupied. For every Stamina spent after activation, the range increases by 1 square."
+},
+{
+"id": "ART_WIND_SCYTHE",
+"name": "Wind Scythe",
+"type": "Special",
+"staminaCost": 1,
+"soulCost": 1,
+"weaponTypes": ["hook", "natural"],
+"description": "The user throws a chakram of wind along a line 1 square wide and 4 squares long. This is a ranged AoE attack that does 2 damage. However, it may only deal damage twice prior to dissipating. Resolve the attack roll against the targets in order of closest to furthest. Upon reaching the end, the chakram makes a return trip - the user rolls the attack again, with one more die, this time resolving from farthest to closest. For every Stamina spent after activation, the chakram can hit one more target before dissipating."
+}
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "bloom_amrita",
+    "name": "Amrita",
+    "difficulty": 2,
+    "range": "Touch",
+    "duration": null,
+    "description": "If the target took DoT damage last turn, it is healed. Also reduces durations of all DoTs/Status Effects by 2, or instantly ends one chosen effect (if magical/curse, requires successes equal to the effect's Difficulty). Spending 1 Soul reduces durations further by 1."
+  },
+  {
+    "id": "bloom_boons_bloom",
+    "name": "Bloom's Boon",
+    "difficulty": 1,
+    "range": "Touch",
+    "duration": "Brief",
+    "description": "A blossom envelops the target for the duration: target cannot dodge the spell if immobilized; while inside the bloom the target may perform any action they'd perform in a single-square room; DoTs and Status Effects neither trigger nor reduce in duration. The bloom can be attacked and has Hearts = caster's Insight and no Shell."
+  },
+  {
+    "id": "bloom_bud_buddy",
+    "name": "Bud Buddy",
+    "difficulty": 2,
+    "range": "Touch",
+    "duration": "Brief",
+    "description": "Spawns a Small walking flower bud at a targeted square. Bud Buddy stats: Might 3, Grace 3, 3 Stamina, 3 Hearts, 4 Speed; acts at end of round; cannot attack but can parry/dodge for adjacent friendly bugs; if parry succeeds it receives the attack instead. When it dies caster may spend 1 Soul to spawn another in its space."
+  },
+  {
+    "id": "bloom_calm",
+    "name": "Calm",
+    "difficulty": 2,
+    "range": "Touch",
+    "duration": "Brief",
+    "description": "Contested by Insight. On failure, target cannot take hostile actions while under effect and is more open to conversation; effect breaks instantly if target believes it is in immediate danger."
+  },
+  {
+    "id": "bloom_energize",
+    "name": "Energize",
+    "difficulty": 2,
+    "range": "Close",
+    "duration": "Brief",
+    "description": "Select two targets within range (can be same). First target expends 10 Belly (or opposed Shell vs caster Insight to resist if unwilling). Second target gains 1 Glory Stamina that fades if unused within duration."
+  },
+  {
+    "id": "bloom_entangle",
+    "name": "Entangle",
+    "difficulty": 2,
+    "range": "Touch",
+    "duration": "Brief",
+    "description": "A 3x3 area sprouts vines favorable to caster: allies move normally; others spend 1 Stamina die per square moved in vines. Creatures in area at casting must roll Might or Grace vs caster's spell attack; on failure become grappled and cannot move; escaping requires 2 successes. Spending 1 extra Soul increases escapes required by +1."
+  },
+  {
+    "id": "bloom_healing_pollen",
+    "name": "Healing Pollen",
+    "difficulty": 2,
+    "range": "Self",
+    "duration": null,
+    "description": "Releases a cloud of healing pollen around the target, restoring 1 Heart to the target and all adjacent bugs and rejuvenating plant life in the effect."
+  },
+  {
+    "id": "bloom_symbiotic_seed",
+    "name": "Symbiotic Seed",
+    "difficulty": 2,
+    "range": "Touch",
+    "duration": "Brief",
+    "description": "Plants a seed on the target that rapidly grows: the target gains a single core non-Mystic Trait chosen by caster (max Hunger +5, min Hunger -5) or negates such trait. An unwilling target may remove vines with a Might check (2 successes) as a Skill Action but takes 2 damage if successful. Granting an existing trait has no effect unless trait is repeatable. Spending +1 Soul increases max Hunger by 5 and decreases min Hunger by 5."
+  }
+]

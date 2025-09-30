@@ -1,0 +1,241 @@
+﻿[
+    {
+        "id":  "DEF_BLOCKING_ARMS",
+        "category":  "Natural Defense",
+        "name":  "Blocking Arms",
+        "hungerCost":  2,
+        "description":  "This bug has broad appendages that count as shields with Quality equal to half Shell (rounded up) when unoccupied.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "shieldArms":  "Quality equal to half Shell when unoccupied"
+                        },
+        "compatibleWith":  [
+                               "NW_SPIKY"
+                           ],
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "DEF_SHELLED_ARMS",
+        "category":  "Natural Defense",
+        "name":  "Shelled Arms",
+        "hungerCost":  4,
+        "description":  "This bug\u0027s arms are massive and can block an entire face. Raising both arms gives carapace shield effect.",
+        "naturalWeapon":  null,
+        "parentTraitId":  "DEF_BLOCKING_ARMS",
+        "statEffects":  {
+                            "fullBlock":  "carapace shield effect with both arms",
+                            "sharedDamage":  "damage dealt to both arms when blocking"
+                        },
+        "prerequisites":  [
+                              "DEF_BLOCKING_ARMS"
+                          ],
+        "maxInstances":  1
+    },
+    {
+        "id":  "DEF_CAMOUFLAGE",
+        "category":  "Natural Defense",
+        "name":  "Camouflage",
+        "hungerCost":  1,
+        "description":  "The bug is colored to aid hiding in certain terrain. +2 rerolls on Stealth in subject terrain.",
+        "naturalWeapon":  null,
+        "selectFrom":  {
+                           "collection":  "terrain_types",
+                           "multi":  false,
+                           "required":  true,
+                           "note":  "choose terrain type for camouflage"
+                       },
+        "statEffects":  {
+                            "stealthRerolls":  2
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "DEF_ACTIVE_CAMOUFLAGE",
+        "category":  "Natural Defense",
+        "name":  "Active Camouflage",
+        "hungerCost":  3,
+        "description":  "The bug\u0027s camouflage adapts to any environment. Stealth bonus applies in any terrain.",
+        "naturalWeapon":  null,
+        "parentTraitId":  "DEF_CAMOUFLAGE",
+        "statEffects":  {
+                            "adaptiveCamouflage":  "Stealth bonus in any environment"
+                        },
+        "prerequisites":  [
+                              "DEF_CAMOUFLAGE"
+                          ],
+        "maxInstances":  1
+    },
+    {
+        "id":  "DEF_DEFENSIVE_CURL",
+        "category":  "Natural Defense",
+        "name":  "Defensive Curl",
+        "hungerCost":  4,
+        "description":  "This bug can retreat into defensive position as first action, ending turn. Gains Absorption equal to Shell until next turn.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "defensiveStance":  "gain Absorption equal to Shell, ends turn"
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "DEF_ROLLING_DASH",
+        "category":  "Natural Defense",
+        "name":  "Rolling Dash",
+        "hungerCost":  3,
+        "description":  "Before ending turn while curled, may roll 5+Speed squares in straight line. Can attack with Spiky or Slam before ending turn.",
+        "naturalWeapon":  null,
+        "parentTraitId":  "DEF_DEFENSIVE_CURL",
+        "statEffects":  {
+                            "rollingAttack":  "dash 5+Speed squares, attack with Spiky/Slam"
+                        },
+        "prerequisites":  [
+                              "DEF_DEFENSIVE_CURL"
+                          ],
+        "maxInstances":  1
+    },
+    {
+        "id":  "DEF_EXTERNAL_COAT",
+        "category":  "Natural Defense",
+        "name":  "External Coat",
+        "hungerCost":  2,
+        "description":  "This bug has protective outer layer. Can soak environmental damage and magic damage with single die.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "creep":  0.5,
+                            "cute":  0.5,
+                            "choice":  [
+                                           "creep",
+                                           "cute"
+                                       ],
+                            "environmentalSoak":  true,
+                            "magicSoak":  "single die vs magic damage"
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "DEF_MIMICRY",
+        "category":  "Natural Defense",
+        "name":  "Mimicry",
+        "hungerCost":  3,
+        "description":  "This bug resembles a particular inanimate object or different bug. When in appropriate environment, hiding dice count as sixes against unaware bugs.",
+        "naturalWeapon":  null,
+        "selectFrom":  {
+                           "collection":  "mimicry_targets",
+                           "multi":  false,
+                           "required":  true,
+                           "note":  "choose object or bug type to mimic"
+                       },
+        "statEffects":  {
+                            "creep":  0.5,
+                            "cute":  0.5,
+                            "choice":  [
+                                           "creep",
+                                           "cute"
+                                       ],
+                            "mimicryBonus":  "hiding dice count as sixes in appropriate environment"
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "DEF_POISONOUS",
+        "category":  "Natural Defense",
+        "name":  "Poisonous",
+        "hungerCost":  3,
+        "description":  "This bug\u0027s body is toxic. Biting attackers receive Status Effect dealing environmental damage. Flesh is inedible.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "poisonousFlesh":  "biting attackers get damage Status Effect",
+                            "inedible":  "flesh causes damage if eaten"
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "DEF_TOXIC_BLOOD",
+        "category":  "Natural Defense",
+        "name":  "Toxic Blood",
+        "hungerCost":  3,
+        "description":  "This bug\u0027s blood is caustic. Damage sprays blood onto adjacent square, applying Status Effect to sprayed bugs.",
+        "naturalWeapon":  null,
+        "parentTraitId":  "DEF_POISONOUS",
+        "statEffects":  {
+                            "bloodSpray":  "damage sprays blood to adjacent square",
+                            "areaPoison":  "sprayed bugs get damage Status Effect"
+                        },
+        "prerequisites":  [
+                              "DEF_POISONOUS"
+                          ],
+        "maxInstances":  1
+    },
+    {
+        "id":  "DEF_RESISTANT",
+        "category":  "Natural Defense",
+        "name":  "Resistant",
+        "hungerCost":  4,
+        "description":  "This bug is resistant to specific damage type. Receives 4 extra Soak dice, even against normally unsoakable damage.",
+        "naturalWeapon":  null,
+        "selectFrom":  {
+                           "collection":  "damage_types",
+                           "multi":  false,
+                           "required":  true,
+                           "note":  "choose resistance type (blunt, fire, etc)"
+                       },
+        "statEffects":  {
+                            "damageResistance":  "+4 Soak dice vs chosen damage type",
+                            "statusResist":  "4d6 to resist related Status Effects"
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "DEF_PARALYZING_VENOM",
+        "category":  "Natural Defense",
+        "name":  "Paralyzing Venom",
+        "hungerCost":  0,
+        "description":  "May be taken as a subtrait of any Trait which inflicts DoT. In place of DoT, twice as many stacks of Paralyzing Venom are applied. Paralyzing Venom is a Status Effect with escalating effects based on stack count.",
+        "naturalWeapon":  null,
+        "parentTraitId":  ["DEF_POISONOUS"],
+        "incompatibleWith":  [
+                                 "DEF_EXOTIC_VENOM"
+                             ],
+        "statEffects":  {
+
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "DEF_EXOTIC_VENOM",
+        "category":  "Natural Defense",
+        "name":  "Exotic Venom",
+        "hungerCost":  {
+                           "common":  0,
+                           "uncommon":  2
+                       },
+        "description":  "May be taken as a subtrait of any Trait which inflicts DoT as part of a Status Effect. The bug\u0027s venom takes the effects of a poison, or a targeted or ingested flask effect, instead of its normal DoT. The bug gains the recipe of their Exotic Venom, and can produce it even without the correct Stash Path. If taken as a Subtrait of Stinger, reduce the Hunger cost by 2.",
+        "naturalWeapon":  null,
+        "parentTraitId":  ["DEF_POISONOUS"],
+        "selectFrom":  {
+                           "collection":  "poison_flasks",
+                           "multi":  false,
+                           "required":  true,
+                           "rarityFilter":  [
+                                                "common",
+                                                "uncommon"
+                                            ]
+                       },
+        "incompatibleWith":  [
+                                 "DEF_PARALYZING_VENOM"
+                             ],
+        "selectableEffects":  {
+                                  "effectSource":  "selectedPoisonFlask"
+                              },
+        "prerequisites":  null,
+        "maxInstances":  1
+    }
+]

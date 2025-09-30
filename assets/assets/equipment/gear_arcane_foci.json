@@ -1,0 +1,58 @@
+[
+  {
+    "id": "talisman",
+    "name": "Talisman",
+    "type": null,
+    "damage": null,
+    "range": {
+      "melee": null,
+      "range": null
+    },
+    "hands": 0,
+    "bulk": "L",
+    "cost": 50,
+    "description": "A talisman is worn, rather than wielded, and so requires no hands to function in any capacity. Wearing a talisman grants +1 reroll on resistance checks against magic."
+  },
+  {
+    "id": "wand",
+    "name": "Wand",
+    "type": "Sling",
+    "damage": 1,
+    "range": {
+      "melee": null,
+      "range": 5
+    },
+    "hands": 1,
+    "bulk": "L",
+    "cost": 100,
+    "description": "Wand attacks may use Insight to hit, and can be parried as ranged attacks. Their first point of damage is magic damage. A spell contained in the wand may be cast using Grace in place of Insight while the wand is attuned, including opposed checks, spell range and duration."
+  },
+  {
+    "id": "sceptre",
+    "name": "Sceptre",
+    "type": "Tusk",
+    "damage": 1,
+    "range": {
+      "melee": "Melee",
+      "range": null
+    },
+    "hands": 1,
+    "bulk": 1,
+    "cost": 100,
+    "description": "May deliver Touch spells at Reach, adding its Quality to the spell’s attack roll. While the sceptre is attuned, spells have +1 reroll per Quality on opposed rolls to overcome resistance."
+  },
+  {
+    "id": "staff",
+    "name": "Staff",
+    "type": "Nail",
+    "damage": 1,
+    "range": {
+      "melee": "Melee",
+      "range": null
+    },
+    "hands": 2,
+    "bulk": 1,
+    "cost": 100,
+    "description": "A bug may adorn the head of a staff with an ornament aligned to a particular Mystic Path. This costs 100 and a camp action of work. Spells stored of the same Path as its ornament may be cast with 1 Difficulty of modification for free. This may exceed the normal capacity of the Staff, and the maximum Difficulty the wielder can cast at."
+  }
+]

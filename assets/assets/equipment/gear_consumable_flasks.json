@@ -1,0 +1,189 @@
+[
+  {
+    "id": "water",
+    "name": "Water",
+    "rarity": "common",
+    "subcategory": "Flask",
+    "rejuvenating": false,
+    "cost": 10,
+    "bulk": "L",
+    "targeted": "Any fires on the target are extinguished. The target becomes wet, rendering them unable to fly, unless they have the Water Treading or Waterbreathing Trait. The target also gains a 1-point Status Effect that grants Resistant (Fire).",
+    "terrain": "Any fire on the target square is extinguished."
+  },
+  {
+    "id": "blood",
+    "name": "Blood",
+    "rarity": "common",
+    "rejuvenating": false,
+    "cost": 10,
+    "targeted": "Any fires on the target are extinguished. The target becomes coated in blood.",
+    "terrain": "Any fire on the target square is extinguished.",
+    "ingested": "If the imbiber is a bloodsucker, they regain 10 Belly."
+  },
+  {
+    "id": "toxic",
+    "name": "Toxic",
+    "rarity": "common",
+    "rejuvenating": false,
+    "cost": 25,
+    "targeted": "The target suffers a 3-point Status Effect that lowers their maximum Stamina by 1."
+  },
+  {
+    "id": "greaseslime",
+    "name": "Greaseslime",
+    "rarity": "common",
+    "rejuvenating": false,
+    "cost": 25,
+    "targeted": "Attempts to grapple or be grappled by the target suffer a -2 penalty. It gains a +1 bonus to squeeze into small spaces, and does not suffer penalties to defense while squeezing.",
+    "terrain": "A bug entering the square slides across to the other side and suffers 1 Off-Balance."
+  },
+  {
+    "id": "flammable",
+    "name": "Flammable",
+    "rarity": "common",
+    "rejuvenating": false,
+    "cost": 25,
+    "targeted": "The target is dried if wet, and suffers 1 environmental fire damage, and 1 non-decaying fire DoT.",
+    "terrain": "Flammable terrain is ignited, causing the targeted effect when a creature steps or ends its turn on it."
+  },
+  {
+    "id": "smoke",
+    "name": "Smoke",
+    "rarity": "common",
+    "rejuvenating": false,
+    "cost": 25,
+    "terrain": "The target square is covered in choking smoke. Flight, speech, and sight are impossible whilst in the smoke. The cloud dissipates in 2 rounds."
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "rarity": "common",
+    "rejuvenating": false,
+    "cost": 25,
+    "targeted": "If the target is a piece of armor, it suffers 2 Durability damage. If the target is a piece of equipment, it suffers 1 Deterioration. If applied as an AoE, this flask only damages one piece of equipment per bug."
+  },
+  {
+    "id": "pheromone",
+    "name": "Pheromone",
+    "rarity": "common",
+    "rejuvenating": false,
+    "cost": 25,
+    "terrain": "The sense of smell is obscured within the targeted square, and social checks against bugs in the targeted square are given a +1 die bonus, for 2 rounds.",
+    "ingested": "If the imbiber is berserk, mesmerised, panicked, unconscious while still having Hearts, or otherwise senseless, their mind is cleared of these effects."
+  },
+  {
+    "id": "pollen",
+    "name": "Pollen",
+    "rarity": "uncommon",
+    "rejuvenating": true,
+    "cost": 50,
+    "terrain": "Any bugs on the target square are healed for 1 Heart.",
+    "ingested": "The target heals for 2 Hearts."
+  },
+  {
+    "id": "acid",
+    "name": "Acid",
+    "rarity": "uncommon",
+    "rejuvenating": false,
+    "cost": 50,
+    "targeted": "The target is afflicted with a 2-point Status Effect, which inflicts 2 damage to the target's armor each turn. If the target has no armor, or broken armor, they take soakable damage equal to the Status Effect instead."
+  },
+  {
+    "id": "explosive",
+    "name": "Explosive",
+    "rarity": "uncommon",
+    "rejuvenating": false,
+    "cost": 50,
+    "terrain": "Bugs within the target square take 3 damage. Explosive flasks ignore 2 DR, and Soak gained from armor. Scenery in the target square may be destroyed as well."
+  },
+  {
+    "id": "scale",
+    "name": "Scale",
+    "rarity": "uncommon",
+    "rejuvenating": false,
+    "cost": 50,
+    "terrain": "Bugs within the target square are afflicted with a 3 point debuff that decreases attack and defense rolls by 1, as they inhale tiny moth scales. Scale flasks restrict visibility in the same way Smoke flasks do. The cloud dissipates in 2 rounds."
+  },
+  {
+    "id": "glue",
+    "name": "Glue",
+    "rarity": "uncommon",
+    "rejuvenating": false,
+    "cost": 50,
+    "targeted": "The target's Speed is reduced by 2, and it is unable to use any special form of movement. The glue may be pulled off as a Skill Action with a 2 success Might check, to which Stamina may be dedicated.",
+    "terrain": "The targeted square becomes rough terrain, requiring 2 Speed to traverse."
+  },
+  {
+    "id": "volt",
+    "name": "Volt",
+    "rarity": "uncommon",
+    "rejuvenating": false,
+    "cost": 50,
+    "terrain": "Charged lumaflies swarm around the square, dealing 1 environmental damage to bugs which are currently in, enter or end their turn in it. The lumaflies scatter after 2 rounds."
+  },
+  {
+    "id": "fellwind",
+    "name": "Fellwind",
+    "rarity": "uncommon",
+    "rejuvenating": false,
+    "cost": 50,
+    "terrain": "Contains spores from a Fellwind mushroom. Bugs within the target square are afflicted with a 3 point Debuff, which disallows dedicating additional Stamina or Stamina substitutes to attack or defense rolls."
+  },
+  {
+    "id": "swamp",
+    "name": "Swamp",
+    "rarity": "uncommon",
+    "rejuvenating": false,
+    "cost": 50,
+    "targeted": "The target suffers DoT equal to half of their lost hearts, rounded up. Husks instead suffer 2 completely unsoakable damage, which bypasses Absorption."
+  },
+  {
+    "id": "lifeblood",
+    "name": "Lifeblood",
+    "rarity": "rare",
+    "rejuvenating": true,
+    "cost": 75,
+    "terrain": "This effect may only affect one square per use, and may not be used as a payload effect. Three lifeseeds are born on the targeted square, which take their turns on initiative 0, attempting to safely flee the area.",
+    "ingested": "The target gains 2 Lifeblood Hearts."
+  },
+  {
+    "id": "widows_bite",
+    "name": "Widow’s Bite",
+    "rarity": "rare",
+    "rejuvenating": false,
+    "cost": 75,
+    "targeted": "The target suffers a 2 point DoT. All of their equipment suffers 1 point of Deterioration, and their armor takes 2 points of damage to Durability."
+  },
+  {
+    "id": "pestilent_bile",
+    "name": "Pestilent Bile",
+    "rarity": "rare",
+    "rejuvenating": false,
+    "cost": 75,
+    "terrain": "All bugs on the target square take 3 soakable damage, and 2 points of Soul damage."
+  },
+  {
+    "id": "vengeful_soul",
+    "name": "Vengeful Soul",
+    "rarity": "rare",
+    "rejuvenating": false,
+    "cost": 75,
+    "terrain": "Four soulmasses are created in the target tile. Each one launches itself at a chosen bug within 4 squares, as a spell attack that deals 1 magic damage and 1 Soul damage. The spell attack roll has successes equal to the attack roll to throw the flask."
+  },
+  {
+    "id": "bottled_storm",
+    "name": "Bottled Storm",
+    "rarity": "rare",
+    "rejuvenating": false,
+    "cost": 75,
+    "terrain": "For 3 rounds, all squares adjacent to the target square toss bugs that enter them 5 spaces in a direction which is either clockwise or counterclockwise to the “circle” of squares, chosen when the flask is thrown. The centre tile is unaffected, even if the radius is increased. Projectiles passing through the affected squares have a -3 penalty to hit."
+  },
+  {
+    "id": "philosophical_egg",
+    "name": "Philosophical Egg",
+    "rarity": "legendary",
+    "rejuvenating": false,
+    "cost": 500,
+    "description": "Philosophical Eggs are geodes found in deep and ancient places, and are about as fragile as a glass flask. Curiously, when a bug throws or cracks open a philosophical egg, it contains one flask's-worth of precisely the liquid they had hoped for. Scholars have as-of-yet unable to replicate liquids that would theoretically be worth over 200 per flask's-worth. Soup or similar edibles found within are treated as if they were 1 Bulk (2 servings) of fresh Honey."
+  }
+]

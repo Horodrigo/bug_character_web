@@ -1,0 +1,38 @@
+[
+{
+"id": "ART_COLLAPSING_BLOW",
+"name": "Collapsing Blow",
+"type": "Augmentation",
+"staminaCost": 1,
+"soulCost": 0,
+"weaponTypes": ["tusk"],
+"description": "An attack that drives the target into the dirt and disorients them. If the user's next attack hits, the target takes a point of Off-Balance, may not dodge until the start of its next turn, and may not perform the dash or jump actions until the end of its next turn."
+},
+{
+"id": "ART_SHATTERING_BLOW",
+"name": "Shattering Blow",
+"type": "Augmentation",
+"staminaCost": 2,
+"soulCost": 0,
+"weaponTypes": ["tusk", "natural"],
+"description": "The user makes a dangerous attack, putting their body and weapon to the test. Their next attack is made with a +2 bonus to damage, and their weapon suffers 1 Deterioration from it. Using this Art with an unbreakable weapon instead inflicts 1 stack of Off-Balance to the user for every point of damage the weapon would take, and it cannot be used if it would exceed the Off-Balance cap. For every Stamina spent after activation, the attack deals 1 more damage, and the weapon takes 1 more deterioration. Extra Stamina spent cannot exceed the weapon's remaining Quality."
+},
+{
+"id": "ART_SHOCKWAVE_BLOW",
+"name": "Shockwave Blow",
+"type": "Special",
+"staminaCost": 2,
+"soulCost": 0,
+"weaponTypes": ["tusk"],
+"description": "The user strikes the ground directly in front of them, releasing a devastating shockwave. This shockwave is an AoE 3 squares wide, and 4 squares long. It is a Might attack that may not be parried. It deals 2 damage. Burrowed targets within the area of effect are struck automatically and forced to surface; they can defend if able to dodge, but cannot reduce successes below 1. For every Stamina the user spends after activation, increase the dice of the attack by 1, and the length of the area by 1 square."
+},
+{
+"id": "ART_SURGING_BLOW",
+"name": "Surging Blow",
+"type": "Augmentation",
+"staminaCost": 1,
+"soulCost": 0,
+"weaponTypes": ["tusk"],
+"description": "A heavy strike, using the full force of the user's might to send a foe flying! The user's next attack knocks the target back three squares, unless the attack is dodged."
+}
+]

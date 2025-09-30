@@ -1,0 +1,394 @@
+[
+  {
+    "id": "agile_instinct",
+    "category": "general",
+    "name": "Agile Instinct",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "For 1 stamina, the bearer may choose to Soak any kind of damage using Grace, instead of Shell. An attack fully Soaked this way is treated as if it were dodged."
+  },
+  {
+    "id": "amber_chalice",
+    "category": "general",
+    "name": "Amber Chalice",
+    "rarity": "uncommon",
+    "notches": 3,
+    "description": "The bearer’s flasks and fluids which apply their effect to a square apply that effect in a line along their path to the target. Terrain+ effects also affect squares adjacent to the ones on their path, but do not affect the square of the bearer unless desired."
+  },
+  {
+    "id": "baldur_shell",
+    "category": "general",
+    "name": "Baldur Shell",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "When Focusing, the first time the bearer would take damage, negate 4 of the damage from that source."
+  },
+  {
+    "id": "borrowed_heart",
+    "category": "general",
+    "name": "Borrowed Heart",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "If the bearer deals damage on their turn, the next time they take damage, it is reduced by 1."
+  },
+  {
+    "id": "breath_of_night",
+    "category": "general",
+    "name": "Breath of Night",
+    "rarity": "common",
+    "notches": 2,
+    "description": "The bearer of this Charm is kept cool, regulating their body heat. They suffer no ill effects from extreme heat, and have DR 1 against attacks involving fire damage."
+  },
+  {
+    "id": "dashmaster",
+    "category": "general",
+    "name": "Dashmaster",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "Every second Dash or Jump action the bearer performs costs no Stamina."
+  },
+  {
+    "id": "deadeyes_trick",
+    "category": "general",
+    "name": "Deadeye’s Trick",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "When flung using a Sling, Slingshot, or Slingapult, the bearer’s flasks may deal the weapon’s normal damage as well as the effects of the flask when striking a target."
+  },
+  {
+    "id": "deep_focus",
+    "category": "general",
+    "name": "Deep Focus",
+    "rarity": "common",
+    "notches": 2,
+    "description": "When the bearer Focuses Soul to heal, each die succeeds on 4+. However, the bearer must wait a full turn before they can Focus again."
+  },
+  {
+    "id": "effulgent_soul",
+    "category": "general",
+    "name": "Effulgent Soul",
+    "rarity": "rare",
+    "notches": 3,
+    "description": "After resting, the bearer receives 3 Glory Soul, which are recovered when the bearer rests."
+  },
+  {
+    "id": "emperors_blessing",
+    "category": "general",
+    "name": "Emperor’s Blessing",
+    "rarity": "unique",
+    "notches": 4,
+    "description": "The bearer of this Charm’s maximum Stamina is doubled. However, they only recover 1 Stamina each turn, instead of refilling their pool."
+  },
+  {
+    "id": "fallen_defender",
+    "category": "general",
+    "name": "Fallen Defender",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "After the bearer parries or dodges an attack, reduce the successes of the attack by 1, to a minimum of 1, if it was not completely negated."
+  },
+  {
+    "id": "first_stone",
+    "category": "general",
+    "name": "First Stone",
+    "rarity": "unique",
+    "notches": 1,
+    "description": "Improvised thrown weapons have no attack penalty. Thrown weapons always have at least 2 base damage."
+  },
+  {
+    "id": "furnace_heart",
+    "category": "general",
+    "name": "Furnace Heart",
+    "rarity": "common",
+    "notches": 2,
+    "description": "The bearer of this Charm is kept warm, and their body radiates heat. They suffer no ill effects from extreme cold, and deal an additional 1 environmental fire damage with their unarmed attacks and grapples. This does not apply to other natural weapon attacks."
+  },
+  {
+    "id": "gathering_swarm",
+    "category": "general",
+    "name": "Gathering Swarm",
+    "rarity": "common",
+    "notches": 1,
+    "description": "A swarm of small flies serves the bearer, gathering all loose change. All money in a room that is not shut away is brought to the bearer, and the swarm coalesces around deposits of ore and containers in which valuables are kept. The bearer may turn the effects of this Charm off or on at will."
+  },
+  {
+    "id": "gleaming_soul",
+    "category": "general",
+    "name": "Gleaming Soul",
+    "rarity": "common",
+    "notches": 1,
+    "description": "After resting, the bearer receives 1 Glory Soul, which is recovered when the bearer rests."
+  },
+  {
+    "id": "glory_core",
+    "category": "general",
+    "name": "Glory Core",
+    "rarity": "rare",
+    "notches": 3,
+    "description": "After resting, the bearer receives 4 Glory Stamina, which are recovered when the bearer rests."
+  },
+  {
+    "id": "glory_heart",
+    "category": "general",
+    "name": "Glory Heart",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "After resting, the bearer receives 2 Glory Stamina, which are recovered when the bearer rests."
+  },
+  {
+    "id": "glowing_womb",
+    "category": "general",
+    "name": "Glowing Womb",
+    "rarity": "common",
+    "notches": 2,
+    "description": "If the bearer has Soul at the start of their turn, they may spend 1 Soul, and a small fly appears next to them. When a hostile bug comes within line of sight, within 3 squares of the bearer, the flies each make a ranged attack with 6 dice that deals 1 damage, and then disappear. The bearer may only have up to three flies at any given time, and cannot produce them outside of combat."
+  },
+  {
+    "id": "great_greed",
+    "category": "general",
+    "name": "Great Greed",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "When the bearer delivers the killing blow to a living sapient, they burst like a piñata and spill out money equal to 50 Geo, plus 50 Geo for each Rank the creature had."
+  },
+  {
+    "id": "great_heart",
+    "category": "general",
+    "name": "Great Heart",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "The bearer’s maximum Heart increases by 1."
+  },
+  {
+    "id": "great_strength",
+    "category": "general",
+    "name": "Great Strength",
+    "rarity": "rare",
+    "notches": 3,
+    "description": "The bearer's attacks carry greater weight. If the bearer’s attack inflicts rollover damage, that attack inflicts an additional 1 damage."
+  },
+  {
+    "id": "heretics_blessing",
+    "category": "general",
+    "name": "Heretic’s Blessing",
+    "rarity": "unique",
+    "notches": 3,
+    "description": "The bearer of this Charm has their base Hearts multiplied by 1.5, and changed to Lifeblood Hearts. These come back after resting."
+  },
+  {
+    "id": "hidden_dragonfly",
+    "category": "general",
+    "name": "Hidden Dragonfly",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "The bearer of this Charm counts as having the Leaping trait. If they already have the trait, reduce the Stamina cost required to leap by 1."
+  },
+  {
+    "id": "hiveblood",
+    "category": "general",
+    "name": "Hiveblood",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "If the bearer takes damage, they heal for 1 Heart at the end of their next turn, as long as they have at least 1 Heart. This effect does not trigger a second time until it is completed."
+  },
+  {
+    "id": "hunters_patience",
+    "category": "general",
+    "name": "Hunter’s Patience",
+    "rarity": "uncommon",
+    "notches": 1,
+    "description": "Traps the bearer places are always hidden by default, with successes equal to the bearer’s applicable skill, even if done in plain view. Instead, at any time on the bearer’s turn or as a readied action, the bearer may activate any of their traps, targeting any bug in a square that would normally activate it."
+  },
+  {
+    "id": "lifeblood_core",
+    "category": "general",
+    "name": "Lifeblood Core",
+    "rarity": "rare",
+    "notches": 4,
+    "description": "The bearer has 4 Lifeblood Hearts. These come back after resting."
+  },
+  {
+    "id": "lifeblood_heart",
+    "category": "general",
+    "name": "Lifeblood Heart",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "The bearer has 2 Lifeblood Hearts. These come back after resting."
+  },
+  {
+    "id": "light_step",
+    "category": "general",
+    "name": "Light Step",
+    "rarity": "uncommon",
+    "notches": 1,
+    "description": "The bearer doesn't activate traps by stepping into their activation squares as long as the bearer's total Bulk (including their own weight) equals 3 or less."
+  },
+  {
+    "id": "loose_pockets",
+    "category": "general",
+    "name": "Loose Pockets",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "When dashing, or moving after a dodge, the bearer may arm and place a trap from their Belt on the square they previously occupied. If they did not already have a trap, they may spend Stash to create one they know the recipe for."
+  },
+  {
+    "id": "mark_of_the_ally",
+    "category": "general",
+    "name": "Mark of the Ally",
+    "rarity": "rare",
+    "notches": 2,
+    "description": "If an ally adjacent to the bearer is targeted by an attack, and does not dodge or parry, the bearer may choose to parry the attack for them. Resolve the parry as normal. If the parry is partial or the attack inflicts any effects despite being parried, those effects target the bearer instead of the intended target."
+  },
+  {
+    "id": "shape_of_unn",
+    "category": "general",
+    "name": "Shape of Unn",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "The first time the bearer Focuses on their turn, it does not end their turn. Movement taken by the bearer does not break their Focus, nor does forced movement on the bearer. This Charm does not allow the bearer to spend Stamina or take reactions without breaking Focus."
+  },
+  {
+    "id": "quick_cast",
+    "category": "general",
+    "name": "Quick Cast",
+    "rarity": "unique",
+    "notches": 4,
+    "description": "The bearer’s first Quickened spell each turn does not have an increased cost."
+  },
+  {
+    "id": "quick_focus",
+    "category": "general",
+    "name": "Quick Focus",
+    "rarity": "unique",
+    "notches": 2,
+    "description": "The first time the bearer Focuses on their turn, the Focus cannot be interrupted and resolves at the end of the bearer’s turn."
+  },
+  {
+    "id": "retrieving_swarm",
+    "category": "general",
+    "name": "Retrieving Swarm",
+    "rarity": "common",
+    "notches": 2,
+    "description": "Any weapons the bearer throws, or pieces of ammunition they expend, are returned to their hands at the end of the turn the bearer throws them, or at the start of their next turn if they threw them out-of-turn. Flasks’ contents are lost, but the empty flask is reassembled and returned."
+  },
+  {
+    "id": "spare_gear",
+    "category": "general",
+    "name": "Spare Gear",
+    "rarity": "common",
+    "notches": 1,
+    "description": "The bearer gains 1 point of maximum Stash. If the bearer does not have a Stash pool, they gain one, which can be used for any recipes that their Traits provide."
+  },
+  {
+    "id": "spirits_armaments",
+    "category": "general",
+    "name": "Spirit’s Armaments",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "The character’s weapons and armor become shadowy and indistinct, and are treated as if they weighed 1 Bulk less."
+  },
+  {
+    "id": "spore_shroom",
+    "category": "general",
+    "name": "Spore Shroom",
+    "rarity": "common",
+    "notches": 1,
+    "description": "After receiving healing, a poisonous cloud is created, radiating from the bearer. The cloud covers the square of the bearer, as well as all adjacent squares, and disappears at the start of the bearer’s next turn. Enemies who end their turn in the cloud take 2 damage."
+  },
+  {
+    "id": "sprintmaster",
+    "category": "general",
+    "name": "Sprintmaster",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "The bearer is swifter than other bugs of its species, gaining a +1 die reroll when determining Initiative, and adding 2 to its Speed."
+  },
+  {
+    "id": "stalwart_shell",
+    "category": "general",
+    "name": "Stalwart Shell",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "If the bearer takes damage, they gain 1 extra die on all Soak rolls against subsequent damage until the start of their next turn. This grants a Soak attempt with the gained dice if the bearer could not Soak normally."
+  },
+  {
+    "id": "stars_resplendence",
+    "category": "general",
+    "name": "Star’s Resplendence",
+    "rarity": "unique",
+    "notches": 4,
+    "description": "The bearer gains 1 point of Glory Soul, which replenishes at the start of their turn if used."
+  },
+  {
+    "id": "defenders_crest",
+    "category": "general",
+    "name": "Defender’s Crest",
+    "rarity": "common",
+    "notches": 1,
+    "description": "The bearer carries a noble aroma, which radiates into adjacent squares if the bearer wishes it to. Bugs ending their turn within those squares suffer 1 gross-out DoT. Bugs with the Stench Cloud Trait find the bearer more amicable, while those who do not are usually disgusted."
+  },
+  {
+    "id": "grubsong",
+    "category": "general",
+    "name": "Grubsong",
+    "rarity": "uncommon",
+    "notches": 1,
+    "description": "The bearer receives 1 Soul die after taking damage."
+  },
+  {
+    "id": "carefree_melody",
+    "category": "general",
+    "name": "Carefree Melody",
+    "rarity": "rare",
+    "notches": 3,
+    "description": "When the bearer takes non-self inflicted damage, add 3 dice to this Charm's dice pool. When the bearer takes damage they may empty the pool and roll those dice to reduce the damage by the successes rolled. Effects that trigger when taking damage still occur."
+  },
+  {
+    "id": "thorns_of_agony",
+    "category": "general",
+    "name": "Thorns of Agony",
+    "rarity": "uncommon",
+    "notches": 1,
+    "description": "Whenever the bearer suffers damage, make an attack against all adjacent enemies. This attack is a melee attack with 1 success, which deals 1 damage."
+  },
+  {
+    "id": "trained_eye",
+    "category": "general",
+    "name": "Trained Eye",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "When a bug targets the bearer with an attack, and is successful in damaging them or applying a Status Effect or DoT, the bearer gains 1 extra die on all parries and dodges they make against attacks done by that bug for this scene."
+  },
+  {
+    "id": "twisted_hourglass",
+    "category": "general",
+    "name": "Twisted Hourglass",
+    "rarity": "unique",
+    "notches": 2,
+    "description": "When afflicted by a DoT that would inflict its damage at the start of their turn, the bearer instead takes that damage at the end of their turn."
+  },
+  {
+    "id": "wayward_compass",
+    "category": "general",
+    "name": "Wayward Compass",
+    "rarity": "common",
+    "notches": 1,
+    "description": "Allows the bearer a general sense of direction. They will always know which way is north, as well as the general location of any place they have already been."
+  },
+  {
+    "id": "weaversong",
+    "category": "general",
+    "name": "Weaversong",
+    "rarity": "rare",
+    "notches": 4,
+    "description": "When the bearer rests, they gain a following of 3 tiny spiders. They may each act once per turn on the bearer's turn within 4 spaces of the bearer. The spiders can perform simple actions such as carrying items or attacking enemies. They can carry up to 1 Bulk each and can work together to move heavier items. If they attack, they make a melee attack with 3 dice that deals soakable damage equal to the number of weaverlings attacking a target, to a maximum of 2. If all three spiders attack the same target, they gain +1 to hit. During camp, the spiders grant +1 reroll to any rolls during the bearer's camp action as they lend their tiny claws to help. Spiders can be killed by any amount of AoE damage that hits their bearer, unless their actions were spent to seek cover."
+  },
+  {
+    "id": "winding_cog",
+    "category": "general",
+    "name": "Winding Cog",
+    "rarity": "common",
+    "notches": 2,
+    "description": "After resting, the bearer receives 2 Glory Stash, which are recovered when the bearer rests. If the bearer does not have a Stash pool, they gain one, which can be used for any recipes that their Traits provide."
+  }
+]

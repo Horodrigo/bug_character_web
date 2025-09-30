@@ -1,0 +1,50 @@
+﻿{
+    "id":  "PATH_SPIRE",
+    "name":  "Spire",
+    "type":  "mystical",
+    "description":  "Since time immemorial, bugs have sought to rise above their lot. The foundations of magic are laid beneath their towers of hubris.",
+    "ranks":  [
+                  {
+                      "rank":  1,
+                      "title":  "Spire Initiate",
+                      "abilities":  [
+                                        {
+                                            "name":  "Soul Totem",
+                                            "description":  "Create Soul Totem holding Soul up to Spire Rank. Spend 1 Stamina to draw Soul from carried Totem."
+                                        },
+                                        {
+                                            "name":  "Arcane Casting",
+                                            "description":  "Treat arcane foci as Sorcerous weapons. Talismans make unarmed strikes/grapples Sorcerous weapons."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  2,
+                      "title":  "Spire Adept",
+                      "abilities":  [
+                                        {
+                                            "name":  "Spiral Energy",
+                                            "description":  "May dedicate Soul dice to opposed Insight checks for Spells/abilities."
+                                        },
+                                        {
+                                            "name":  "Soul Extraction",
+                                            "description":  "Gain 1 Soul when damaging bugs with a Spell."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  3,
+                      "title":  "Spire Sage",
+                      "abilities":  [
+                                        {
+                                            "name":  "Spell Splicing",
+                                            "description":  "Merge two Arcana when attuning spells. Second spell piggybacks on first. AoE delivery increases Difficulty by 1."
+                                        },
+                                        {
+                                            "name":  "Distant Thunder",
+                                            "description":  "AoE Spells in line/cone/burst can originate from anywhere within Spell range."
+                                        }
+                                    ]
+                  }
+              ]
+}

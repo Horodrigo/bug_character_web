@@ -1,0 +1,61 @@
+[
+  {
+    "id": "dream_circle_of_sleep",
+    "name": "Circle of Sleep",
+    "difficulty": 2,
+    "range": "Close",
+    "duration": "Brief",
+    "description": "Forms a 5x5 circle; bugs inside accumulate 2 stacks of Drowsy each turn (doesn't fade while inside). Drowsy = -1 die to non-Soak rolls, and another -1 per 3 stacks. If Drowsy reaches 6 and the bug is out of combat, it falls asleep until the spell ends. Violent actions wake sleeping bugs (they keep stacks). Spending 1 Essence during casting makes friendly bugs immune."
+  },
+  {
+    "id": "dream_disguise",
+    "name": "Disguise",
+    "difficulty": 1,
+    "range": "Self",
+    "duration": "Scene",
+    "description": "Gives the target a new appearance chosen by the caster, increasing Spook or Cute by up to 2, or copies the appearance of a sensed individual (gaining their Spook/Cute). While active, caster may spend 1 Essence to burn the disguise into a brief mirage: during the mirage the caster may use Insight instead of Grace to dodge and inflict -1 die penalty to targets' parry and dodge."
+  },
+  {
+    "id": "dream_illusion",
+    "name": "Illusion",
+    "difficulty": 1,
+    "range": "Close",
+    "duration": "Brief",
+    "description": "Creates an image up to one square in size that may animate, emit light/sound, and move with Speed 4 on caster's turn. Touching it reveals its nature. Spending 1 extra Soul increases dimensions by one square. Spending 1 Essence when casting can make the illusion visible only to select targets within Sense range."
+  },
+  {
+    "id": "dream_mirror_ally",
+    "name": "Mirror Ally",
+    "difficulty": 2,
+    "range": {
+      "target": "Touch",
+      "place_copy": "Close"
+    },
+    "duration": "Brief",
+    "description": "Creates a translucent reflection of the target elsewhere in range. The Mirror Ally has base stats, traits and equipment of the target except Charms/consumables; no Arts, path ranks, or special abilities, but shares caster's attuned spells. Heart = 2 on appearance; acts after caster in initiative. Controlled by caster; shares tax, Focus actions, Soul and Stamina with caster. Spending 1 Essence during casting allows the Ally to use one Art, spell, rank-1 path, or special ability the target knows."
+  },
+  {
+    "id": "dream_read_mind",
+    "name": "Read Mind",
+    "difficulty": 1,
+    "range": "Touch",
+    "duration": "Concentration",
+    "description": "Contested Insight; on success the caster reads the target's surface thoughts for the duration, including immediate intentions; target cannot successfully lie. Spending 1 Essence also allows the caster to silently ask a yes/no question or open two-way communication without the target's knowledge."
+  },
+  {
+    "id": "dream_semicorporeality",
+    "name": "Semicorporeality",
+    "difficulty": 2,
+    "range": "Touch",
+    "duration": "Brief",
+    "description": "Makes the target partially within the Dream: non-magic damage to the target is halved (rounded down, min 1); non-magic damage by the target is halved (rounded up). Target can see/interact with Dream Spirits as if corporeal. Whenever an attack is made by/against the target in Sense range, the caster may spend 1 Essence to make that attack deal normal damage."
+  },
+  {
+    "id": "dream_speak_with_dreams",
+    "name": "Speak with Dreams",
+    "difficulty": 1,
+    "range": "Touch",
+    "duration": "Scene",
+    "description": "Gathers Dream fragments from a corpse to create a pseudo-spirit that can speak and answer questions. Spending 1 Essence allows casting on a sleeping target to speak within their dream; targets tend to forget and believe ideas as their own. Other Essence users are aware of the intrusion."
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "bulging_coercion",
+    "category": "social",
+    "name": "Bulging Coercion",
+    "rarity": "common",
+    "notches": 1,
+    "description": "When attempting to Bully a target, the bearer may treat a third of their current Belly as their Spook value."
+  },
+  {
+    "id": "darkstalkers_tongue",
+    "category": "social",
+    "name": "Darkstalker’s Tongue",
+    "rarity": "uncommon",
+    "notches": 1,
+    "description": "When attempting to Deceive a bug for the first time, the bearer gains a +1 bonus to the roll, but afterwards suffers a -1 penalty to Deception checks against that target."
+  },
+  {
+    "id": "grim_eye",
+    "category": "social",
+    "name": "Grim Eye",
+    "rarity": "rare",
+    "notches": 2,
+    "description": "Unseen attacks against the bearer of this Charm suffer a penalty to hit equal to their Spook score."
+  },
+  {
+    "id": "kingseekers_eye",
+    "category": "social",
+    "name": "Kingseeker’s Eye",
+    "rarity": "uncommon",
+    "notches": 1,
+    "description": "When observing another bug, the bearer can identify any Paths which it possesses at Rank 3, skills it has Mastered, and Attributes it possesses at 5 or higher."
+  },
+  {
+    "id": "limelights_glare",
+    "category": "social",
+    "name": "Limelight’s Glare",
+    "rarity": "common",
+    "notches": 2,
+    "description": "The bearer of this Charm may showboat as a Focus Action. At the end of the showboating, if any witnesses have been Impressed by the bearer in this scene, the bearer gains 1 Glory Stamina, or a 1 die reroll on an ongoing performance. The bearer may not have more than 1 Glory Stamina at a time from this Charm."
+  },
+  {
+    "id": "mark_of_predation",
+    "category": "social",
+    "name": "Mark of Predation",
+    "rarity": "common",
+    "notches": 1,
+    "description": "The bearer of this Charm radiates a threatening presence and appears more fearsome. The bearer’s Spook is increased by 1."
+  },
+  {
+    "id": "oak_lotus",
+    "category": "social",
+    "name": "Oak Lotus",
+    "rarity": "common",
+    "notches": 1,
+    "description": "The bearer of this Charm radiates a soothing presence and appears cuter. The bearer’s Cute is increased by 1."
+  },
+  {
+    "id": "parasites_kiss",
+    "category": "social",
+    "name": "Parasite’s Kiss",
+    "rarity": "rare",
+    "notches": 2,
+    "description": "When kissing a willing bug, the bearer may activate this Charm to immediately deal 2 magic damage to that bug and heal 2 Hearts."
+  },
+  {
+    "id": "petals_grace",
+    "category": "social",
+    "name": "Petal’s Grace",
+    "rarity": "uncommon",
+    "notches": 3,
+    "description": "When the bearer chooses to move while making a dodge, they may use their Cute score to dodge in place of Grace."
+  },
+  {
+    "id": "rusted_crown",
+    "category": "social",
+    "name": "Rusted Crown",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "When the bearer makes an opposed check to inflict a spell effect upon a target, they may use their Spook score in place of Insight."
+  },
+  {
+    "id": "shared_soul",
+    "category": "social",
+    "name": "Shared Soul",
+    "rarity": "uncommon",
+    "notches": 2,
+    "description": "Once attuned, this Charm separates into two halves. The second half may be attuned at no Notch cost by another bug. While that bug is within a range equal to the primary bearer's Cute score, the two bearers are Soulmates with one another."
+  }
+]

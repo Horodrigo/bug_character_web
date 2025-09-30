@@ -1,0 +1,74 @@
+[
+  {
+    "id": "spire_dispel",
+    "name": "Dispel",
+    "difficulty": 2,
+    "range": "Touch",
+    "duration": null,
+    "description": "One magical effect of Difficulty 2 or lower within range ends. If prepared as a readied action, it may counterspell a spell being cast. At an additional Soul cost of 1, Dispel may end spells of 1 higher Difficulty; this increase can be invoked multiple times."
+  },
+  {
+    "id": "spire_levitate",
+    "name": "Levitate",
+    "difficulty": 1,
+    "range": "Far",
+    "duration": "Brief",
+    "description": "Lifts a target within Close range one square off the ground. The target can move laterally through the air with Speed 2. If it is an object or a willing bug, the caster may move the target at Speed 2 on the caster’s turn. If it is an unwilling bug, the caster may attempt an opposed Insight check once per turn to move it. Moving a levitated target is treated as a 0-cost spell action. If the target exceeds Range (Far), the spell ends. While moving the target, the caster can lift it one more square by spending 1 Soul; they may also increase the airspeed by 2 by spending 1 Soul."
+  },
+  {
+    "id": "spire_missile",
+    "name": "Missile",
+    "difficulty": 1,
+    "range": "Close",
+    "duration": null,
+    "description": "Deals 2 damage to the affected bug."
+  },
+  {
+    "id": "spire_prepare",
+    "name": "Prepare",
+    "difficulty": 0,
+    "range": "Self",
+    "duration": null,
+    "description": "The target may Attune a spell, an Art, or a Charm as if it had spent the required time. Prepare then becomes unattuned."
+  },
+  {
+    "id": "spire_shriek",
+    "name": "Shriek",
+    "difficulty": 2,
+    "range": "Close",
+    "duration": null,
+    "description": "Deals 3 damage as an AoE covering all squares adjacent to the caster, and all squares above them and above the caster, up to a maximum height equal to this spell’s range."
+  },
+  {
+    "id": "spire_stasis",
+    "name": "Stasis",
+    "difficulty": 2,
+    "range": "Touch",
+    "duration": "Special",
+    "description": "A non-living target is placed into stasis, rendering it immovable and indestructible until the end of the caster’s next turn. Weapons float, armor locks its wearer, and traps fail to trigger. Spending 2 extra Soul increases the Duration by 1 round."
+  },
+  {
+    "id": "spire_suppress",
+    "name": "Suppress",
+    "difficulty": 1,
+    "range": "Touch",
+    "duration": "Brief",
+    "description": "The target’s Notches and Technique Slots are decreased by 1 (which may be increased as if it were damage). If the target would have more Notches filled than their new maximum, they become Overcharmed, but may unattune spells or unequip Charms at will. If a target no longer has enough Technique slots for their Arts/Arcana, they must remove the excess."
+  },
+  {
+    "id": "spire_ward",
+    "name": "Ward",
+    "difficulty": 1,
+    "range": "Touch",
+    "duration": "Scene",
+    "description": "The next time the target would be affected by a magical effect while this spell is active, they are not. The ward then expires. Increasing the Soul spent on this spell increases the number of times it can trigger, at a rate of 1/2 Soul per extra trigger."
+  },
+  {
+    "id": "spire_zap",
+    "name": "Zap",
+    "difficulty": 2,
+    "range": "Close",
+    "duration": null,
+    "description": "Deals 2 damage to every bug in a line between the target and the caster, including the target. Spending 1 extra Soul allows the caster to move to the opposite end of the spell’s Area of Effect without provoking attacks; the area remains charged until the start of the caster’s next turn, dealing 1 damage to creatures that step onto or out of the charged ground. Creatures already inside may move within the charged ground safely."
+  }
+]

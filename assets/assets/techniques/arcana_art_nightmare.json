@@ -1,0 +1,66 @@
+[
+  {
+    "id": "nightmare_bloodboil",
+    "name": "Bloodboil",
+    "difficulty": 1,
+    "range": "Touch",
+    "duration": "Brief",
+    "description": "A blood-soaked object bursts into flames. Coating an object in blood costs 1 Heart. Weapons under this effect gain 3 charges that can be spent to deal +1 unsoakable fire damage on hit (charges scale as damage). Can target blood-soaked bugs to apply a 3-point Status Effect dealing 1 damage per round (scales as damage). Spending 1 Essence reduces Soul cost by 1."
+  },
+  {
+    "id": "nightmare_dream_eater",
+    "name": "Dream Eater",
+    "difficulty": 1,
+    "range": "Touch",
+    "duration": null,
+    "description": "Can only be cast on a sleeping target or spirit. Opposed Insight: on success caster consumes the target's dreams — target gains no rest benefits and caster's Heart and Soul are fully restored. If used on a spirit, the spirit is banished and caster gains 1 Essence. Spending 1 Essence while casting lets caster peer into the created nightmare to discover the target's deepest fear."
+  },
+  {
+    "id": "nightmare_enrapture",
+    "name": "Enrapture",
+    "difficulty": 2,
+    "range": "Touch",
+    "duration": "Concentration",
+    "description": "Opposed Insight: on success target is locked in place for the spell's duration; caster must maintain eye contact or the spell ends, and taking damage ends it. Spending 1 Essence lets the caster sing a melody instead of eye contact (targets can hear); casters with Song or appropriate skill get +1 to Insight. Using a melody increases range by one category."
+  },
+  {
+    "id": "nightmare_fireball",
+    "name": "Fireball",
+    "difficulty": 2,
+    "range": "Close",
+    "duration": null,
+    "description": "Throws a fireball that scorches the target square and surrounding squares for 2 damage. Spending 1 Essence while casting can mark chosen bugs in the area so they perceive the flames as an illusion and take no harm."
+  },
+  {
+    "id": "nightmare_manipulate",
+    "name": "Manipulate",
+    "difficulty": 1,
+    "range": "Close",
+    "duration": "Scene",
+    "description": "Undetectable except to those with ranks in Dream/Nightmare or proper proficiency mastery. Opposed Insight: on success caster gains one automatic success on any social check vs target. Spending 1 Essence grants an automatic success on opposed Insight checks vs the target (including resisting this spell)."
+  },
+  {
+    "id": "nightmare_puppet",
+    "name": "Puppet",
+    "difficulty": 2,
+    "range": "Close",
+    "duration": null,
+    "description": "Opposed Insight: on success caster forces the target to perform an action at the start of their turn (any 1-Stamina action not a Weapon Art). Spending 1 Essence on a successful cast allows forcing the target to move 2 spaces (consumes their next-turn Speed); additional Essence can move further up to their Speed."
+  },
+  {
+    "id": "nightmare_swarm",
+    "name": "Swarm",
+    "difficulty": 2,
+    "range": "Self",
+    "duration": "Brief",
+    "description": "Caster divides into multiple Small versions of themself (up to Insight); stats unchanged, they share one creature's Arts/Spells per turn and share resource pools as distributed. Swarmlings act on caster's turn; if at least one survives the duration, caster reforms at a swarmling's location regaining unused resources. Spending 2 Essence allows casting as a reaction on taking damage: negate that attack and split into at least three swarmlings."
+  },
+  {
+    "id": "nightmare_unmask",
+    "name": "Unmask",
+    "difficulty": 2,
+    "range": "Close",
+    "duration": "Brief",
+    "description": "Target's face peels into a vision of each viewer's worst fear. Bugs in range contest Insight or become frightened; frightened bugs adjacent to target may only evade or flee. Spending 1 Essence while casting reduces frightened bugs' Speed to 0."
+  }
+]

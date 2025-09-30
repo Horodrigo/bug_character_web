@@ -1,0 +1,59 @@
+﻿{
+    "id":  "PATH_BLOOM",
+    "name":  "Bloom",
+    "type":  "mystical",
+    "description":  "\"After every winter comes a spring. Though life may wane, it will return.\"",
+    "ranks":  [
+                  {
+                      "rank":  1,
+                      "title":  "Bloom Initiate",
+                      "bonusAttribute":  [
+                                                    {
+                                                        "cute":  0.5
+                                                    }
+                                        ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Lifebloom",
+                                            "description":  "+0.5 Cute. Small plants sprout where they tread. Camp action: grow two servings of raw plant."
+                                        },
+                                        {
+                                            "name":  "Soul Regrowth",
+                                            "description":  "When Focusing Soul to heal, may choose living bug within 3 squares to receive healing."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  2,
+                      "title":  "Bloom Adept",
+                      "abilities":  [
+                                        {
+                                            "name":  "Ally of the Wilds",
+                                            "description":  "Can speak to plants and feral creatures (may be cryptic/crude)."
+                                        },
+                                        {
+                                            "name":  "Resonant Soul",
+                                            "description":  "When Focusing Soul to Heal, +1 die per friendly living thing within 4 squares (max Bloom Rank). Opposed Insight check can treat enemy as friendly for one turn."
+                                        },
+                                        {
+                                            "name":  "Heart of Magic",
+                                            "description":  "When Spell Focusing, may reduce cost of next Soul Focus instead of next Spell."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  3,
+                      "title":  "Bloom Sage",
+                      "abilities":  [
+                                        {
+                                            "name":  "Full Bloom",
+                                            "description":  "When Focusing Soul to heal others, all dice are successes."
+                                        },
+                                        {
+                                            "name":  "Force of Nature",
+                                            "description":  "Regain Stamina normally when on Death\u0027s Door. Survive lethal effect with 1 Heart once per round (if not on Death\u0027s Door)."
+                                        }
+                                    ]
+                  }
+              ]
+}

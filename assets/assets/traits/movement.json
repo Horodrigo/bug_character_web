@@ -1,0 +1,164 @@
+﻿[
+    {
+        "id":  "MOVE_CLIMBING",
+        "category":  "Movement",
+        "name":  "Climbing",
+        "hungerCost":  2,
+        "description":  "This bug may move at full speed while climbing, including ceilings. No climb rolls needed except on greased/moving surfaces.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "climbingAbility":  "full speed climbing, no rolls normally"
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "MOVE_LEAPING",
+        "category":  "Movement",
+        "name":  "Leaping",
+        "hungerCost":  4,
+        "description":  "This bug can leap up to 10 squares for 3 Stamina once per round. Can be used as dodge using Speed instead of Grace.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "leapAbility":  "10-square leap for 3 Stamina once/round",
+                            "leapDodge":  "use Speed for dodge, then leap if successful"
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "MOVE_POUNCE",
+        "category":  "Movement",
+        "name":  "Pounce",
+        "hungerCost":  2,
+        "description":  "When leaping during turn, may immediately make melee attack upon landing. No additional Stamina cost.",
+        "naturalWeapon":  null,
+        "parentTraitId":  "MOVE_LEAPING",
+        "statEffects":  {
+                            "pounceAttack":  "free melee attack after leap"
+                        },
+        "prerequisites":  [
+                              "MOVE_LEAPING"
+                          ],
+        "maxInstances":  1
+    },
+    {
+        "id":  "MOVE_LESSER_FLIGHT",
+        "category":  "Movement",
+        "name":  "Lesser Flight",
+        "hungerCost":  4,
+        "description":  "This bug may fly while moving for 1 Stamina, but must stop flying at end of turn. Can stay aloft for additional 1 Stamina if within 5 squares of ground.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "flightAbility":  "fly for 1 Stamina, limited duration"
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "MOVE_ELYTRA",
+        "category":  "Movement",
+        "name":  "Elytra",
+        "hungerCost":  -3,
+        "description":  "This bug\u0027s wings require focus action to unfurl. While wings unfurled, Shell reduced by 1.",
+        "naturalWeapon":  null,
+        "parentTraitId":  "MOVE_LESSER_FLIGHT",
+        "statEffects":  {
+                            "wingDeployment":  "focus action to unfurl wings",
+                            "shellPenalty":  "-1 Shell while wings unfurled"
+                        },
+        "prerequisites":  [
+                              "MOVE_LESSER_FLIGHT"
+                          ],
+        "maxInstances":  1
+    },
+    {
+        "id":  "MOVE_FLIGHT",
+        "category":  "Movement",
+        "name":  "Flight",
+        "hungerCost":  4,
+        "description":  "Spending Stamina/Soul while aloft no longer causes landing. Stamina tax doesn\u0027t reset until landing.",
+        "naturalWeapon":  null,
+        "parentTraitId":  "MOVE_LESSER_FLIGHT",
+        "statEffects":  {
+                            "sustainedFlight":  "no landing from Stamina/Soul expenditure",
+                            "taxPersistence":  "Stamina tax persists until landing"
+                        },
+        "prerequisites":  [
+                              "MOVE_LESSER_FLIGHT"
+                          ],
+        "maxInstances":  1
+    },
+    {
+        "id":  "MOVE_AIRBORNE",
+        "category":  "Movement",
+        "name":  "Airborne",
+        "hungerCost":  0,
+        "description":  "The bug is specialized for flight but clumsy on ground. Land speed -2, flying speed +2.",
+        "naturalWeapon":  null,
+        "parentTraitId":  "MOVE_FLIGHT",
+        "statEffects":  {
+                            "landSpeed":  -2,
+                            "flySpeed":  2
+                        },
+        "prerequisites":  [
+                              "MOVE_FLIGHT"
+                          ],
+        "maxInstances":  1
+    },
+    {
+        "id":  "MOVE_SWIMMING",
+        "category":  "Movement",
+        "name":  "Swimming",
+        "hungerCost":  2,
+        "description":  "This bug may move at full Speed while swimming. No rolls needed to stay afloat in calm waters.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "swimAbility":  "full Speed swimming, no float rolls in calm water"
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "MOVE_TUNNELING",
+        "category":  "Movement",
+        "name":  "Tunneling",
+        "hungerCost":  5,
+        "description":  "This bug can burrow through soil at 1 square per 2 Speed. Can leave tunnels or not. Suffers Suffocation if no air underground.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "burrowSpeed":  "1 square per 2 Speed",
+                            "tunnelCreation":  "can leave tunnels behind"
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "MOVE_WATER_TREADING",
+        "category":  "Movement",
+        "name":  "Water Treading",
+        "hungerCost":  3,
+        "description":  "This bug may walk on liquid surfaces without sinking. Can perform surface actions, and swimming attackers get -2 to hit.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "waterWalking":  "walk on liquids without sinking",
+                            "defenseBonus":  "-2 to hit from swimming attackers"
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "MOVE_WATERBREATHING",
+        "category":  "Movement",
+        "name":  "Waterbreathing",
+        "hungerCost":  2,
+        "description":  "This bug can breathe underwater. May be taken as Subtrait of Swimming.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "underwaterBreathing":  true
+                        },
+        "prerequisites":  null,
+        "parentTraitId":  "MOVE_WATER_TREADING",
+        "maxInstances":  1
+    }
+]

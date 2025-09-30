@@ -1,0 +1,26 @@
+[
+  {
+    "id": "masters_glory",
+    "category": "weapon_art",
+    "name": "Master’s Glory",
+    "rarity": "unique",
+    "notches": 3,
+    "description": "“My apprentice,” croaked the old warrior on his deathbed. “Waste not the strength of your youth in this battle. Take the last of mine with you, that it may carry you through.” The apprentice took up the master’s Charm, and stepped from the tent to face fate. When the bearer uses a Weapon Art, it costs 1 less Stamina, to a minimum of 1 Stamina."
+  },
+  {
+    "id": "masters_spirit",
+    "category": "weapon_art",
+    "name": "Master’s Spirit",
+    "rarity": "rare",
+    "notches": 2,
+    "description": "The bearer spends Soul, instead of Stamina, for Weapon Arts. Arts performed in this way do not activate Soul gathering methods."
+  },
+  {
+    "id": "masters_focus",
+    "category": "weapon_art",
+    "name": "Master’s Focus",
+    "rarity": "rare",
+    "notches": 3,
+    "description": "The bearer may take a Focus Action to reduce the Stamina cost of their next Weapon Art by 4."
+  }
+]

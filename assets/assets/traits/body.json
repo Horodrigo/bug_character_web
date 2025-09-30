@@ -1,0 +1,237 @@
+﻿[
+    {
+        "id": "BODY_ARMLESS",
+        "category": "Body",
+        "name": "Armless",
+        "hungerCost": -10,
+        "description": "This bug has no arms, and cannot wield weapons or shields. Has great difficulty with manual dexterity tasks(Adjusted by the DM).",
+        "naturalWeapon": null,
+        "prerequisites": null,
+        "maxInstances": 1
+    },
+    {
+        "id": "BODY_CONTORTIONIST",
+        "category": "Body",
+        "name": "Contortionist",
+        "hungerCost": 1,
+        "description": "This bug\u0027s body is thin or bendy, able to slide into small spaces fit for a bug one size smaller without penalties.",
+        "naturalWeapon": null,
+        "prerequisites": null,
+        "maxInstances": 1
+    },
+    {
+        "id": "BODY_UNFOLD",
+        "category": "Body",
+        "name": "Unfold",
+        "hungerCost": 2,
+        "description": "This bug may spend 1 Stamina to stretch its body out, occupying 4 squares in a straight line. Returns to normal on next turn.",
+        "naturalWeapon": null,
+        "parentTraitId": "BODY_CONTORTIONIST",
+        "prerequisites": [
+            "BODY_CONTORTIONIST",
+            "large_size"
+        ],
+        "maxInstances": 1
+    },
+    {
+        "id": "BODY_EXTRA_ARMS",
+        "category": "Body",
+        "name": "Extra Arms",
+        "hungerCost": 4,
+        "description": "This bug has an extra pair of arms equally as functional as their others.",
+        "naturalWeapon": null,
+        "prerequisites": null,
+        "maxInstances": 1
+    },
+    {
+        "id": "BODY_EXTRA_LEGS",
+        "category": "Body",
+        "name": "Extra Legs",
+        "hungerCost": 3,
+        "description": "This bug has one or two extra pairs of legs. +3 bonus dice to resist being knocked down or displaced, and +1 max Load.",
+        "naturalWeapon": null,
+        "statEffects": {
+            "load": 1
+        },
+        "prerequisites": null,
+        "maxInstances": 1
+    },
+    {
+        "id": "BODY_POLYPOD",
+        "category": "Body",
+        "name": "Polypod",
+        "hungerCost": 3,
+        "description": "This bug has many legs. Cannot be knocked down or displaced unless fully lifted. May ignore rough terrain by reducing Speed by 1.",
+        "naturalWeapon": null,
+        "parentTraitId": "BODY_EXTRA_LEGS",
+        "prerequisites": [
+            "BODY_EXTRA_LEGS"
+        ],
+        "maxInstances": 1
+    },
+    {
+        "id": "BODY_ITSY_BITSY",
+        "category": "Body",
+        "name": "Itsy Bitsy",
+        "hungerCost": 2,
+        "description": "This bug is exceptionally small. Might and Bulk decreased by 1. Can fit into very small spaces and is easily overlooked. This bug treats all weapons or shields with Bulk over Light as two-handed, and any natural weapons it has that deal more than 2 damage are reduced to 2 damage. May latch onto a Large or larger bug without being noticed, and may suck blood freely if they also have Bloodsucker Trait, without dealing damage or alerting the bug. Dealing damage or draining Belly to a negative value always alerts the bug.",
+        "naturalWeapon": null,
+        "incompatibleWith": [
+            "ATTR_BOOKWORM",
+            "ATTR_CONCENTRATED_MIGHT",
+            "ATTR_MIGHTY",
+            "ATTR_SPINDLY_GRACE",
+            "ATTR_WEAK"
+        ],
+        "prerequisites": [
+            "small_size"
+        ],
+        "maxInstances": 1
+    },
+    {
+        "id": "BODY_LEGLESS",
+        "category": "Body",
+        "name": "Legless",
+        "hungerCost": -2,
+        "description": "This bug has no legs and must slither or slide. -1 to dodge and Speed, but +1 to resist movement/Off-Balance effects.",
+        "naturalWeapon": null,
+        "statEffects": {
+            "dodge": -1,
+            "speed": -1
+        },
+        "prerequisites": null,
+        "maxInstances": 1
+    },
+    {
+        "id": "BODY_AQUATIC_TAIL",
+        "category": "Body",
+        "name": "Aquatic Tail",
+        "hungerCost": 1,
+        "description": "This bug\u0027s tail allows swift movement in water. No dodge penalty in water, +3 Speed while swimming.",
+        "naturalWeapon": null,
+        "parentTraitId": "BODY_LEGLESS",
+        "prerequisites": [
+            "BODY_LEGLESS"
+        ],
+        "maxInstances": 1
+    },
+    {
+        "id": "BODY_NATURAL_SADDLE",
+        "category": "Body",
+        "name": "Natural Saddle",
+        "hungerCost": 1,
+        "description": "This bug\u0027s body is perfect for a rider. +2 Load for carrying passengers.",
+        "naturalWeapon": null,
+        "prerequisites": null,
+        "maxInstances": 1
+    },
+    {
+        "id": "BODY_ONE_ARM",
+        "category": "Body",
+        "name": "One Arm",
+        "hungerCost": -4,
+        "description": "This bug has one arm, and may only wield a single one-handed object.",
+        "naturalWeapon": null,
+        "incompatibleWith": [
+            "BODY_ARMLESS"
+        ],
+        "prerequisites": null,
+        "maxInstances": 1
+    },
+    {
+        "id": "BODY_SOFT_BODY",
+        "category": "Body",
+        "name": "Soft Body",
+        "hungerCost": 0,
+        "description": "This bug lacks an exoskeleton but has increased Heart. Shell not added to Soak, but +4 Heart. Heals 2 additional Heart when resting.",
+        "naturalWeapon": null,
+        "incompatibleWith": [
+            "MYST_BARREN"
+        ],
+        "statEffects": {
+            "creep": 0.5,
+            "cute": 0.5,
+            "choice": [
+                "creep",
+                "cute"
+            ],
+            "heartBonus": 4
+        },
+        "prerequisites": null,
+        "maxInstances": 1
+    },
+    {
+        "id": "BODY_EXTERNAL_SHELL",
+        "category": "Body",
+        "name": "External Shell",
+        "hungerCost": 5,
+        "description": "This bug has an external shell for protection. Shell has Absorption equal to base Shell. Can retreat into shell for 1 Stamina.",
+        "naturalWeapon": null,
+        "parentTraitId": "BODY_SOFT_BODY",
+        "incompatibleWith": [
+            "BODY_REGENERATION"
+        ],
+        "prerequisites": [
+            "BODY_SOFT_BODY"
+        ],
+        "maxInstances": 1
+    },
+    {
+        "id": "BODY_HOARDER",
+        "category": "Body",
+        "name": "Hoarder",
+        "hungerCost": 2,
+        "description": "This bug\u0027s shell is made of trinkets. Can produce mundane objects (100 Geo or less) at cost of 1 Durability.",
+        "naturalWeapon": null,
+        "parentTraitId": "BODY_SOFT_BODY",
+        "prerequisites": [
+            "BODY_EXTERNAL_SHELL", "BODY_SOFT_BODY"
+        ],
+        "maxInstances": 1
+    },
+    {
+        "id": "BODY_SHELL_THIEF",
+        "category": "Body",
+        "name": "Shell Thief",
+        "hungerCost": 0,
+        "description": "This bug uses shells from other bugs. Shell uses original owner\u0027s Shell scores for Absorption and durability. Shell always counts as object. Durability only recovered by repair.",
+        "naturalWeapon": null,
+        "parentTraitId": "BODY_SOFT_BODY",
+        "prerequisites": [
+            "BODY_EXTERNAL_SHELL", "BODY_SOFT_BODY"
+        ],
+        "maxInstances": 1
+    },
+    {
+        "id": "BODY_REGENERATION",
+        "category": "Body",
+        "name": "Regeneration",
+        "hungerCost": 5,
+        "description": "If ending turn with missing Heart, may roll Shell check to heal Hearts (5 Belly per Heart). Cannot regenerate Vulnerable damage.",
+        "naturalWeapon": null,
+        "parentTraitId": "BODY_SOFT_BODY",
+        "incompatibleWith": [
+            "BODY_EXTERNAL_SHELL"
+        ],
+        "prerequisites": [
+            "BODY_SOFT_BODY"
+        ],
+        "maxInstances": 1
+    },
+    {
+        "id": "BODY_VULNERABILITY",
+        "category": "Body",
+        "name": "Vulnerability",
+        "hungerCost": -6,
+        "description": "This bug has a particular weakness. When damaged or affected by vulnerability, takes 1 unsoakable damage immediately after.",
+        "naturalWeapon": null,
+        "selectFrom": {
+            "collection": "damage_types",
+            "multi": false,
+            "required": true,
+            "note": "choose vulnerability type (blunt, fire, etc)"
+        },
+        "prerequisites": null,
+        "maxInstances": 1
+    }
+]

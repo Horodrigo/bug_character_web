@@ -1,0 +1,50 @@
+﻿{
+    "id":  "PATH_DUST",
+    "name":  "Dust",
+    "type":  "mystical",
+    "description":  "\"All things fade in time. Before the wielders of the Path of Dust, no wall remains forever unbroken, and no tree grows unto the sky.\"",
+    "ranks":  [
+                  {
+                      "rank":  1,
+                      "title":  "Dust Initiate",
+                      "abilities":  [
+                                        {
+                                            "name":  "The Hollowing",
+                                            "description":  "Ritual (2 Soul, Camp Action) transforms non-Soft Body corpse into Husk."
+                                        },
+                                        {
+                                            "name":  "Army of Dust",
+                                            "description":  "Control Husks equal to Dust Rank (excess cost 2 Notches). Released Husks become mundane corpses. Uncontrolled Husks attack non-Barren/non-Dust creatures."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  2,
+                      "title":  "Dust Adept",
+                      "abilities":  [
+                                        {
+                                            "name":  "Living Death",
+                                            "description":  "Created Husks move naturally, can pass as normal bugs (-1 Speed, no Spook bonus). Requires 3 Insight successes to identify as Husk."
+                                        },
+                                        {
+                                            "name":  "Allegiance",
+                                            "description":  "When controlled Husk damages target in melee, gain 1 Soul (max 1 Soul/Husk/round)."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  3,
+                      "title":  "Dust Sage",
+                      "abilities":  [
+                                        {
+                                            "name":  "Hollow Wind",
+                                            "description":  "Create Husk from adjacent corpse as Focus action (instead of Camp Action)."
+                                        },
+                                        {
+                                            "name":  "Hollow Graves",
+                                            "description":  "If bug within Close range dies from/under Dust Spell (Difficulty 2+), may immediately turn into Husk at no cost."
+                                        }
+                                    ]
+                  }
+              ]
+}

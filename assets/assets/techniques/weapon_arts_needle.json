@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ART_CRICKET_STRIKE",
+    "name": "Cricket Strike",
+    "type": "Normal",
+    "staminaCost": 2,
+    "soulCost": 0,
+    "weaponTypes": ["needle"],
+    "description": "A leaping strike, using the momentum of the user's jump. The user may launch up to 3 squares into the air, and then may launch themselves 3 squares in any direction, making an attack at any point during the movement, all without provoking any attacks of opportunity. For every Stamina spent after activation, the user may launch themselves 1 square further."
+  },
+  {
+    "id": "ART_GOSSAMER_STRIKE",
+    "name": "Gossamer Strike",
+    "type": "Augmentation",
+    "staminaCost": 1,
+    "soulCost": 1,
+    "weaponTypes": ["needle"],
+    "description": "A ranged strike, using strings of Soul to bind the weapon to the user. The user's next attack has a range of 4 squares. If the attack is successful, the user can choose to move to the closest square adjacent to the target, or to have their weapon return to them. If the attack misses or is dodged, the user may attempt it again for free as the weapon returns to their hand. It does -1 damage, however, and cannot move the user. This Art only costs 1 Stamina if used to target an object, or if the weapon has the Threaded modifier. For every Stamina spent after activation, the strike has +1 range."
+  },
+  {
+    "id": "ART_IMPALE",
+    "name": "Impale",
+    "type": "Augmentation",
+    "staminaCost": 3,
+    "soulCost": 0,
+    "weaponTypes": ["needle", "nail"],
+    "description": "The user's next melee attack may be followed with a grapple attempt for free. When moving the grappled target, it may be moved within Reach if the impaling weapon has Reach. On their turn while the target is grappled, the user may move towards the target to deal 2 soakable damage risk. On the target's turn, the target may choose to risk 2 soakable damage to move towards the user. The impaling weapon cannot be used while grappling the target, but the user may end the grapple at any time."
+  },
+  {
+    "id": "ART_THREADING_STRIKE",
+    "name": "Threading Strike",
+    "type": "Augmentation",
+    "staminaCost": 3,
+    "soulCost": 0,
+    "weaponTypes": ["needle"],
+    "description": "With impressive agility, the user may strike multiple foes in a chain. When the user makes their next attack, the attack can chain from the first target to up to two others, which each must be adjacent to the previous target. Only the first target must be in range. A single attack roll is resolved against each target individually. Each additional Stamina spent allows the user to target an additional bug."
+  }
+  ]

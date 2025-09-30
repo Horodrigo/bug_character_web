@@ -1,0 +1,38 @@
+[
+{
+"id": "ART_BRUTAL_INSTINCT",
+"name": "Brutal Instinct",
+"type": "Augmentation",
+"staminaCost": 2,
+"soulCost": 0,
+"weaponTypes": ["natural", "tusk"],
+"description": "Like a cornered animal, the user puts everything on the line to end the fight. The user's next attack is made with a bonus to damage equal to the difference between their current Heart and maximum Heart, provided their current Heart is the lower value. This attack has bonus dice equal to the amount of unique Status Effects and DoTs on the user. After making this attack, all Status Effects and DoTs on the user end, and they fall unconscious until the end of the scene. Costs 1 Shell as attribute damage."
+},
+{
+"id": "ART_DESPERATE_SURGE",
+"name": "Desperate Surge",
+"type": "Reaction",
+"staminaCost": 2,
+"soulCost": 0,
+"weaponTypes": ["natural"],
+"description": "When the user is targeted with a successful melee attack, they may choose to use this Weapon Art instead of parrying or dodging. Immediately make a melee weapon attack against the attacker at a -1 die penalty, who may not parry or dodge the attack. This attack has a +1 bonus to damage. The user's attack is resolved before the attacker's resolves. The attacker's attack still resolves even if the attacker is killed or knocked unconscious."
+},
+{
+"id": "ART_PREDATORY_FRENZY",
+"name": "Predatory Frenzy",
+"type": "Normal",
+"staminaCost": 2,
+"soulCost": 0,
+"weaponTypes": ["natural"],
+"description": "With feral rage, the user lashes out repeatedly. The user makes two attacks, then gains 1 point of Off-Balance. If both attacks within the frenzy are made with pairable weapons, a third may be made, at the cost of 1 additional Stamina and another stack of Off-Balance, as long as it would be made with a pairable weapon as well."
+},
+{
+"id": "ART_PREDATORY_GRASP",
+"name": "Predatory Grasp",
+"type": "Augmentation",
+"staminaCost": 2,
+"soulCost": 0,
+"weaponTypes": ["natural"],
+"description": "If the user's next attack is successful, they may immediately attempt to grapple the target for free. If they succeed, the target receives a -1 die penalty to all checks other than escape attempts and Soak checks while grappled; this stacks with the normal grapple penalty."
+}
+]

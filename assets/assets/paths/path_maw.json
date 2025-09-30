@@ -1,0 +1,38 @@
+﻿{
+    "id":  "PATH_MAW",
+    "name":  "Maw",
+  "type":  "martial",
+    "description":  "Glory and death in battle are two sides of the same coin. For victory, for their next meal, for the thrill of the hunt.",
+    "ranks":  [
+                  {
+                      "rank":  1,
+                      "title":  "Mawling",
+                      "abilities":  [
+                                        {
+                                            "name":  "Frenzy",
+                                            "description":  "After attacking, may reroll failures up to twice Maw Rank. Risk losing 2 Hearts on low d6 roll (cannot be reduced)."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  2,
+                      "title":  "Mawfiend",
+                      "abilities":  [
+                                        {
+                                            "name":  "Burnout",
+                                            "description":  "May spend or dedicate Hearts in place of Stamina for attacks (after 1 Stamina dedicated), parries, and dodges."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  3,
+                      "title":  "Mawlord",
+                      "abilities":  [
+                                        {
+                                            "name":  "Bloodlust",
+                                            "description":  "Slaying a combatant restores 1 Heart (2 Hearts if using natural weapon)."
+                                        }
+                                    ]
+                  }
+              ]
+}

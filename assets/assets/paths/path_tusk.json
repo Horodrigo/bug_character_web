@@ -1,0 +1,42 @@
+﻿{
+    "id":  "PATH_TUSK",
+    "name":  "Tusk",
+  "type":  "martial",
+    "description":  "\"When one possesses a hammer, it is frivolous to use a nail.\" Crushing overhead strikes bring even the largest enemies to their knees.",
+    "ranks":  [
+                  {
+                      "rank":  1,
+                      "title":  "Tuskbug",
+                      "abilities":  [
+                                        {
+                                            "name":  "Power Attack",
+                                            "description":  "When dedicating at least 3 Stamina to an attack or Art, deal +1 damage (+2 with heavy/Tusk weapons). Area effects require +1 Tax Stamina."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  2,
+                      "title":  "Tuskmaster",
+                      "abilities":  [
+                                        {
+                                            "name":  "Second Wind",
+                                            "description":  "Whenever ending turn with 0 Stamina, gain 1 Stamina."
+                                        },
+                                        {
+                                            "name":  "Uproot",
+                                            "description":  "May attack empty squares for 1 Stamina, creating rough terrain. Burrowed creatures take 2 damage and surface."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  3,
+                      "title":  "Tusklord",
+                      "abilities":  [
+                                        {
+                                            "name":  "Controlled Force",
+                                            "description":  "Taxed Stamina counts as dedicated for attack dice. Stamina spent to clear Off-Balance counts as dedicated for next attack."
+                                        }
+                                    ]
+                  }
+              ]
+}

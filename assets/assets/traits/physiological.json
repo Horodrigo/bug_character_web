@@ -1,0 +1,246 @@
+[
+  {
+    "id": "PHYS_ALIEN_BODY",
+    "category": "Physiological",
+    "name": "Alien Body",
+    "hungerCost": -4,
+    "description": "This bug’s body is configured strangely. Depending on how visible these differences are, this Trait grants up to +2 Creep at the cost of equal loss of Cute. Healers find it difficult to heal this bug: any attempt by an outside source to heal this bug loses 1 success after it is rolled. When using a drug or potion not specifically made for this kind of bug, roll a die: 1-2 no effect, 3-4 normal, 5-6 double effect.",
+    "statEffects": {
+      "creep": "+0 to +2",
+      "cute": "-0 to -2"
+    },
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_AUTOBREWERY",
+    "category": "Physiological",
+    "name": "Autobrewery",
+    "hungerCost": 2,
+    "description": "This bug ferments alcohol within its body. Over the course of a rest, it produces 1 portion of gutbrew at the cost of 10 Belly. A bug with the Large Stomach Trait may store up to 2 portions worth of gutbrew in their stomach instead of normal Food. Alcohol stored in the stomach does not count against carry Load and may be used at any time.",
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_BLOOD_OF_ANCIENTS",
+    "category": "Physiological",
+    "name": "Blood of the Ancients",
+    "hungerCost": 1,
+    "description": "This bug's blood contains miraculous properties. When another bug drinks 1 Heart’s worth of this bug’s blood, they gain 1 Lifeblood Heart. Bloodsuckers can instead drain this bug’s Belly to gain this benefit, once per rest.",
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_PRIMAL_ICHOR",
+    "category": "Physiological",
+    "name": "Primal Ichor",
+    "hungerCost": 3,
+    "description": "This bug's blood has strong healing properties. Bugs who consume it gain an additional Lifeblood Heart, heal 1 point of damage to any Attributes, and are cleared of 1 point of all DoT and negative Status Effects. The bug may take unsoakable damage to cure an equal number of points of those effects from themselves as a Focus Action.",
+    "prerequisites": ["PHYS_BLOOD_OF_ANCIENTS"],
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_BLOODSUCKER",
+    "category": "Physiological",
+    "name": "Bloodsucker",
+    "hungerCost": 4,
+    "description": "This bug may drink fresh blood for sustenance. It may draw blood using a 0-damage bite attack; on a success, it gains 5 Belly and the target loses 10 Belly. If the target is willing, incapacitated, or freshly slain, those numbers double and the bug may trigger this ability multiple times, paying 1 Stamina per additional use. This trait may be taken as a subtrait of a natural weapon used for a bite attack; if so, it may only be used with that natural weapon.",
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_CARNIVORE",
+    "category": "Physiological",
+    "name": "Carnivore",
+    "hungerCost": -4,
+    "description": "This bug gains no Belly or beneficial effects from eating plant matter and finds the taste repulsive.",
+    "statEffects": {
+      "creep": 0.5
+    },
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_DEVOURER",
+    "category": "Physiological",
+    "name": "Devourer",
+    "hungerCost": {
+      "heart": 4,
+      "soul": 2,
+      "stamina": 1
+    },
+    "description": "When chosen, a bug selects one Pool (Heart, Soul, or Stamina). When this bug consumes at least 20 Belly worth of flesh or blood from a sapient bug, it may regain 1 point in the selected Pool, up to a cap of one higher than that pool’s maximum. If the point is Soul or Stamina, the bug can choose to save it when spending points from that pool to spend later. Devouring a corpse in combat is a Focus Action.",
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_HERBIVORE",
+    "category": "Physiological",
+    "name": "Herbivore",
+    "hungerCost": -4,
+    "description": "This bug gains no Belly or beneficial effects from eating flesh and finds the taste repulsive.",
+    "statEffects": {
+      "cute": 0.5
+    },
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_HIBERNATION",
+    "category": "Physiological",
+    "name": "Hibernation",
+    "hungerCost": 3,
+    "description": "This bug can stay still or sedentary for extended periods without running out of oxygen or food. While Hibernating, a bug cannot suffocate and its Belly consumed per rest is reduced to 5. However, a Hibernating bug suffers a -2 penalty to notice things happening around it unless directly interacted with, and loses its first turn if woken abruptly.",
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_HIDDEN_BEAUTY",
+    "category": "Physiological",
+    "name": "Hidden Beauty",
+    "hungerCost": 2,
+    "description": "This bug has plumage or other beautiful cosmetic that may be revealed for a +1 Cute bonus. This trait may be taken as a sub-trait of any other Trait; if so, the chosen Trait is undetectable unless the bug chooses to display it.",
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_HIDDEN_THREAT",
+    "category": "Physiological",
+    "name": "Hidden Threat",
+    "hungerCost": 2,
+    "description": "This bug has frills or other threatening cosmetic that may be revealed for a +1 Creep bonus. This trait may be taken as a sub-trait of any other Trait; if so, the chosen Trait is undetectable unless the bug chooses to display it.",
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_LARGE_STOMACH",
+    "category": "Physiological",
+    "name": "Large Stomach",
+    "hungerCost": 5,
+    "description": "This bug can eat vast quantities. It can consume and store up to 20 extra Belly beyond its Hunger score. This reserve can be spent in place of Stamina at a rate of 10 Belly per 1 Stamina spent.",
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_LUMINOUS",
+    "category": "Physiological",
+    "name": "Luminous",
+    "hungerCost": 1,
+    "description": "This bug may emit a glow bright enough to see up to 7 squares away. While this light is on, attempts to spot this bug via sight are always successful so long as line of sight is possible.",
+    "statEffects": {
+      "creepOrCuteBonus": 0.5
+    },
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_MINOR_FLAW",
+    "category": "Physiological",
+    "name": "Minor Flaw",
+    "hungerCost": -1,
+    "description": "The bug has a small defect, giving it -1 to a particular use of a skill or attribute. May be taken multiple times, and can be taken as a Subtrait of itself up to twice. Grants +0.5 to Creep, Cute, or both as chosen.",
+    "statEffects": {
+      "statPenalty": -1,
+      "statBonus": 0.5,
+      "bonusChoice": ["creep", "cute", "both" ]
+    },
+    "prerequisites": null,
+    "maxInstances": 3
+  },
+  {
+    "id": "PHYS_MOLTING",
+    "category": "Physiological",
+    "name": "Molting",
+    "hungerCost": 1,
+    "description": "This bug has extraordinary regenerative abilities and may shed its old carapace to recover. Over a rest, it may regrow a limb, fully recover a natural weapon’s Quality, or restore an additional Heart at the expense of 5 extra Belly consumption. Resting with 0 or greater Belly also fully heals all Primary and Secondary Attribute damage.",
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_DROP_DECOY",
+    "category": "Physiological",
+    "name": "Drop Decoy",
+    "hungerCost": 2,
+    "description": "This bug may safely detach limbs at will. Detached limbs twitch and secrete pheromones that trick feral bugs and those that rely on scent into believing the limb is the bug until closely inspected. Bugs with Prehensile Tail may detach their tail instead. A bug with only one arm left gains the One Arm Trait until it regenerates; gains Armless if it has no arms left. A bug with one or fewer legs gains Legless until it has two legs again.",
+    "prerequisites": ["PHYS_MOLTING"],
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_QUICK_MOLT",
+    "category": "Physiological",
+    "name": "Quick Molt",
+    "hungerCost": 4,
+    "description": "This bug can molt extremely quickly. By expending Belly (up to 15), it may Focus to molt. While molting and for 3 rounds afterwards, the bug may not add Shell to soak rolls.",
+    "prerequisites": ["PHYS_MOLTING"],
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_OSMOTIC_AID",
+    "category": "Physiological",
+    "name": "Osmotic Aid",
+    "hungerCost": 2,
+    "description": "This bug and those that rest near it recover an additional Heart each rest.",
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_PHEROMONES",
+    "category": "Physiological",
+    "name": "Pheromones",
+    "hungerCost": 3,
+    "description": "This bug can release a cloud of special pheromones once per scene at the cost of 1 Stamina. The cloud is undetectable by bugs without the Scent trait and affects everything within 5 squares. The user adds 1 die to social checks made on bugs affected by the cloud. The cloud lingers for the scene and makes everything inside undetectable to scent-reliant bugs without Stench Cloud.",
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_PREDIGESTION",
+    "category": "Physiological",
+    "name": "Predigestion",
+    "hungerCost": 2,
+    "description": "This bug may spend a rest converting food up to its Belly value into food edible to both carnivores and herbivores. It may also convert Belly it has already consumed for this purpose, but may not reduce its Belly below 0. The produced food spoils if not eaten or preserved during the same rest. Large Stomach allows up to 20 additional Belly worth to be converted.",
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_SCAVENGER",
+    "category": "Physiological",
+    "name": "Scavenger",
+    "hungerCost": 4,
+    "description": "This bug gains +2 to resist potion overdoses, and rotten food does not lose its Belly value for the bug or inflict poison DoT. The bug can smell rotting plants and meat for vast distances and gains +2 when searching for rotten food. When making a Stash Scavenge roll, two dice are automatic successes.",
+    "statEffects": {
+      "cute": -0.5
+    },
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_SILK_PRODUCTION",
+    "category": "Physiological",
+    "name": "Silk Production",
+    "hungerCost": 5,
+    "description": "This bug can expel sticky strands of silk usable as rope (+2 to climbing) and to cross gaps. Web may be placed up to two spaces away by spending a Stamina (once per turn). Leaving a webbed square forces a Might check (>2 successes) or be held; extra Stamina may be used for bonus dice. Targets may be webbed directly (works as a Natural Net Weapon).",
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_SONG",
+    "category": "Physiological",
+    "name": "Song",
+    "hungerCost": 1,
+    "description": "This bug can create a distinctive song (soothing or haunting). If soothing, the user treats its Cute as 1 higher with bugs who heard it. If haunting, the user treats its Creep as 1 higher instead. Songs sometimes attract spirits.",
+    "prerequisites": null,
+    "maxInstances": 1
+  },
+  {
+    "id": "PHYS_STENCH_CLOUD",
+    "category": "Physiological",
+    "name": "Stench Cloud",
+    "hungerCost": 1,
+    "description": "This bug can release a cloud of unbearably smelly pheromones affecting adjacent squares, he loses 0.5 Cute as a result. Bugs in the cloud who are not of the bug's species and unused to such stenches receive -1 dice to all rolls made within the cloud, and everything within is undetectable to bugs without Stench Cloud that rely on Scent. The bug may turn their stench on or off as a Focus Action.",
+    "statEffects": {
+      "cute": -0.5
+    },
+    "prerequisites": null,
+    "maxInstances": 1
+  }
+]

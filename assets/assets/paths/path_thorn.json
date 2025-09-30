@@ -1,0 +1,57 @@
+﻿{
+    "id":  "PATH_THORN",
+    "name":  "Thorn",
+    "type":  "mystical",
+    "description":  "\"Life is not kind or soft. Life survives in spite of an uncaring world.\"",
+    "ranks":  [
+                  {
+                      "rank":  1,
+                      "title":  "Thorn Initiate",
+                      "customPool":  [
+                                                    {
+                                                        "Stash":  1
+                                                    }
+                                        ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Envenomed Blades",
+                                            "description":  "Spend 1 Soul to generate 1 point of Glory Stash (lasts Thorn Rank rounds). Stash spent on Poison also applies it automatically."
+                                        },
+                                        {
+                                            "name":  "Witch\u0027s Brew",
+                                            "description":  "Gain +1 Stash pool and know two common/uncommon poison recipes."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  2,
+                      "title":  "Thorn Adept",
+                      "customPool":  [
+                                                    {
+                                                        "Stash":  1
+                                                    }
+                                        ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Resonant Agony",
+                                            "description":  "When hitting creature afflicted with same Poison, regain 1 Soul (even if no damage). Poison doesn\u0027t lose dose. +1 max Stash, learn one new poison recipe."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  3,
+                      "title":  "Thorn Sage",
+                      "customPool":  [
+                                                    {
+                                                        "Stash":  1
+                                                    }
+                                        ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Material Components",
+                                            "description":  "May spend Stash instead of Soul for spells (automatically applies Thorn spell Stash effects). +1 max Stash, learn one new poison recipe."
+                                        }
+                                    ]
+                  }
+              ]
+}

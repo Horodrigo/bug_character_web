@@ -1,0 +1,212 @@
+[
+  {
+    "id": "greyseed_extract",
+    "name": "Greyseed Extract",
+    "type": "Potion",
+    "rarity": "Common",
+    "strain": 1,
+    "cost": 25,
+    "description": "User gains 2 Glory Hearts for the rest of the scene (lost first). Suffers -1 die to Might & Grace while Hearts last.",
+    "overdose": "Stamina becomes 0 and user falls unconscious. Recovers 1 Stamina/turn. Regains consciousness at 3 Stamina."
+  },
+  {
+    "id": "sacred_water",
+    "name": "Sacred Water",
+    "type": "Potion",
+    "rarity": "Common",
+    "strain": null,
+    "cost": 25,
+    "description": "User ignores Overdose effects for the rest of the scene.",
+    "overdose": null
+  },
+  {
+    "id": "filtered_murksap",
+    "name": "Filtered Murksap",
+    "type": "Potion",
+    "rarity": "Common",
+    "strain": 1,
+    "cost": 25,
+    "description": "User gains +2 die to Insight & Focus checks for the rest of the scene.",
+    "overdose": "User loses 1 Soul. If no Soul, lose 1 Heart instead."
+  },
+  {
+    "id": "windweald_mint",
+    "name": "Windweald Mint",
+    "type": "Potion",
+    "rarity": "Uncommon",
+    "strain": 1,
+    "cost": 50,
+    "description": "User suffers -2 die to all checks, but Insight vs mental spells gain 2 automatic successes until end of scene.",
+    "overdose": "User hallucinates and loses all senses but touch until end of scene."
+  },
+  {
+    "id": "octopamine",
+    "name": "Octopamine",
+    "type": "Potion",
+    "rarity": "Uncommon",
+    "strain": 1,
+    "cost": 50,
+    "description": "User goes Berserk (as Berserk Weapon Art). After rage ends, lose 1 Soul.",
+    "overdose": "User cannot discern friend/foe. For 3 rounds, attacks nearest target (even if dead)."
+  },
+  {
+    "id": "spiderbite",
+    "name": "Spiderbite",
+    "type": "Potion",
+    "rarity": "Uncommon",
+    "strain": 1,
+    "cost": 50,
+    "description": "User suffers 1 Paralytic Venom. Paralytic Venom does not degrade/burn. Incoming poisons reduced to DoT/Debuff 1.",
+    "overdose": "User cannot spend Stamina to burn off DoT until end of scene."
+  },
+  {
+    "id": "icevein_root_powder",
+    "name": "Icevein Root Powder",
+    "type": "Potion",
+    "rarity": "Uncommon",
+    "strain": 1,
+    "cost": 50,
+    "description": "User gains 1 DR for 3 rounds.",
+    "overdose": "User loses 1 Stamina. If no Stamina, take 1 Off-Balance."
+  },
+  {
+    "id": "beetlebulk",
+    "name": "Beetlebulk",
+    "type": "Potion",
+    "rarity": "Uncommon",
+    "strain": 2,
+    "cost": 50,
+    "description": "User gains +2 Might for 3 rounds.",
+    "overdose": "User suffers -2 Insight for 3 rounds."
+  },
+  {
+    "id": "blood_salts",
+    "name": "Blood Salts",
+    "type": "Potion",
+    "rarity": "Uncommon",
+    "strain": 2,
+    "cost": 50,
+    "description": "User gains 1 Glory Stamina (fades if not used in 3 rounds).",
+    "overdose": "User loses Hearts equal to current Glory Stamina."
+  },
+  {
+    "id": "luma_dust",
+    "name": "Luma Dust",
+    "type": "Potion",
+    "rarity": "Uncommon",
+    "strain": 1,
+    "cost": 50,
+    "description": "User gains +2 Speed for 3 rounds.",
+    "overdose": "Takes 1 unsoakable damage whenever ending turn with Stamina left, for 3 rounds."
+  },
+  {
+    "id": "roach_milk",
+    "name": "Roach Milk",
+    "type": "Potion",
+    "rarity": "Rare",
+    "strain": 1,
+    "cost": 100,
+    "description": "User gains Heal over Time (2), functions like DoT but restores Hearts.",
+    "overdose": "User cannot receive healing for 1 round."
+  },
+  {
+    "id": "mutagen",
+    "name": "Mutagen",
+    "type": "Potion",
+    "rarity": "Rare",
+    "strain": 2,
+    "cost": 100,
+    "description": "Grants a trait (-4 to +4 Hunger cost). Effect is a 10-stack Status. Can be force-fed for 1 Stamina (resist with free Might check).",
+    "overdose": "Suffers 2 unsoakable damage from body rejection."
+  },
+  {
+    "id": "widows_embrace",
+    "name": "Widow’s Embrace",
+    "type": "Potion",
+    "rarity": "Rare",
+    "strain": 2,
+    "cost": 150,
+    "description": "User gains Poisonous (Toxic Blood) until next rest.",
+    "overdose": "User drops to Death's Door and loses 1 Stamina/turn until healed."
+  },
+  {
+    "id": "gutbrew",
+    "name": "Gutbrew",
+    "type": "Alcohol",
+    "rarity": "Common",
+    "strain": 1,
+    "cost": 10,
+    "description": "-1 Insight & Grace. Grants 1 DR (non-stacking). Lasts scene. Restores 5 Belly.",
+    "overdose": "User vomits, loses Belly as if rested, alcohol Strain reset."
+  },
+  {
+    "id": "grasswine",
+    "name": "Grasswine",
+    "type": "Alcohol",
+    "rarity": "Common",
+    "strain": 1,
+    "cost": 10,
+    "description": "-1 Grace. +1 die bonus on all social checks (made by/against user). Stacks. Lasts scene. Restores 5 Belly.",
+    "overdose": "User vomits, loses Belly as if rested, alcohol Strain reset."
+  },
+  {
+    "id": "bugbeer",
+    "name": "Bugbeer",
+    "type": "Alcohol",
+    "rarity": "Common",
+    "strain": 1,
+    "cost": 10,
+    "description": "+1 Might (non-stacking). -1 Insight & Grace. Lasts scene. Restores 10 Belly.",
+    "overdose": "User vomits, loses Belly as if rested, alcohol Strain reset."
+  },
+  {
+    "id": "shroom_ale",
+    "name": "Shroom Ale",
+    "type": "Alcohol",
+    "rarity": "Common",
+    "strain": 1,
+    "cost": 10,
+    "description": "-1 Grace. Grants +1 Shell (non-stacking). Lasts scene. Restores 5 Belly.",
+    "overdose": "User vomits, loses Belly as if rested, alcohol Strain reset."
+  },
+  {
+    "id": "golden_whiskey",
+    "name": "Golden Whiskey",
+    "type": "Alcohol",
+    "rarity": "Common",
+    "strain": 1,
+    "cost": 10,
+    "description": "-1 Insight until end of scene. Restores 5 Belly. Grants 2 Glory Pluck (fades on rest).",
+    "overdose": "User vomits, loses Belly as if rested, alcohol Strain reset."
+  },
+  {
+    "id": "mead",
+    "name": "Mead",
+    "type": "Alcohol",
+    "rarity": "Uncommon",
+    "strain": 1,
+    "cost": 50,
+    "description": "-1 Insight. Grants 1 DR (non-stacking). +1 die social checks. +1 Glory Stamina die (fades on rest). Restores 10 Belly.",
+    "overdose": "User vomits, loses Belly as if rested, alcohol Strain reset."
+  },
+  {
+    "id": "amber_brandy",
+    "name": "Amber Brandy",
+    "type": "Alcohol",
+    "rarity": "Uncommon",
+    "strain": 1,
+    "cost": 50,
+    "description": "-1 Grace. Grants 1 DR (non-stacking). Restores 5 Belly. Grants 2 Glory Pluck (fades on rest).",
+    "overdose": "User vomits, loses Belly as if rested, alcohol Strain reset."
+  },
+  {
+    "id": "sunshine",
+    "name": "Sunshine",
+    "type": "Alcohol",
+    "rarity": "Uncommon",
+    "strain": 1,
+    "cost": 50,
+    "description": "-1 Insight. Grants +3 Shell (decreases by 1 each time user takes damage, refreshes with new drink). Restores 10 Belly. Grants 2 Glory Pluck (fades on rest).",
+    "overdose": "User vomits, loses Belly as if rested, alcohol Strain reset."
+  }
+]

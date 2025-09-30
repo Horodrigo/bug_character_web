@@ -1,0 +1,98 @@
+[
+  {
+    "id": "venom",
+    "name": "Venom",
+    "rarity": "common",
+    "doses": 3,
+    "cost": 50,
+    "description": "The deadly venom of a bug, from their stinger or fangs. After being removed, the poison soon loses its potency. Inflicts 1 poison DoT, which cannot stack with itself."
+  },
+  {
+    "id": "mint_haze",
+    "name": "Mint Haze",
+    "rarity": "common",
+    "doses": 3,
+    "cost": 50,
+    "description": "A psychotropic poison made from the extract of mint leaf. The poison causes the target to suffer a -2 penalty to Perception, and a -1 die penalty to hit and defense rolls. However, the target gains a +1 die bonus to resist mind-affecting spells."
+  },
+  {
+    "id": "sponge",
+    "name": "Sponge",
+    "rarity": "common",
+    "doses": 2,
+    "cost": 50,
+    "description": "The street name of a poison made from fungal spores dissolved in water. When struck, the target suffers a 3 point debuff decreasing their Shell by 1, as the poison causes it to soften and gain the titular spongy consistency. As a side effect, targets float in water as though they had the Water Treading Trait. The spores catch on contact, allowing the poison to be used with blunt weapons."
+  },
+  {
+    "id": "rockjoint",
+    "name": "Rockjoint",
+    "rarity": "common",
+    "doses": 2,
+    "cost": 50,
+    "description": "A paralytic poison made from the venom of some species of spiders. Each attack causes 3 points of Paralytic Venom, to a maximum of 15 points."
+  },
+  {
+    "id": "ambershell",
+    "name": "Ambershell",
+    "rarity": "uncommon",
+    "doses": 1,
+    "cost": 75,
+    "description": "Mysterious amber-colored concoction which turns a bug's shell hard and rigid, limiting movements. The afflicted target gains a 5-point Status Effect which reduces their Speed by 2 and Grace by 1 but increases Shell by 1 at the end of each of their turns. This Attribute change reverts by 2 instances each rest."
+  },
+  {
+    "id": "murksap",
+    "name": "Murksap",
+    "rarity": "uncommon",
+    "doses": 2,
+    "cost": 75,
+    "description": "The sap of the murkroot, black and sludgy in consistency, tastes of sickening sweetness. Its effects prevent the target from expanding Soul for 1 round after being hit, as the sap's qualities suppress a body's natural Soul channels. The sap is sticky, and catches even when using blunt weapons."
+  },
+  {
+    "id": "vertiguise",
+    "name": "Vertiguise",
+    "rarity": "uncommon",
+    "doses": 1,
+    "cost": 75,
+    "description": "Made from the pheromones of creatures with numbing effects, this poison causes dizziness and loss of sensation in the extremities, leading to clumsiness. For 2 turns after being hit, the target suffers a penalty on non-Soak rolls equal to the attack and defense actions made since the start of their last turn."
+  },
+  {
+    "id": "witherbloom",
+    "name": "Witherbloom",
+    "rarity": "uncommon",
+    "doses": 2,
+    "cost": 75,
+    "description": "An oily, reddish-purple nectar from a poisonous flower, an afflicted target suffers a 5 point Status Effect which inflicts 1 environmental damage at the start of each turn, the duration of which can stack. Cannot reduce a target's Heart below 2."
+  },
+  {
+    "id": "weepweed",
+    "name": "Weepweed",
+    "rarity": "uncommon",
+    "doses": 2,
+    "cost": 75,
+    "description": "Powder of a crushed leaf with anticoagulant properties. The afflicted target cannot heal naturally for the next 2 rests, and Bleed DoT on the target does not decay naturally for 3 rounds."
+  },
+  {
+    "id": "orchids_venom",
+    "name": "Orchid’s Venom",
+    "rarity": "uncommon",
+    "doses": 1,
+    "cost": 75,
+    "description": "A bug afflicted with this poison becomes totally numb. They are afflicted with a Status Effect of 5 points, which cannot be burnt off with Stamina, and causes them to gain 1 DR which does not stack. They are immune to effects relying on painful irritants, such as Irritant Bristles. Additionally, the target cannot perceive damage, including the attack that inflicted the poison, and Tremorsense is nullified. It takes 1 round for a bug to notice the effects of this poison."
+  },
+  {
+    "id": "death_mark",
+    "name": "Death Mark",
+    "rarity": "rare",
+    "doses": 2,
+    "cost": 100,
+    "description": "An insidious poison which remains in the victim's system for a long time. Can also be inflicted through ingestion, by adding it to food. A death marked bug's healing during rests is reduced by 1, and they suffer 1 Completely unsoakable damage at the start of each scene. The poison requires a Medicine check with 3 successes, or 3 rests to pass, to be cured. If the bug is on Death's Door, they take 1 completely unsoakable damage at the start of each of their turns."
+  },
+  {
+    "id": "downfall",
+    "name": "Downfall",
+    "rarity": "rare",
+    "doses": 2,
+    "cost": 100,
+    "description": "A mixture of many other poisons, venoms and toxins, this mixture inflicts 1 DoT on the target, which stacks with other poisons but not with itself. For every round that the DoT is not cured completely, it increases by 1 instead of decaying by 1."
+  }
+]

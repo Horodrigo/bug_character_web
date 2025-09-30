@@ -1,0 +1,65 @@
+[
+{
+  "id": "ART_CULLING_SHOT",
+  "name": "Culling Shot",
+  "type": "Normal",
+  "staminaCost": 1,
+  "soulCost": 0,
+  "weaponTypes": ["sling", "hook"],
+  "description": "The user makes an attack against a target within range. If the attack drops the target to Death's Door, knocks it unconscious, or kills it, the user may use this Art again this turn."
+},
+{
+"id": "ART_CURVING_SHOT",
+"name": "Curving Shot",
+"type": "Augmentation",
+"staminaCost": 1,
+"soulCost": 1,
+"weaponTypes": ["sling"],
+"description": "The user's next ranged attack moves past cover and pursues its target. Treat it as if it had a Speed equal to its range, instead of moving in a straight line for the target. Roll the attack as soon as the projectile enters the target's space. If the attack is dodged, or misses, and has enough Speed to reach another target, the projectile may try to hit that target instead. This Art may not make multiple attempts to attack the same target. For every Stamina spent past activation, the attack has +1 Speed."
+},
+{
+"id": "ART_DISARMING_SHOT",
+"name": "Disarming Shot",
+"type": "Normal",
+"staminaCost": 2,
+"soulCost": 0,
+"weaponTypes": ["sling", "hook"],
+"description": "The user makes a single attack, targeting a weapon held by a bug in range. Roll the attack as normal. Attempts by the target to parry using the target weapon automatically fail. If the attack is successful, the weapon is knocked from their hands, and launched a number of squares away equal to the user's regular damage. The bug holding the weapon risks only 1 damage. If the attack is a melee attack, or the weapon returns to the user automatically, the user can choose for the target weapon to end in their square - or their hand, should they have one free."
+},
+{
+"id": "ART_MULTI_SHOT",
+"name": "Multi Shot",
+"type": "Normal",
+"staminaCost": 3,
+"soulCost": 0,
+"weaponTypes": ["sling"],
+"description": "Choose up to three targets within range. The user makes a ranged attack against each of them. The user may instead opt to make multiple attacks against one target, in which case only one attack, chosen after they are rolled, can deal damage and apply on-hit effects. Each of the attacks, however, can still damage Durability."
+},
+{
+"id": "ART_QUICK_DRAW",
+"name": "Quick Draw",
+"type": "Unique",
+"staminaCost": 3,
+"soulCost": 0,
+"weaponTypes": ["sling", "melee_ranged"],
+"description": "The user draws incredibly fast, and nearly always gets the first strike in. Just before initiative is rolled, the user may activate this Weapon Art. Add dice to the initiative roll equal to the chosen weapon's quality, then immediately draw the weapon and make an attack against an enemy, adding 4 squares to its range if it is a ranged attack. If this attack hits, the target loses dice on their initiative roll equal to the damage done. If no enemies are in range when initiative is rolled, the user may choose to use this Art anyways, making the attack as soon as a valid target enters their range, provided they do so before the user's first turn begins. Roll dice equal to the damage of this attack when that happens, and subtract the total from their initiative roll. If this brings their initiative below the user's own, their turn is put on 'pause' until their new initiative is reached. Stamina spent on this art does not regenerate at the start of the user's first turn."
+},
+{
+"id": "ART_SCATTER_SHOT",
+"name": "Scatter Shot",
+"type": "Augmentation",
+"staminaCost": 2,
+"soulCost": 1,
+"weaponTypes": ["sling"],
+"description": "The user's next attack is made as a Short Cone AoE, starting in the target square within weapon range and bursting in the direction fired. Each Soul spent after the first increases the Cone size by one tier."
+},
+{
+"id": "ART_SPIDERSHOT",
+"name": "Spidershot",
+"type": "Augmentation",
+"staminaCost": 2,
+"soulCost": 0,
+"weaponTypes": ["sling", "hook"],
+"description": "The user's next weapon attack attaches a dedicated trap to the target, in an armed state. Traps placed in this way do not activate if triggered by the user. If the target is an object, treat the trap normally. Otherwise, the trap will not be activated by the target's movement, but if a bug moves adjacent to the side of the target, they count as being in an activation square. If the trap has an activation radius, or an ability would give it an increased radius, it treats the target's square as the center activation square, and ignores the adjacency effect. If the trap would be hidden, the target does not notice it. The user may choose to deal no damage with the attack. This allows the trap to be hidden with successes equal to their applicable skill. By dedicating 1 extra Stamina, the trap may be hidden while still dealing damage, with successes equal to the user's successes on a roll of their applicable skill. Requires 1 trap of any rarity."
+}
+]

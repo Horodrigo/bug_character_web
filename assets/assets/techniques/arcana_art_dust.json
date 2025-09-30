@@ -1,0 +1,58 @@
+[
+  {
+    "id": "dust_abrasion",
+    "name": "Abrasion",
+    "difficulty": 2,
+    "range": "Close",
+    "duration": null,
+    "description": "Target receives 3 points of DoT as a sandstorm sheers away flesh. Treated as an environmental effect."
+  },
+  {
+    "id": "dust_annihilate",
+    "name": "Annihilate",
+    "difficulty": 1,
+    "range": "Touch",
+    "duration": null,
+    "description": "Turns a targeted non-living mundane object to dust, destroying it. Living material and objects covered in sap/amber are immune. Target objects with a Quality take 1 Deterioration; objects with Durability lose 2 Durability. Casting on a husk lowers its Shell by 2. Effects can scale as if they were spell damage."
+  },
+  {
+    "id": "dust_enervate",
+    "name": "Enervate",
+    "difficulty": 1,
+    "range": "Close",
+    "duration": null,
+    "description": "Deals 2 Stamina damage to the target. Spending 1 extra Soul increases Stamina damage by 1."
+  },
+  {
+    "id": "dust_mindwipe",
+    "name": "Mindwipe",
+    "difficulty": 3,
+    "range": "Touch",
+    "duration": "Lifetime",
+    "description": "Contested Insight: on success choose a specific memory for the target to forget. Target does not lose skills/spells/Arts but may be confused about their origin."
+  },
+  {
+    "id": "dust_sandstorm",
+    "name": "Sandstorm",
+    "difficulty": 1,
+    "range": "Touch",
+    "duration": "Brief",
+    "description": "Creates a 3x3 sandstorm that can only be dodged by moving out of the area while dodging. Obscures vision/hearing/tremorsense beyond adjacent. Bugs entering or ending their turn inside receive a 3-point Status Effect lowering Shell by 1 (stacks: -1 every 3 points) and those with no Shell take 2 environmental damage. Husks, Barrens and caster are immune. Spending 1 extra Soul increases one dimension of the storm by 1 square."
+  },
+  {
+    "id": "dust_starving_madness",
+    "name": "Starving Madness",
+    "difficulty": 3,
+    "range": "Touch",
+    "duration": "Eternal",
+    "description": "Target becomes immediately starving (reduced to -60 Belly). Target contests Insight; on failure the target is cursed for the duration and when it dies becomes a Husk."
+  },
+  {
+    "id": "dust_wasting",
+    "name": "Wasting",
+    "difficulty": 1,
+    "range": "Close",
+    "duration": "Brief",
+    "description": "A living target suffers 10 Belly damage and a -1 penalty to a primary attribute of caster's choice (can choose Speed). The target may oppose with a Shell check vs caster's Insight to negate the attribute penalty but not Belly damage. Increasing damage raises Belly damage by +10 per increase instead of +1."
+  }
+]

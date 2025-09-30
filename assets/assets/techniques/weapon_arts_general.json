@@ -1,0 +1,119 @@
+[
+  {
+    "id": "ART_BACKSWING",
+    "name": "Backswing",
+    "type": "Augmentation",
+    "staminaCost": 1,
+    "soulCost": 0,
+    "weaponTypes": ["any"],
+    "description": "The user's next attack has a -1 penalty to damage, but does not incur heavy weapon penalties. The user clears one stack of Off-Balance."
+  },
+  {
+    "id": "ART_BALDURS_BRACE",
+    "name": "Baldur's Brace",
+    "type": "Reaction",
+    "staminaCost": 1,
+    "soulCost": 0,
+    "weaponTypes": ["any"],
+    "description": "Rather than parry or dodge, the user braces against an incoming strike. This Art may be used as a reaction when targeted by an attack. The user may not parry or dodge the attack, and instead adds a +3 die bonus to their Soak roll against the attack. For each Stamina spent on the Art past the first, add 1 more die to the Soak roll."
+  },
+  {
+    "id": "ART_BERSERK",
+    "name": "Berserk",
+    "type": "Unique",
+    "staminaCost": 0,
+    "soulCost": 0,
+    "weaponTypes": ["any"],
+    "description": "Focus Action. The user enters a state of violent fury, heightened awareness, or mystic trance. In this state, they gain 2 Speed, 2 Spook, and +2 dice to resist fear, grapples and magic. They also gain 1 DR, but cannot defend. The benefits activate immediately, but are lost if the Focus is broken before it resolves. Once per turn, the user may lower their maximum Heart by up to 2, gaining equal Glory Stamina that fades when Berserk ends. This counts as Attribute damage, and does not lower current Heart except to cap it at the new maximum. Should the user enter a state where they would die while Berserk, they do not die until the Berserk ends. This death cannot be prevented. If the user has not attacked a bug, taken damage, or moved towards an opponent they can sense when their turn ends, the effect ends."
+  },
+  {
+    "id": "ART_BREATHER",
+    "name": "Breather",
+    "type": "Normal",
+    "staminaCost": 0,
+    "soulCost": 0,
+    "weaponTypes": ["any"],
+    "description": "The user's next weapon attack costs 1 less Stamina. The user cannot attack more than once this turn. The attack cannot benefit from Augmentation Arts."
+  },
+  {
+    "id": "ART_CAREFUL_STRIKE",
+    "name": "Careful Strike",
+    "type": "Unique",
+    "staminaCost": 1,
+    "soulCost": 0,
+    "weaponTypes": ["any"],
+    "description": "The user selects a target within line of sight. If the target stays within line of sight and the user takes no damage before the start of their next turn, their next attack against the target has one automatic success, and one extra square of range if ranged. This Art does not reduce the Stamina cost of the attack, nor does it count against the Art limit per turn, but it may only stack with itself up to three times, and may only be activated once per turn. This Art may be stacked with other Weapon Arts."
+  },
+  {
+    "id": "ART_CLEAVE",
+    "name": "Cleave",
+    "type": "Normal",
+    "staminaCost": 3,
+    "soulCost": 0,
+    "weaponTypes": ["any"],
+    "description": "The user swings their weapon in a wide arc, hitting all foes in front of them. The user makes a melee attack that targets three bugs (four if the user is large) that are adjacent to both each other and the user's space. Resolve a single attack roll as if it were made against each bug independently. Additional Stamina spent on this Art adds to the attack roll."
+  },
+  {
+    "id": "ART_FORTUITOUS_FLURRY",
+    "name": "Fortuitous Flurry",
+    "type": "Reaction",
+    "staminaCost": 2,
+    "soulCost": 0,
+    "weaponTraits": ["pairable"],
+    "description": "The user may activate this Art in place of making an Attack of Opportunity, and make 2 attacks against the enemy that provoked it. Attacks made with this Art count as Attacks of Opportunity. The user may make additional attacks for 1 Stamina each, until a total of 3 attacks have dealt damage to the opponent."
+  },
+  {
+    "id": "ART_GREAT_CHARGE",
+    "name": "Great Charge",
+    "type": "Unique",
+    "staminaCost": "X",
+    "soulCost": 0,
+    "weaponTypes": ["any"],
+    "description": "The user moves spaces equal to twice the Stamina spent, and ignores rough terrain for that movement. It may move through other bugs, inflicting them with 1 point of Off-Balance. Bugs which make an attack of opportunity against the user's movement are inflicted with 2 points of Off-Balance instead. The next attack the user makes after the movement has its rollover cap increased by 1."
+  },
+  {
+    "id": "ART_LUNGE",
+    "name": "Lunge",
+    "type": "Normal",
+    "staminaCost": 3,
+    "soulCost": 0,
+    "weaponTypes": ["melee"],
+    "description": "The user moves up to 2 squares in a straight line without provoking opportunity attacks, and then makes a melee attack with a +1 bonus to damage. Each additional Stamina spent allows an additional square of movement."
+  },
+  {
+    "id": "ART_MEASURED_STRIKE",
+    "name": "Measured Strike",
+    "type": "Augmentation",
+    "staminaCost": 0,
+    "soulCost": 0,
+    "weaponTraits": ["heavy"],
+    "description": "The user's next attack with a heavy weapon does not apply Off-Balance to the user."
+  },
+  {
+    "id": "ART_RALLY",
+    "name": "Rally",
+    "type": "Unique",
+    "staminaCost": 3,
+    "soulCost": 0,
+    "weaponTypes": ["any"],
+    "description": "The user makes an Impress, Bravery or Tactics check, and tallies the successes. That number of friendly bugs other than the user who hear the user may move up to 2 squares, and may take one action, gaining 1 Glory Stamina for that action. Bugs with no Stamina or who are Focusing cannot be rallied. If the affected bug has not acted yet in this scene, actions taken count against its Arts and Spells per turn, Stamina tax, and Stamina recovered on its first turn. Each extra Stamina spent on this Art allows each affected bug 1 extra square of movement."
+  },
+  {
+    "id": "ART_SPIKES",
+    "name": "Spikes",
+    "type": "Special",
+    "staminaCost": 2,
+    "soulCost": 1,
+    "weaponTypes": ["any"],
+    "description": "A pair of spikes extend from the user and erupt from nearby surfaces. The user makes ranged attacks against two targets within a range of 6 for 2 damage each, using Unarmed Strike weapon Quality. The spikes remain for one round and cause 1 damage if a creature is moved into them. Each additional Soul spent on this Art creates two more spikes, but each must have a new target."
+  },
+  {
+    "id": "ART_STUNNING_STRIKE",
+    "name": "Stunning Strike",
+    "type": "Normal",
+    "staminaCost": 2,
+    "soulCost": 0,
+    "weaponTypes": ["any"],
+    "description": "The user bashes an adjacent enemy with the blunt bit of their weapon, interrupting them. Make an attack with a weapon. This attack is treated as melee even if made with a ranged weapon and can only deal a maximum of 2 damage. This attack never provokes attacks of opportunity, or triggers reaction Arts. Treat extra successes beyond 2 damage as damage risk for the purpose of Soak, Absorption, and DR. If the attack is successful, and deals damage to the target, the target gains stacks of Off-Balance equal to the damage taken. Each additional Stamina spent increases the maximum damage by 1."
+  }
+]

@@ -1,0 +1,61 @@
+﻿{
+    "id":  "PATH_FLASK",
+    "name":  "Flask",
+    "type":  "martial",
+    "description":  "Be they wise alchemists or wrathful bombardiers, those who seek to know the materials of this world are less subtle in war than they are in research.",
+    "ranks":  [
+                  {
+                      "rank":  1,
+                      "title":  "Chemist",
+                      "customPool":  [
+                                                    {
+                                                        "Stash":  1
+                                                    }
+                                        ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Easy Toss",
+                                            "description":  "Thrown/natural projectile attacks not affecting living targets are unaffected by Stamina tax. May pair thrown flasks with any weapon. Use Might instead of Grace for ranged attacks."
+                                        },
+                                        {
+                                            "name":  "Chemical Warfare",
+                                            "description":  "Gain +1 Stash pool and know three common/uncommon flask recipes."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  2,
+                      "title":  "Chem Master",
+                      "customPool":  [
+                                                    {
+                                                        "Stash":  1
+                                                    }
+                                        ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Controlled Burst",
+                                            "description":  "Increase flask terrain radius by one, targeted flasks become 3x3 AoE. Can ignore allies/spaces in effect radius up to Flask Rank."
+                                        },
+                                        {
+                                            "name":  "Efficient Reagents",
+                                            "description":  "When creating Stash item, roll 1d6 - success refunds 1 Stash. +1 max Stash, learn two new common/uncommon flask recipes."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  3,
+                      "title":  "Chemlord",
+                      "customPool":  [
+                                                    {
+                                                        "Stash":  1
+                                                    }
+                                        ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Chemical Admixture",
+                                            "description":  "Combine two non-Rare flasks (Carrier + Payload). Apply Payload effects to all targets/areas affected by Carrier. +1 max Stash, learn two new flasks of any rarity."
+                                        }
+                                    ]
+                  }
+              ]
+}

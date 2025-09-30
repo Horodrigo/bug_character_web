@@ -1,0 +1,38 @@
+﻿{
+    "id":  "PATH_NAIL",
+    "name":  "Nail",
+  "type":  "martial",
+    "description":  "\"Well struck!\" A phrase passed from master to student. What could be nobler than a nail given purpose?",
+    "ranks":  [
+                  {
+                      "rank":  1,
+                      "title":  "Nailsbug",
+                      "abilities":  [
+                                        {
+                                            "name":  "Guard Breaker",
+                                            "description":  "When making an attack roll against the most recent bug(s) the Nailsbug has dealt damage to, 4s are counted as successes."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  2,
+                      "title":  "Nailmaster",
+                      "abilities":  [
+                                        {
+                                            "name":  "Battle Stance",
+                                            "description":  "When a bug enters a square adjacent to the Nailmaster from a square not adjacent to them, it provokes an attack of opportunity."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  3,
+                      "title":  "Nailsage",
+                      "abilities":  [
+                                        {
+                                            "name":  "Martial Master",
+                                            "description":  "The Nailsage may perform an additional Art per turn."
+                                        }
+                                    ]
+                  }
+              ]
+}

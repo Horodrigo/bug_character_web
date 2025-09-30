@@ -1,0 +1,20 @@
+[
+{
+"id": "ART_BALDUR_THROW",
+"name": "Baldur Throw",
+"type": "Special",
+"staminaCost": 2,
+"soulCost": 0,
+"weaponTypes": ["shield"],
+"description": "The user hurls their shield towards an enemy within a range of 4. This attack treats the shield as a thrown weapon, with Quality equal to that of the shield. The user may use Might in place of Grace for the ranged weapon attack. The attack deals 3 damage. After the attack, the shield returns to the user's hands. By spending an extra 2 Stamina, the user may have the shield ricochet to another target within two squares of the original target, making another attack. This may be done multiple times."
+},
+{
+"id": "ART_STAGS_STRIKE",
+"name": "Stag's Strike",
+"type": "Special",
+"staminaCost": 1,
+"soulCost": 0,
+"weaponTypes": ["shield"],
+"description": "The user can hold both the line, and halt those who attempt to pass. When a bug attempts to go through the user's space, or passes through a space adjacent to the user's own, the user may immediately perform this Art as a melee attack with their shield. The attack uses the shield's Bulk in place of Quality. This attack cannot be parried and deals no damage. If the attack is successful, the target is pushed back up to 3 squares, in the direction it came from or away from the user, as the user chooses. The user may also perform this Art on their turn. Can be used as a Reaction."
+}
+]

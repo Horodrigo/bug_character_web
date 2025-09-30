@@ -1,0 +1,50 @@
+﻿{
+    "id":  "PATH_SHELL",
+    "name":  "Shell",
+  "type":  "martial",
+    "description":  "The wise warriors know that to outlast the opponent is all that victory demands. Be the immovable shore.",
+    "ranks":  [
+                  {
+                      "rank":  1,
+                      "title":  "Shellbearer",
+                      "abilities":  [
+                                        {
+                                            "name":  "Glancing Blows",
+                                            "description":  "When parrying, if attack still risks damage, Soak dice treat 4s as successes."
+                                        },
+                                        {
+                                            "name":  "Watchful Eye",
+                                            "description":  "First attack of opportunity each round costs no Stamina."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  2,
+                      "title":  "Shellkeeper",
+                      "abilities":  [
+                                        {
+                                            "name":  "Withstand",
+                                            "description":  "When taking damage, gain +1 Soak die against further damage that round."
+                                        },
+                                        {
+                                            "name":  "Force of Will",
+                                            "description":  "When Focusing, Shell increases by Soul Focused (min 1) until next turn. When Focusing Soul to heal, may restore armor Durability."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  3,
+                      "title":  "Shellsworn",
+                      "abilities":  [
+                                        {
+                                            "name":  "Impassible",
+                                            "description":  "Adjacent squares are rough terrain for foes (2 Speed/Footwork cost). Flying/Leaping bugs are forced to land."
+                                        },
+                                        {
+                                            "name":  "Martial Defense",
+                                            "description":  "May use Normal Weapon Arts as attacks of opportunity, or activate Augmentation Art during attack of opportunity."
+                                        }
+                                    ]
+                  }
+              ]
+}

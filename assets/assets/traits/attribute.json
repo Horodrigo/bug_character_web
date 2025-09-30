@@ -1,0 +1,550 @@
+﻿[
+    {
+        "id":  "ATTR_BOOKWORM",
+        "category":  "Attribute",
+        "name":  "Bookworm",
+        "hungerCost":  1,
+        "description":  "This bug has neglected its body to improve its mind. Before other trait modifications, increase its Insight to 4, then decrease its Might or Shell by as many points as Insight was increased.",
+        "naturalWeapon":  null,
+        "firstCalc":  true,
+        "incompatibleWith":  ["BODY_ITSY_BITSY"],
+        "setAttribute":  {
+                             "attr":  "Insight",
+                             "to":  4,
+                             "reduceChoices":  [
+                                                   "Might",
+                                                   "Shell"
+                                               ],
+                             "autoReduce":  false
+                         },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "ATTR_BUG_OF_BURDEN",
+        "category":  "Attribute",
+        "name":  "Bug of Burden",
+        "hungerCost":  1,
+        "description":  "This bug\u0027s Load is increased by 1. This trait may be taken up to three times.",
+        "naturalWeapon":  null,
+        "stacking":  {
+                         "repeatable":  true,
+                         "maxInstances":  3,
+                         "perInstanceCosts":  [
+                                                  1,
+                                                  2,
+                                                  2
+                                              ],
+                         "perInstanceEffects":  [
+                                                    {
+                                                        "load":  1
+                                                    },
+                                                    {
+                                                        "load":  1
+                                                    },
+                                                    {
+                                                        "load":  1
+                                                    }
+                                                ]
+                     },
+        "prerequisites":  null,
+        "maxInstances":  3
+    },
+    {
+        "id":  "ATTR_BULKY_SHELL",
+        "category":  "Attribute",
+        "name":  "Bulky Shell",
+        "hungerCost":  1,
+        "description":  "This bug has a huge shell, which often gets in the way. Before any other trait modifications, increase its Shell to 4, then decrease its Grace or Speed by as many points as Shell was increased. This trait also increases a bug\u0027s Bulk score by a single point.",
+        "naturalWeapon":  null,
+        "firstCalc":  true,
+        "setAttribute":  {
+                             "attr":  "Shell",
+                             "to":  4,
+                             "reduceChoices":  [
+                                                   "Grace",
+                                                   "Speed"
+                                               ],
+                             "autoReduce":  false
+                         },
+        "statEffects":  {
+                            "bulk":  1
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "ATTR_CLUMSY",
+        "category":  "Attribute",
+        "name":  "Clumsy",
+        "hungerCost":  -3,
+        "description":  "This bug is quite clumsy, decreasing its Grace by 1 but increasing its Cute by 0.5. This trait may be taken twice.",
+        "naturalWeapon":  null,
+        "stacking":  {
+                         "repeatable":  true,
+                         "maxInstances":  2,
+                         "perInstanceCosts":  [
+                                                  -3,
+                                                  -3
+                                              ],
+                         "perInstanceEffects":  [
+                                                    {
+                                                        "grace":  -1,
+                                                        "cute":  0.5
+                                                    },
+                                                    {
+                                                        "grace":  -1,
+                                                        "cute":  0.5
+                                                    }
+                                                ]
+                     },
+        "prerequisites":  null,
+        "maxInstances":  2
+    },
+    {
+        "id":  "ATTR_CONCENTRATED_MIGHT",
+        "category":  "Attribute",
+        "name":  "Concentrated Might",
+        "hungerCost":  1,
+        "description":  "This bug has the strength of a bug many times its size. Before other trait modifications, increase its Might to 4, then decrease its Grace by as many points as Might was increased.",
+        "naturalWeapon":  null,
+        "firstCalc":  true,
+                        "incompatibleWith":  [
+                                 "BODY_ITSY_BITSY"
+                             ],
+        "setAttribute":  {
+                             "attr":  "Might",
+                             "to":  4,
+                             "reduceChoices":  [
+                                                   "Grace"
+                                               ],
+                             "autoReduce":  false
+                         },
+        "statEffects":  {
+
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "ATTR_DAYDREAMER",
+        "category":  "Attribute",
+        "name":  "Daydreamer",
+        "hungerCost":  -2,
+        "description":  "Always reminiscing and captured by sentiment, this bug pays poor attention to what is in the here and now. It has a -2 die penalty on Initiative checks.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "cute":  0.5,
+                            "initiative":  -2
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "ATTR_DAZZLING",
+        "category":  "Attribute",
+        "name":  "Dazzling",
+        "hungerCost":  1,
+        "description":  "This bug is pleasing to the senses, and tends to put other bugs at ease. Increase Cute by 1. May be taken twice.",
+        "naturalWeapon":  null,
+        "stacking":  {
+                         "repeatable":  true,
+                         "maxInstances":  2,
+                         "perInstanceCosts":  [
+                                                  1,
+                                                  1
+                                              ],
+                         "perInstanceEffects":  [
+                                                    {
+                                                        "cute":  1
+                                                    },
+                                                    {
+                                                        "cute":  1
+                                                    }
+                                                ]
+                     },
+        "prerequisites":  null,
+        "maxInstances":  2
+    },
+    {
+        "id":  "ATTR_DULL",
+        "category":  "Attribute",
+        "name":  "Dull",
+        "hungerCost":  -3,
+        "description":  "This bug is simple minded, decreasing its Insight by 1. This trait may be taken twice.",
+        "naturalWeapon":  null,
+        "stacking":  {
+                         "repeatable":  true,
+                         "maxInstances":  2,
+                         "perInstanceCosts":  [
+                                                  -3,
+                                                  -3
+                                              ],
+                         "perInstanceEffects":  [
+                                                    {
+                                                        "insight":  -1
+                                                    },
+                                                    {
+                                                        "insight":  -1
+                                                    }
+                                                ]
+                     },
+        "statEffects":  {
+                            "insight":  -1
+                        },
+        "prerequisites":  null,
+        "maxInstances":  2
+    },
+    {
+        "id":  "ATTR_FRAIL",
+        "category":  "Attribute",
+        "name":  "Frail",
+        "hungerCost":  -3,
+        "description":  "This bug is delicate, reducing its Shell by 1. This trait may be taken twice.",
+        "naturalWeapon":  null,
+        "stacking":  {
+                         "repeatable":  true,
+                         "maxInstances":  2,
+                         "perInstanceCosts":  [
+                                                  -3,
+                                                  -3
+                                              ],
+                         "perInstanceEffects":  [
+                                                    {
+                                                        "shell":  -1
+                                                    },
+                                                    {
+                                                        "shell":  -1
+                                                    }
+                                                ]
+                     },
+        "statEffects":  {
+                            "shell":  -1
+                        },
+        "prerequisites":  null,
+        "maxInstances":  2
+    },
+    {
+        "id":  "ATTR_GRACEFUL",
+        "category":  "Attribute",
+        "name":  "Graceful",
+        "hungerCost":  2,
+        "description":  "This bug is exceptionally nimble, increasing its Grace by 0.5. This trait may be taken twice.",
+        "naturalWeapon":  null,
+        "stacking":  {
+                         "repeatable":  true,
+                         "maxInstances":  2,
+                         "perInstanceCosts":  [
+                                                  2,
+                                                  2
+                                              ],
+                         "perInstanceEffects":  [
+                                                    {
+                                                        "grace":  0.5,
+                                                        "cute":  0.5
+                                                    },
+                                                    {
+                                                        "grace":  0.5,
+                                                        "cute":  0.5
+                                                    }
+                                                ]
+                     },
+        "prerequisites":  null,
+        "maxInstances":  2
+    },
+    {
+        "id":  "ATTR_HEARTY",
+        "category":  "Attribute",
+        "name":  "Hearty",
+        "hungerCost":  4,
+        "description":  "This bug is of a particularly hearty breed, and so they gain 1 maximum Heart.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "maxHeart":  1
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "ATTR_INFIRM",
+        "category":  "Attribute",
+        "name":  "Infirm",
+        "hungerCost":  -4,
+        "description":  "This bug\u0027s best years are behind it, and it has 1 fewer maximum Heart.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "maxHeart":  -1
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "ATTR_INSIGHTFUL",
+        "category":  "Attribute",
+        "name":  "Insightful",
+        "hungerCost":  2,
+        "description":  "This bug is exceptionally perceptive, increasing its Insight by 0.5. This trait may be taken twice.",
+        "naturalWeapon":  null,
+        "stacking":  {
+                         "repeatable":  true,
+                         "maxInstances":  2,
+                         "perInstanceCosts":  [
+                                                  2,
+                                                  2
+                                              ],
+                         "perInstanceEffects":  [
+                                                    {
+                                                        "insight":  0.5
+                                                    },
+                                                    {
+                                                        "insight":  0.5
+                                                    }
+                                                ]
+                     },
+        "statEffects":  {
+                            "insight":  0.5
+                        },
+        "prerequisites":  null,
+        "maxInstances":  2
+    },
+    {
+        "id":  "ATTR_KEEN",
+        "category":  "Attribute",
+        "name":  "Keen",
+        "hungerCost":  2,
+        "description":  "This bug is able to react and adapt swiftly to new situations. It has a +2 die bonus on Initiative checks.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "initiative":  2
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "ATTR_MIGHTY",
+        "category":  "Attribute",
+        "name":  "Mighty",
+        "hungerCost":  2,
+                        "incompatibleWith":  [
+                                 "BODY_ITSY_BITSY"
+                             ],
+        "description":  "This bug is exceptionally strong, increasing its Might by 0.5. This trait may be taken twice.",
+        "naturalWeapon":  null,
+        "stacking":  {
+                         "repeatable":  true,
+                         "maxInstances":  2,
+                         "perInstanceCosts":  [
+                                                  2,
+                                                  2
+                                              ],
+                         "perInstanceEffects":  [
+                                                    {
+                                                        "might":  0.5,
+                                                        "creep":  0.5
+                                                    },
+                                                    {
+                                                        "might":  0.5,
+                                                        "creep":  0.5
+                                                    }
+                                                ]
+                     },
+        "prerequisites":  null,
+        "maxInstances":  2
+    },
+    {
+        "id":  "ATTR_SAVANT",
+        "category":  "Attribute",
+        "name":  "Savant",
+        "hungerCost":  1,
+        "description":  "This bug is brilliant, but lacks the social instincts most others have. Insight is increased to 4 before other trait modifications, but the bug receives a -3 dice penalty to all social checks requiring conversation.",
+        "naturalWeapon":  null,
+        "firstCalc":  true,
+        "setAttribute":  {
+                             "attr":  "Insight",
+                             "to":  4,
+                             "reduceChoices":  [
+
+                                               ],
+                             "autoReduce":  false
+                         },
+        "statEffects":  {
+                            "socialPenalty":  -3
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "ATTR_SLOW",
+        "category":  "Attribute",
+        "name":  "Slow",
+        "hungerCost":  -2,
+        "description":  "This bug is sluggish, decreasing its Speed by 1. This trait may be taken twice.",
+        "naturalWeapon":  null,
+        "stacking":  {
+                         "repeatable":  true,
+                         "maxInstances":  2,
+                         "perInstanceCosts":  [
+                                                  -2,
+                                                  -2
+                                              ],
+                         "perInstanceEffects":  [
+                                                    {
+                                                        "speed":  -1
+                                                    },
+                                                    {
+                                                        "speed":  -1
+                                                    }
+                                                ]
+                     },
+        "statEffects":  {
+                            "speed":  -1
+                        },
+        "prerequisites":  null,
+        "maxInstances":  2
+    },
+    {
+        "id":  "ATTR_SPINDLY_GRACE",
+        "category":  "Attribute",
+        "name":  "Spindly Grace",
+        "hungerCost":  1,
+        "description":  "This bug is frail and elegant, despite its size. Before other trait modifications, Increase its Grace to 4, then decrease its Might by as many points as Grace was increased.",
+        "naturalWeapon":  null,
+        "firstCalc":  true,
+                        "incompatibleWith":  [
+                                 "BODY_ITSY_BITSY"
+                             ],
+        "setAttribute":  {
+                             "attr":  "Grace",
+                             "to":  4,
+                             "reduceChoices":  [
+                                                   "Might"
+                                               ],
+                             "autoReduce":  false
+                         },
+        "statEffects":  {
+
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "ATTR_Creepy",
+        "category":  "Attribute",
+        "name":  "Creepy",
+        "hungerCost":  1,
+        "description":  "This bug is deeply unsettling, and puts other bugs on edge, increase Creep by 1. May be taken twice.",
+        "naturalWeapon":  null,
+        "stacking":  {
+                         "repeatable":  true,
+                         "maxInstances":  2,
+                         "perInstanceCosts":  [
+                                                  1,
+                                                  1
+                                              ],
+                         "perInstanceEffects":  [
+                                                    {
+                                                        "creep":  1
+                                                    },
+                                                    {
+                                                        "creep":  1
+                                                    }
+                                                ]
+                     },
+        "statEffects":  {
+                            "creep":  1
+                        },
+        "prerequisites":  null,
+        "maxInstances":  2
+    },
+    {
+        "id":  "ATTR_STURDY",
+        "category":  "Attribute",
+        "name":  "Sturdy",
+        "hungerCost":  2,
+        "description":  "This bug is exceptionally resilient, increasing its Shell by 0.5. This trait may be taken twice.",
+        "naturalWeapon":  null,
+        "stacking":  {
+                         "repeatable":  true,
+                         "maxInstances":  2,
+                         "perInstanceCosts":  [
+                                                  2,
+                                                  2
+                                              ],
+                         "perInstanceEffects":  [
+                                                    {
+                                                        "shell":  0.5
+                                                    },
+                                                    {
+                                                        "shell":  0.5
+                                                    }
+                                                ]
+                     },
+        "statEffects":  {
+                            "shell":  0.5
+                        },
+        "prerequisites":  null,
+        "maxInstances":  2
+    },
+    {
+        "id":  "ATTR_SWIFT",
+        "category":  "Attribute",
+        "name":  "Swift",
+        "hungerCost":  2,
+        "description":  "This bug is fast, increasing its Speed by 1. This trait may be taken twice.",
+        "naturalWeapon":  null,
+        "stacking":  {
+                         "repeatable":  true,
+                         "maxInstances":  2,
+                         "perInstanceCosts":  [
+                                                  2,
+                                                  2
+                                              ],
+                         "perInstanceEffects":  [
+                                                    {
+                                                        "speed":  1
+                                                    },
+                                                    {
+                                                        "speed":  1
+                                                    }
+                                                ]
+                     },
+        "statEffects":  {
+                            "speed":  1
+                        },
+        "prerequisites":  null,
+        "maxInstances":  2
+    },
+    {
+        "id":  "ATTR_WEAK",
+        "category":  "Attribute",
+        "name":  "Weak",
+        "hungerCost":  -3,
+        "description":  "This bug is quite weak, decreasing its Might by 1. This trait may be taken twice.",
+        "naturalWeapon":  null,
+                        "incompatibleWith":  [
+                                 "BODY_ITSY_BITSY"
+                             ],
+        "stacking":  {
+                         "repeatable":  true,
+                         "maxInstances":  2,
+                         "perInstanceCosts":  [
+                                                  -3,
+                                                  -3
+                                              ],
+                         "perInstanceEffects":  [
+                                                    {
+                                                        "might":  -1
+                                                    },
+                                                    {
+                                                        "might":  -1
+                                                    }
+                                                ]
+                     },
+        "statEffects":  {
+                            "might":  -1,
+                            "cute":  0.5
+                        },
+        "prerequisites":  null,
+        "maxInstances":  2
+    }
+]

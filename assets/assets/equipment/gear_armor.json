@@ -1,0 +1,29 @@
+[
+  {
+    "id": "light_armor",
+    "name": "Light Armor",
+    "maxDurability": 5,
+    "DR": 0,
+    "bulk": 1,
+    "cost": 100,
+    "description": "Grants +1 die to Soak, and +1 die reroll on Soak checks."
+  },
+  {
+    "id": "medium_armor",
+    "name": "Medium Armor",
+    "maxDurability": 7,
+    "DR": 1,
+    "bulk": 2,
+    "cost": 200,
+    "description": "Grants +1 die to Soak. When taking the dash or jump action, the distance decreases by 1."
+  },
+  {
+    "id": "heavy_armor",
+    "name": "Heavy Armor",
+    "maxDurability": 9,
+    "DR": 2,
+    "bulk": 3,
+    "cost": 400,
+    "description": "Grants +1 die to Soak. When taking the dash or jump action, the distance decreases by 1. Initiating a dodge or parry costs 1 additional Stamina."
+  }
+]

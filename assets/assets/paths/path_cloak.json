@@ -1,0 +1,42 @@
+﻿{
+    "id":  "PATH_CLOAK",
+    "name":  "Cloak",
+    "type":  "mystical",
+    "description":  "For those warriors who covet the power of Soul, the Path of the Cloak enables them to achieve speeds beyond their limits.",
+    "ranks":  [
+                  {
+                      "rank":  1,
+                      "title":  "Cloak Initiate",
+                      "abilities":  [
+                                        {
+                                            "name":  "Swoop",
+                                            "description":  "Once per round, perform dash or jump action for free. Can initiate dash/jump actions in midair (once each before landing)."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  2,
+                      "title":  "Cloak Adept",
+                      "abilities":  [
+                                        {
+                                            "name":  "Combat Celerity",
+                                            "description":  "When attacking (after Stamina initiation), may dedicate Soul as well as Stamina. When dodging, may dedicate Soul instead of Stamina."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  3,
+                      "title":  "Cloak Sage",
+                      "abilities":  [
+                                        {
+                                            "name":  "Cloaked in Wind",
+                                            "description":  "Dashing/jumping doesn\u0027t provoke attacks, can pass through occupied spaces, +1 dash/jump distance, +1 post-dodge movement."
+                                        },
+                                        {
+                                            "name":  "Speed of Soul",
+                                            "description":  "May spend Soul instead of Stamina for dash/jump actions."
+                                        }
+                                    ]
+                  }
+              ]
+}

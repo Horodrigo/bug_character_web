@@ -1,0 +1,175 @@
+﻿[
+    {
+        "id":  "MENTAL_CIVILIZED",
+        "category":  "Mental",
+        "name":  "Civilized",
+        "hungerCost":  -5,
+        "description":  "This bug is not accustomed to hardship and pain. Whenever they have less than a full Heart Pool, the bug suffers a -1 die penalty to attack rolls and Attribute checks. This bug\u0027s minimum Belly lost per rest is 5 instead of 10.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "cute":  1,
+                            "conditionalPenalty":  "-1 to attacks and checks when below full Heart",
+                            "minBellyLoss":  5
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "MENTAL_DASTARDLY",
+        "category":  "Mental",
+        "name":  "Dastardly",
+        "hungerCost":  3,
+        "description":  "This bug is no stranger to desperation, and will do anything to see tomorrow. When at 1 Heart or below, this bug\u0027s Speed increases by 2, and they gain +2 dice on Soak rolls.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "cute":  -0.5,
+                            "conditionalBonus":  "+2 Speed and +2 Soak dice at 1 Heart or below"
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "MENTAL_DESTITUTE",
+        "category":  "Mental",
+        "name":  "Destitute",
+        "hungerCost":  -2,
+        "description":  "This bug has struggled to get by in the wastes, and is used to running on an empty stomach. They require less Food, but have 50% the normal starting money.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "creep":  0.5,
+                            "foodRequirement":  "reduced",
+                            "startingMoney":  0.5
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "MENTAL_FERAL",
+        "category":  "Mental",
+        "name":  "Feral",
+        "hungerCost":  -5,
+        "description":  "This bug is not sapient, and their Insight and Soul decrease by 1. This bug\u0027s minimum Belly lost per rest is 5 instead of 10. Feral bugs may use the greater of Might or Grace for their natural weapons, but Grace-based melee attacks are at a -1 penalty unless it possesses Ranks in a Path that allows Grace for melee attacks. Feral bugs cannot use non-natural weapons and tools.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "insight":  -1,
+                            "soul":  -1,
+                            "minBellyLoss":  5,
+                            "naturalWeaponBonus":  "use greater of Might or Grace",
+                            "weaponRestriction":  "cannot use non-natural weapons and tools"
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "MENTAL_TOOL_USER",
+        "category":  "Mental",
+        "name":  "Tool-User",
+        "hungerCost":  3,
+        "description":  "This bug is able to use crafted weapons and tools, at a -1 die penalty.",
+        "naturalWeapon":  null,
+        "parentTraitId":  "MENTAL_FERAL",
+        "statEffects":  {
+                            "toolUsePenalty":  -1,
+                            "removesRestriction":  "can use crafted weapons and tools"
+                        },
+        "prerequisites":  [
+                              "MENTAL_FERAL"
+                          ],
+        "maxInstances":  1
+    },
+    {
+        "id":  "MENTAL_HIVEMIND",
+        "category":  "Mental",
+        "name":  "Hivemind",
+        "hungerCost":  2,
+        "description":  "This bug has an instinctual penchant for teamwork, and receives bonuses when working in tandem with allies. It gets +1 bonus die to hit a target that has been hit by an ally since this bug\u0027s last turn. Additionally, this bug gains +1 reroll to relevant rolls when crafting or performing a profession alongside another doing the same task.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "creep":  0.5,
+                            "cute":  0.5,
+                            "teamworkBonus":  "+1 die vs allies\u0027 targets",
+                            "craftingBonus":  "+1 reroll when working with others"
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "MENTAL_PAMPERED",
+        "category":  "Mental",
+        "name":  "Pampered",
+        "hungerCost":  2,
+        "description":  "This bug is used to a life of luxury and is thus used to having plenty to eat and drink. They require more Food to stay fed, but gain 50% extra starting money.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "cute":  0.5,
+                            "foodRequirement":  "increased",
+                            "startingMoney":  1.5
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "MENTAL_PHOBIA",
+        "category":  "Mental",
+        "name":  "Phobia",
+        "hungerCost":  -4,
+        "description":  "This bug has a debilitating fear of something in particular. When faced with its fear, the bug must make an Insight check. If failed, they receive a -1 die penalty to all rolls other than Soak and may not willingly confront their fear.",
+        "naturalWeapon":  null,
+        "selectFrom":  {
+                           "collection":  "phobias",
+                           "multi":  false,
+                           "required":  true,
+                           "note":  "player defines specific phobia"
+                       },
+        "statEffects":  {
+                            "cute":  0.5,
+                            "phobiaEffect":  "-1 to all rolls except Soak when facing fear"
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "MENTAL_PLUCKY",
+        "category":  "Mental",
+        "name":  "Plucky",
+        "hungerCost":  3,
+        "description":  "This bug has a Pool of 3 Pluck points. These may be dedicated to any roll, but add a reroll, rather than bonus die, to the roll. It may be dedicated even after the roll is made. Pluck recovers fully if the bug rests with 0 or greater Belly. Maximum Pluck is increased by 1 point for every two open trait slots the bug has.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "cute":  0.5,
+                            "pluckPool":  3,
+                            "pluckMechanic":  "adds reroll to any roll, can be used after rolling"
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "MENTAL_TALENT",
+        "category":  "Mental",
+        "name":  "Talent",
+        "hungerCost":  2,
+        "description":  "This bug has a natural penchant for a particular skill. When using that skill to add dice to a roll, one of those dice is an automatic success instead of being rolled. This Trait may be taken multiple times, but never for the same skill more than once.",
+        "naturalWeapon":  null,
+        "selectFrom":  {
+                           "collection":  "skills",
+                           "multi":  false,
+                           "required":  true,
+                           "note":  "choose one skill"
+                       },
+        "stacking":  {
+                         "repeatable":  true,
+                         "maxInstances":  "multiple",
+                         "restriction":  "different skills only",
+                         "perInstanceEffects":  [
+                                                    {
+                                                        "automaticSuccess":  "one die for chosen skill"
+                                                    }
+                                                ]
+                     },
+        "statEffects":  {
+                            "talentEffect":  "one automatic success for chosen skill"
+                        },
+        "prerequisites":  null,
+        "maxInstances":  "multiple"
+    }
+]

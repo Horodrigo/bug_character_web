@@ -1,0 +1,173 @@
+[
+  {
+    "id": "ancient_strength",
+    "category": "combat",
+    "name": "Ancient Strength",
+    "rarity": "common",
+    "notches": 2,
+    "bulk": 0,
+    "description": "The bearer’s Natural Weapons gain a single weapon modifier. The same modifier cannot stack twice on one weapon. The modifier granted by this Charm is decided by the GM, or when the Charm is taken during character creation. The Balanced modifier may be taken, but affects only Natural Projectiles."
+  },
+  {
+    "id": "brave_nail_grubberflys_elegy",
+    "category": "combat",
+    "name": "Brave Nail, Grubberfly’s Elegy",
+    "rarity": "rare",
+    "notches": 3,
+    "bulk": 0,
+    "description": "When the bearer has full Hearts, the bearer’s melee weapons gain a Range of 4, with which they may fire projectiles using Might. Projectiles have 1 less base damage than the weapon."
+  },
+  {
+    "id": "butchers_glee",
+    "category": "combat",
+    "name": "Butcher’s Glee",
+    "rarity": "rare",
+    "notches": 4,
+    "bulk": 0,
+    "description": "For every enemy the bearer kills or knocks to Death’s Door, they regain 1 Stamina. Enemies must be both in fighting condition and a threat for this Charm to work."
+  },
+  {
+    "id": "crouching_spider",
+    "category": "combat",
+    "name": "Crouching Spider",
+    "rarity": "uncommon",
+    "notches": 3,
+    "bulk": 0,
+    "description": "The bearer may use Grace to parry instead of Might. On the bearer's turn, their first attack receives a +1 die bonus for each of their parry attempts using Grace which had at least 1 success since their last turn."
+  },
+  {
+    "id": "duelists_focus",
+    "category": "combat",
+    "name": "Duelist’s Focus",
+    "rarity": "uncommon",
+    "notches": 2,
+    "bulk": 0,
+    "description": "When the bearer is adjacent to a single enemy, and no other bugs, they gain a +1 die bonus to use in all combat actions and reactions taken against that enemy."
+  },
+  {
+    "id": "fury_of_the_fallen",
+    "category": "combat",
+    "name": "Fury of the Fallen",
+    "rarity": "rare",
+    "notches": 2,
+    "bulk": 0,
+    "description": "When the bearer is at 1 Heart or less, they deal +1 physical damage and their spells can roll up to 1 extra success into damage."
+  },
+  {
+    "id": "heavy_blow",
+    "category": "combat",
+    "name": "Heavy Blow",
+    "rarity": "uncommon",
+    "notches": 1,
+    "bulk": 0,
+    "description": "Whenever extra Stamina is dedicated to an attack that hits the target, the target will be thrown backwards a number of squares equal to the amount of Stamina dedicated."
+  },
+  {
+    "id": "hunters_glory",
+    "category": "combat",
+    "name": "Hunter’s Glory",
+    "rarity": "common",
+    "notches": 2,
+    "bulk": 0,
+    "description": "Each Hunter’s Glory Charm is different, targeting a different species of bug. This species is decided by the GM, or when the Charm is taken during character creation. The bearer’s attacks against that type of bug are increased by an amount of dice proportional to how general the Charm is, with a maximum of three dice."
+  },
+  {
+    "id": "kick_back",
+    "category": "combat",
+    "name": "Kick Back",
+    "rarity": "common",
+    "notches": 1,
+    "bulk": 0,
+    "description": "After forcefully moving a target, the bearer may move 1 square in any direction, without provoking attacks of opportunity."
+  },
+  {
+    "id": "mark_of_pride",
+    "category": "combat",
+    "name": "Mark of Pride",
+    "rarity": "rare",
+    "notches": 3,
+    "bulk": 0,
+    "description": "Any melee weapon the bearer wields can strike targets 1 space further away."
+  },
+  {
+    "id": "longnail",
+    "category": "combat",
+    "name": "Longnail",
+    "rarity": "uncommon",
+    "notches": 2,
+    "bulk": 0,
+    "description": "Any weapon the bearer wields counts as having the Reach keyword."
+  },
+  {
+    "id": "quick_slash",
+    "category": "combat",
+    "name": "Quick Slash",
+    "rarity": "rare",
+    "notches": 3,
+    "bulk": 0,
+    "description": "The bearer’s second attack on their turn costs 1 less tax Stamina."
+  },
+  {
+    "id": "savage_flurry",
+    "category": "combat",
+    "name": "Savage Flurry",
+    "rarity": "rare",
+    "notches": 3,
+    "bulk": 0,
+    "description": "If the bearer ends their turn with no Stamina, they may immediately make a single free attack."
+  },
+  {
+    "id": "savage_prowess",
+    "category": "combat",
+    "name": "Savage Prowess",
+    "rarity": "uncommon",
+    "notches": 3,
+    "bulk": 0,
+    "description": "The bearer’s improvised weapons have no die penalty, and instead gain a +1 die bonus to hit. When the bearer attacks with an improvised weapon, they may destroy the weapon to deal +2 damage."
+  },
+  {
+    "id": "shadow_nail",
+    "category": "combat",
+    "name": "Shadow Nail",
+    "rarity": "rare",
+    "notches": 2,
+    "bulk": 0,
+    "description": "The bearer manifests a shadowy arm that flits into existence to attack in the blink of an eye. This attack is a melee attack using the bearer’s Might or Grace, which does 1 damage. If it is the second attack made on a turn, it is free. In addition, it may count as one or two weapon types, other than Sling."
+  },
+  {
+    "id": "slayers_tribute",
+    "category": "combat",
+    "name": "Slayer’s Tribute",
+    "rarity": "rare",
+    "notches": 3,
+    "bulk": 0,
+    "description": "The bearer may sacrifice 1 maximum Stamina until the scene ends in order to automatically receive two successes on any one attack roll. If this reduces their maximum Stamina to zero, they fall to zero Hearts and go unconscious. Maximum Stamina is restored on a rest, or when the bug is knocked unconscious by the Charm."
+  },
+  {
+    "id": "soul_strike",
+    "category": "combat",
+    "name": "Soul Strike",
+    "rarity": "uncommon",
+    "notches": 2,
+    "bulk": 0,
+    "description": "Soul spent on the bearer’s turn (up to 2) is added to the next attack of a chosen weapon within 4 squares."
+  },
+  {
+    "id": "tyrants_vindication",
+    "category": "combat",
+    "name": "Tyrant’s Vindication",
+    "rarity": "rare",
+    "notches": 2,
+    "bulk": 0,
+    "description": "When the bearer is at full Hearts, Soak successes against the bearer’s attacks are decreased by 1."
+  },
+  {
+    "id": "vaulting_stag",
+    "category": "combat",
+    "name": "Vaulting Stag",
+    "rarity": "uncommon",
+    "notches": 3,
+    "bulk": 0,
+    "description": "The bearer may use Might to dodge instead of Grace, and may make a free dash or jump after the dodge, which does not provoke an AoO from the attacker. When the bearer dodges an attack with at least 1 success using Might, the attacker suffers a stack of Off-Balance."
+  }
+]

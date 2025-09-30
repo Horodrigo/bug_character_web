@@ -1,0 +1,42 @@
+﻿{
+    "id":  "PATH_SLING",
+    "name":  "Sling",
+  "type":  "martial",
+    "description":  "For those with little interest in meeting their foe\u0027s blade. Go forth, and split them like autumn leaves.",
+    "ranks":  [
+                  {
+                      "rank":  1,
+                      "title":  "Slinger",
+                      "abilities":  [
+                                        {
+                                            "name":  "Good Arm",
+                                            "description":  "May attack using Might instead of Grace with ranged weapons."
+                                        },
+                                        {
+                                            "name":  "Long Shot",
+                                            "description":  "Range can be increased up to twice original range. Each extra square gives -1 die penalty."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  2,
+                      "title":  "Slingmaster",
+                      "abilities":  [
+                                        {
+                                            "name":  "Rebound",
+                                            "description":  "Once per round, if ranged attack is dodged/parried, it ricochets to adjacent target. Empty squares can be targeted to ricochet."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  3,
+                      "title":  "Slingsage",
+                      "abilities":  [
+                                        {
+                                            "name":  "Bullseye",
+                                            "description":  "6s on ranged attacks count as 2 successes."
+                                        }
+                                    ]
+                  }
+              ]
+}

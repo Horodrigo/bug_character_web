@@ -1,0 +1,67 @@
+﻿[
+    {
+        "id":  "MYST_BARREN",
+        "category":  "Mystical",
+        "name":  "Barren",
+        "hungerCost":  2,
+        "description":  "This bug\u0027s shell becomes an Absorption score instead of Shell. Absorption decreases when taking Heart damage and can be damaged by effects that would damage Shell. If dying of starvation, becomes a Husk.",
+        "naturalWeapon":  null,
+        "prerequisites":  [
+                              "shell_2_or_greater"
+                          ],
+        "incompatibleWith":  [
+                                 "BODY_SOFT_BODY"
+                             ],
+        "statEffects":  {
+                            "creep":  1,
+                            "absorption":  "replaces Shell, min 2",
+                            "absorptionDamage":  "decreases when taking Heart damage",
+                            "huskTransformation":  "becomes Husk if dying of starvation"
+                        },
+        "maxInstances":  1
+    },
+    {
+        "id":  "MYST_PALE_FLUFF",
+        "category":  "Mystical",
+        "name":  "Pale Fluff",
+        "hungerCost":  3,
+        "description":  "This bug is covered in dream-attuned fluff. After resting, regains 1 Soul (or 1 Glory Soul if exceeding max). Always knows when in presence of spirits or powerful magic.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "cute":  0.5,
+                            "soulRegen":  "1 Soul after resting",
+                            "spiritSense":  "detects spirits and powerful magic"
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "MYST_SOULMATES",
+        "category":  "Mystical",
+        "name":  "Soulmates",
+        "hungerCost":  3,
+        "description":  "Two bugs are bonded by fate intertwined. They share a Soul pool and feel an instinctive pull toward each other.",
+        "naturalWeapon":  null,
+        "specialRequirement":  "must be taken by two bugs together",
+        "statEffects":  {
+                            "sharedSoulPool":  true,
+                            "bondSense":  "instinctive pull toward counterpart"
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    },
+    {
+        "id":  "MYST_SPIRAL_MARK",
+        "category":  "Mystical",
+        "name":  "Spiral Mark",
+        "hungerCost":  4,
+        "description":  "The bug\u0027s shell is marked by a spiral that warps magic around it. May spend 1 Soul to attempt a Soak roll against magic damage.",
+        "naturalWeapon":  null,
+        "statEffects":  {
+                            "magicSoak":  "spend 1 Soul to soak magic damage",
+                            "absorptionUsage":  "can use Absorption instead of Shell for soak"
+                        },
+        "prerequisites":  null,
+        "maxInstances":  1
+    }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "cloak_cloak_dance",
+    "name": "Cloak Dance",
+    "difficulty": 0,
+    "range": "Self",
+    "duration": null,
+    "description": "As long as the target moves at least 1 space on its turn, it gains one free dodge attempt until the end of its next turn. If Quickened, Cloak Dance costs an additional 1 Soul instead of the Quickening cost of 1 Stamina."
+  },
+  {
+    "id": "cloak_cloak_of_blades",
+    "name": "Cloak of Blades",
+    "difficulty": 1,
+    "range": "Self",
+    "duration": null,
+    "description": "The target twirls, and their clothes become razor sharp, lashing out to cut all around them. Inflicts 2 damage to each adjacent bug at the same height. Resolve this as an AoE attack; this damage is soakable and rolls successes into damage."
+  },
+  {
+    "id": "cloak_dive",
+    "name": "Dive",
+    "difficulty": 0,
+    "range": "Self",
+    "duration": null,
+    "description": "The target plummets 10 squares toward the ground, dealing 2 soakable damage to any bug it lands on. Resolve this as a soakable spell attack made by the caster, which rolls successes into damage. The caster may choose for the target to also take this damage (chosen at Attunement). This spell does not restore Soul on a hit. Spending 1 extra Soul causes the impact to also damage all bugs adjacent to the target upon landing, as an AoE."
+  },
+  {
+    "id": "cloak_fade",
+    "name": "Fade",
+    "difficulty": 2,
+    "range": "Touch",
+    "duration": "Concentration",
+    "description": "The target is invisible as long as they do not take damage. This effect may instead target scent, vibration (sound/tremorsense), or another sense familiar to the caster."
+  },
+  {
+    "id": "cloak_haste",
+    "name": "Haste",
+    "difficulty": 2,
+    "range": "Touch",
+    "duration": "Brief",
+    "description": "The target’s Speed is increased by 2, and it does not incur attacks of opportunity up to 3 times per turn. For an extra 1 Soul, either the Speed gained or the number of times protected can be increased by 2."
+  },
+  {
+    "id": "cloak_homebound",
+    "name": "Homebound",
+    "difficulty": 1,
+    "range": "Touch",
+    "duration": "Brief",
+    "description": "An unoccupied square on solid ground within range goes dark. During the duration, the caster may instantly teleport to that space; they may also use this in retaliation to an attack, but doing so costs 1 Stamina and 1 Soul and must be declared before the attack is rolled. After triggering the teleport, the spell ends. Spending 1 Soul when the spell ends after a trigger allows another use of the teleport."
+  },
+  {
+    "id": "cloak_teleport",
+    "name": "Teleport",
+    "difficulty": 2,
+    "range": "Close",
+    "duration": null,
+    "description": "Teleports a touched target to an unoccupied square the caster can accurately sense within range."
+  }
+]

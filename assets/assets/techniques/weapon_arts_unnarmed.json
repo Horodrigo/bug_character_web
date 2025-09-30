@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ART_ANTLION_PIN",
+    "name": "Antlion Pin",
+    "type": "Unique",
+    "staminaCost": 1,
+    "soulCost": 0,
+    "weaponTypes": ["unarmed"],
+    "description": "When grappling a bug, the user may attempt to entangle them further. The user makes a contested Might check. On a success, the target becomes unable to take any action other than to escape the pin, which returns them to a normal grappled state. The user cannot grapple any other bugs when they pin a bug, and they cannot move whilst they have a bug pinned. Anything that would automatically end or cause a bug to escape a grapple does the same to a pin."
+  },
+  {
+    "id": "ART_DRAGONFLY_PALM_STRIKE",
+    "name": "Dragonfly Palm Strike",
+    "type": "Augmentation",
+    "staminaCost": 2,
+    "soulCost": 0,
+    "weaponTypes": ["unarmed"],
+    "description": "The user strikes a target's body, sending numbing sensations coursing through it like a Dragonfly's lightning. The next unarmed attack the user performs deals Paralyzing Venom stacks up to their Insight, instead of damage. The user may choose to deal fewer stacks. Effects that modify damage may instead modify the Paralyzing Venom stacks dealt, if the user so chooses."
+  },
+  {
+    "id": "ART_GARROTE",
+    "name": "Garrote",
+    "type": "Unique",
+    "staminaCost": 2,
+    "soulCost": 0,
+    "weaponTypes": ["unarmed", "threaded_net", "bug_catcher"],
+    "description": "The user may activate this Art against a target grappled by one of their applicable weapons. The target is squeezed and choked, inflicting 2 Suffocation DoT that fades when the target breaks the grapple."
+  },
+  {
+    "id": "ART_MANTIS_HOLD",
+    "name": "Mantis Hold",
+    "type": "Augmentation",
+    "staminaCost": 1,
+    "soulCost": 0,
+    "weaponTypes": ["unarmed"],
+    "description": "The user slams a grappled bug against the ground, twists them painfully, or otherwise painfully manhandles them. The next unarmed attack the user makes against a grappled bug has a +1 bonus to damage, and a single automatic success. It also rolls successes into damage, up to four times base damage. Alternatively, the user can choose to deal Stamina damage."
+  },
+  {
+    "id": "ART_STAG_THROW",
+    "name": "Stag Throw",
+    "type": "Special",
+    "staminaCost": 1,
+    "soulCost": 0,
+    "weaponTypes": ["unarmed"],
+    "description": "The user bodily throws a single grappled bug 4 squares, where they land with stacks of Off-Balance equal to the user's excess successes on the last grapple check made against that bug, to a minimum of 1. If the user throws a bug at an occupied square, they make a ranged Might-based Slam attack against the target, with the thrown bug's size determining the Slam damage. Quality of the throw is equal to the user's Unarmed Strike Quality. If the thrown bug is a friendly, willing creature, it receives no Off-Balance and may make its own, unarmed melee attack roll for the target of any thrown Slam attack with no Stamina dedication. The better of the two attack rolls is used. Extra Stamina may be dedicated to the thrown attack as if it were a normal attack."
+  }
+]

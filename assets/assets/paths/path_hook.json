@@ -1,0 +1,61 @@
+﻿{
+    "id":  "PATH_HOOK",
+    "name":  "Hook",
+  "type":  "martial",
+    "description":  "Masters of tactical manipulation. They rob their enemies of free choice, only delivering the last blow when victory is forgone.",
+    "ranks":  [
+                  {
+                      "rank":  1,
+                      "title":  "Hooksbug",
+                      "customPool":  [
+                                                    {
+                                                        "Stash":  1
+                                                    }
+                                        ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Subtle Sickle",
+                                            "description":  "May attack using Grace instead of Might with melee weapons (except 2+ Bulk weapons)."
+                                        },
+                                        {
+                                            "name":  "Push and Pull",
+                                            "description":  "When dealing damage risk, may deal 1 less damage to move target 1 square (2 with heavy weapon)."
+                                        },
+                                        {
+                                            "name":  "Bag of Tricks",
+                                            "description":  "Gain +1 Stash pool and know two common/uncommon trap recipes."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  2,
+                      "title":  "Hookmaster",
+                      "customPool":  [
+                                                    {
+                                                        "Stash":  1
+                                                    }
+                                        ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Clever Tricks",
+                                            "description":  "Deploy traps at range 3. Traps can have sensitive triggers affecting adjacent squares. +1 max Stash, learn one new trap recipe."
+                                        }
+                                    ]
+                  },
+                  {
+                      "rank":  3,
+                      "title":  "Hooksage",
+                      "customPool":  [
+                                                    {
+                                                        "Stash":  1
+                                                    }
+                                        ],
+                      "abilities":  [
+                                        {
+                                            "name":  "Cheat to Win",
+                                            "description":  "After damaging or affecting target, may inflict Status Effect lowering primary attributes by 1 or Speed by 2 until next turn. +1 max Stash, learn one new trap recipe."
+                                        }
+                                    ]
+                  }
+              ]
+}
