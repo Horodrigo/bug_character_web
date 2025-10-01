@@ -96,13 +96,13 @@
         "hungerCost":  0,
         "description":  "The bug is specialized for flight but clumsy on ground. Land speed -2, flying speed +2.",
         "naturalWeapon":  null,
-        "parentTraitId":  "MOVE_LESSER_FLIGHT",
+        "parentTraitId":  "MOVE_FLIGHT",
         "statEffects":  {
                             "landSpeed":  -2,
                             "flySpeed":  2
                         },
         "prerequisites":  [
-                              "MOVE_LESSER_FLIGHT"
+                              "MOVE_FLIGHT"
                           ],
         "maxInstances":  1
     },
@@ -154,21 +154,11 @@
         "hungerCost":  2,
         "description":  "This bug can breathe underwater. May be taken as Subtrait of Swimming.",
         "naturalWeapon":  null,
-        "prerequisites":  null,
-        "maxInstances":  1
-    },
-    {
-        "id":  "MOVE_WATERBREATHING_SUB",
-        "category":  "Movement",
-        "name":  "Waterbreathing",
-        "hungerCost":  2,
-        "description":  "This bug can breathe underwater. May be taken as Subtrait of Swimming.",
-        "naturalWeapon":  null,
         "statEffects":  {
                             "underwaterBreathing":  true
                         },
         "prerequisites":  null,
-        "parentTraitId":  "MOVE_SWIMMING",
+        "parentTraitId":  "MOVE_WATER_TREADING",
         "maxInstances":  1
     }
 ]
