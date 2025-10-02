@@ -94994,7 +94994,9 @@ p=q.Q
 q=p==null?q.y:p
 p=A.b5(4)
 o=l.c
-n=A.j(J.aKq(o.Q.h(0,"range"),a1))
+n=o.Q
+n=n==null?k:n.h(0,"range")
+n=A.j(J.aKq(n==null?0:n,a1))
 m=A.r(a).ok.z
 m=m==null?k:m.jB(B.a0)
 m=A.b([A.l("Range "+n+":",k,k,k,k,m,k,k,k),B.aJ],s)
