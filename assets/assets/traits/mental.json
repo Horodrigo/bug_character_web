@@ -22,8 +22,7 @@
         "description":  "This bug is no stranger to desperation, and will do anything to see tomorrow. When at 1 Heart or below, this bug\u0027s Speed increases by 2, and they gain +2 dice on Soak rolls.",
         "naturalWeapon":  null,
         "statEffects":  {
-                            "cute":  -0.5,
-                            "conditionalBonus":  "+2 Speed and +2 Soak dice at 1 Heart or below"
+                            "cute":  -0.5
                         },
         "prerequisites":  null,
         "maxInstances":  1
@@ -67,13 +66,12 @@
         "hungerCost":  3,
         "description":  "This bug is able to use crafted weapons and tools, at a -1 die penalty.",
         "naturalWeapon":  null,
-        "parentTraitId":  "MENTAL_FERAL",
         "statEffects":  {
                             "toolUsePenalty":  -1,
                             "removesRestriction":  "can use crafted weapons and tools"
                         },
         "prerequisites":  [
-                              "MENTAL_FERAL"
+                              {"type": "trait", "value": "MENTAL_FERAL"}
                           ],
         "maxInstances":  1
     },

@@ -22,13 +22,12 @@
         "hungerCost":  4,
         "description":  "This bug\u0027s arms are massive and can block an entire face. Raising both arms gives carapace shield effect.",
         "naturalWeapon":  null,
-        "parentTraitId":  "DEF_BLOCKING_ARMS",
         "statEffects":  {
                             "fullBlock":  "carapace shield effect with both arms",
                             "sharedDamage":  "damage dealt to both arms when blocking"
                         },
         "prerequisites":  [
-                              "DEF_BLOCKING_ARMS"
+                              {"type": "trait", "value": "DEF_BLOCKING_ARMS"}
                           ],
         "maxInstances":  1
     },
@@ -58,12 +57,11 @@
         "hungerCost":  3,
         "description":  "The bug\u0027s camouflage adapts to any environment. Stealth bonus applies in any terrain.",
         "naturalWeapon":  null,
-        "parentTraitId":  "DEF_CAMOUFLAGE",
         "statEffects":  {
                             "adaptiveCamouflage":  "Stealth bonus in any environment"
                         },
         "prerequisites":  [
-                              "DEF_CAMOUFLAGE"
+                              {"type": "trait", "value": "DEF_CAMOUFLAGE"}
                           ],
         "maxInstances":  1
     },
@@ -87,12 +85,11 @@
         "hungerCost":  3,
         "description":  "Before ending turn while curled, may roll 5+Speed squares in straight line. Can attack with Spiky or Slam before ending turn.",
         "naturalWeapon":  null,
-        "parentTraitId":  "DEF_DEFENSIVE_CURL",
         "statEffects":  {
                             "rollingAttack":  "dash 5+Speed squares, attack with Spiky/Slam"
                         },
         "prerequisites":  [
-                              "DEF_DEFENSIVE_CURL"
+                              {"type": "trait", "value": "DEF_DEFENSIVE_CURL"}
                           ],
         "maxInstances":  1
     },
@@ -162,13 +159,12 @@
         "hungerCost":  3,
         "description":  "This bug\u0027s blood is caustic. Damage sprays blood onto adjacent square, applying Status Effect to sprayed bugs.",
         "naturalWeapon":  null,
-        "parentTraitId":  "DEF_POISONOUS",
         "statEffects":  {
                             "bloodSpray":  "damage sprays blood to adjacent square",
                             "areaPoison":  "sprayed bugs get damage Status Effect"
                         },
         "prerequisites":  [
-                              "DEF_POISONOUS"
+                              {"type": "trait", "value": "DEF_POISONOUS"}
                           ],
         "maxInstances":  1
     },
@@ -185,56 +181,6 @@
                            "required":  true,
                            "note":  "choose resistance type (blunt, fire, etc)"
                        },
-        "statEffects":  {
-                            "damageResistance":  "+4 Soak dice vs chosen damage type",
-                            "statusResist":  "4d6 to resist related Status Effects"
-                        },
-        "prerequisites":  null,
-        "maxInstances":  1
-    },
-    {
-        "id":  "DEF_PARALYZING_VENOM",
-        "category":  "Natural Defense",
-        "name":  "Paralyzing Venom",
-        "hungerCost":  0,
-        "description":  "May be taken as a subtrait of any Trait which inflicts DoT. In place of DoT, twice as many stacks of Paralyzing Venom are applied. Paralyzing Venom is a Status Effect with escalating effects based on stack count.",
-        "naturalWeapon":  null,
-        "parentTraitId":  ["DEF_POISONOUS"],
-        "incompatibleWith":  [
-                                 "DEF_EXOTIC_VENOM"
-                             ],
-        "statEffects":  {
-
-                        },
-        "prerequisites":  null,
-        "maxInstances":  1
-    },
-    {
-        "id":  "DEF_EXOTIC_VENOM",
-        "category":  "Natural Defense",
-        "name":  "Exotic Venom",
-        "hungerCost":  {
-                           "common":  0,
-                           "uncommon":  2
-                       },
-        "description":  "May be taken as a subtrait of any Trait which inflicts DoT as part of a Status Effect. The bug\u0027s venom takes the effects of a poison, or a targeted or ingested flask effect, instead of its normal DoT. The bug gains the recipe of their Exotic Venom, and can produce it even without the correct Stash Path. If taken as a Subtrait of Stinger, reduce the Hunger cost by 2.",
-        "naturalWeapon":  null,
-        "parentTraitId":  ["DEF_POISONOUS"],
-        "selectFrom":  {
-                           "collection":  "poison_flasks",
-                           "multi":  false,
-                           "required":  true,
-                           "rarityFilter":  [
-                                                "common",
-                                                "uncommon"
-                                            ]
-                       },
-        "incompatibleWith":  [
-                                 "DEF_PARALYZING_VENOM"
-                             ],
-        "selectableEffects":  {
-                                  "effectSource":  "selectedPoisonFlask"
-                              },
         "prerequisites":  null,
         "maxInstances":  1
     }

@@ -36,7 +36,7 @@
     "name": "Primal Ichor",
     "hungerCost": 3,
     "description": "This bug's blood has strong healing properties. Bugs who consume it gain an additional Lifeblood Heart, heal 1 point of damage to any Attributes, and are cleared of 1 point of all DoT and negative Status Effects. The bug may take unsoakable damage to cure an equal number of points of those effects from themselves as a Focus Action.",
-    "prerequisites": ["PHYS_BLOOD_OF_ANCIENTS"],
+    "prerequisites": [{"type": "trait", "value": "PHYS_BLOOD_OF_ANCIENTS"}],
     "maxInstances": 1
   },
   {
@@ -162,7 +162,7 @@
     "name": "Drop Decoy",
     "hungerCost": 2,
     "description": "This bug may safely detach limbs at will. Detached limbs twitch and secrete pheromones that trick feral bugs and those that rely on scent into believing the limb is the bug until closely inspected. Bugs with Prehensile Tail may detach their tail instead. A bug with only one arm left gains the One Arm Trait until it regenerates; gains Armless if it has no arms left. A bug with one or fewer legs gains Legless until it has two legs again.",
-    "prerequisites": ["PHYS_MOLTING"],
+    "prerequisites": [{"type": "trait", "value": "PHYS_MOLTING"}],
     "maxInstances": 1
   },
   {
@@ -171,7 +171,7 @@
     "name": "Quick Molt",
     "hungerCost": 4,
     "description": "This bug can molt extremely quickly. By expending Belly (up to 15), it may Focus to molt. While molting and for 3 rounds afterwards, the bug may not add Shell to soak rolls.",
-    "prerequisites": ["PHYS_MOLTING"],
+    "prerequisites": [{"type": "trait", "value": "PHYS_MOLTING"}],
     "maxInstances": 1
   },
   {

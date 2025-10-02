@@ -2,7 +2,7 @@
   {
     "id": "nail",
     "name": "Nail",
-    "type": "Nail",
+    "type": ["Nail"],
     "damage": 3,
     "range": { "melee": 1, "range": null },
     "hands": 1,
@@ -13,7 +13,7 @@
   {
     "id": "greatnail",
     "name": "Greatnail",
-    "type": "Nail, Tusk",
+    "type": ["Nail", "Tusk"],
     "damage": 4,
     "range": { "melee": 1, "range": null },
     "hands": 2,
@@ -24,7 +24,7 @@
   {
     "id": "nail_lance",
     "name": "Nail Lance",
-    "type": "Nail, Lance",
+    "type": ["Nail", "Lance"],
     "damage": 3,
     "range": { "melee": 2, "range": null },
     "hands": 2,
@@ -35,7 +35,7 @@
   {
     "id": "needle",
     "name": "Needle",
-    "type": "Needle",
+    "type": ["Needle"],
     "damage": 3,
     "range": { "melee": 1, "range": 3 },
     "hands": 1,
@@ -46,7 +46,7 @@
   {
     "id": "darning_needle",
     "name": "Darning Needle",
-    "type": "Needle, Tusk",
+    "type": ["Needle", "Tusk"],
     "damage": 3,
     "range": { "melee": 2, "range": null },
     "hands": 2,
@@ -57,7 +57,7 @@
   {
     "id": "pinblade",
     "name": "Pinblade",
-    "type": "Nail, Needle",
+    "type": ["Nail", "Needle"],
     "damage": 3,
     "range": { "melee": 1, "range": null },
     "hands": 1,
@@ -68,7 +68,7 @@
   {
     "id": "pin",
     "name": "Pin",
-    "type": "Needle, Hook",
+    "type": ["Needle", "Hook"],
     "damage": 2,
     "range": { "melee": 1, "range": null },
     "hands": 1,
@@ -79,7 +79,7 @@
   {
     "id": "tack",
     "name": "Tack",
-    "type": "Needle, Sling",
+    "type": ["Needle", "Sling"],
     "damage": 1,
     "range": { "melee": 1, "range": 4 },
     "hands": 1,
@@ -90,18 +90,18 @@
   {
     "id": "stake",
     "name": "Stake",
-    "type": "Nail, Sling",
+    "type": ["Nail", "Sling"],
     "damage": 1,
     "range": { "melee": 1, "range": 4 },
     "hands": 1,
     "bulk": "L",
     "cost": 10,
-    "description": "Stakes may be paired with any weapon. A Stake’s rollover cap is equal to 5x its base damage."
+    "description": "Stakes may be paired with any weapon. A Stake's rollover cap is equal to 5x its base damage."
   },
   {
     "id": "quill",
     "name": "Quill",
-    "type": "Hook, Sling",
+    "type": ["Hook", "Sling"],
     "damage": 1,
     "range": { "melee": 1, "range": 4 },
     "hands": 1,
@@ -112,40 +112,40 @@
   {
     "id": "hook",
     "name": "Hook",
-    "type": "Hook",
+    "type": ["Hook"],
     "damage": 3,
     "range": { "melee": 1, "range": null },
     "hands": 1,
     "bulk": 1,
     "cost": 100,
-    "description": "When a Hook hits, the wielder may spend 1 Stamina to reduce the target’s Shell by 1. Shell reduction from Hook weapons may stack up to 2."
+    "description": "When a Hook hits, the wielder may spend 1 Stamina to reduce the target's Shell by 1. Shell reduction from Hook weapons may stack up to 2."
   },
   {
     "id": "great_hook",
     "name": "Great Hook",
-    "type": "Hook",
+    "type": ["Hook"],
     "damage": 3,
     "range": { "melee": 1, "range": null },
     "hands": 2,
     "bulk": 2,
     "cost": 150,
-    "description": "When a Great Hook hits, the wielder may spend 1 Stamina to reduce the target’s Shell by 2. Shell reduction from Hook weapons may stack up to 2."
+    "description": "When a Great Hook hits, the wielder may spend 1 Stamina to reduce the target's Shell by 2. Shell reduction from Hook weapons may stack up to 2."
   },
   {
     "id": "polehook",
     "name": "Polehook",
-    "type": "Hook",
+    "type": ["Hook"],
     "damage": 3,
     "range": { "melee": 2, "range": null },
     "hands": 3,
     "bulk": 1,
     "cost": 150,
-    "description": "When a Polehook hits, the wielder may spend 1 Stamina to reduce the target’s Shell by 1. Shell reduction from Hook weapons may stack up to 2."
+    "description": "When a Polehook hits, the wielder may spend 1 Stamina to reduce the target's Shell by 1. Shell reduction from Hook weapons may stack up to 2."
   },
   {
     "id": "fork",
     "name": "Fork",
-    "type": "Needle, Hook",
+    "type": ["Needle", "Hook"],
     "damage": 2,
     "range": { "melee": 2, "range": null },
     "hands": 1,
@@ -156,7 +156,7 @@
   {
     "id": "whip",
     "name": "Whip",
-    "type": "Needle, Hook",
+    "type": ["Needle", "Hook"],
     "damage": 2,
     "range": { "melee": 2, "range": null },
     "hands": 1,
@@ -167,18 +167,18 @@
   {
     "id": "boomerang",
     "name": "Boomerang",
-    "type": "Hook, Sling",
+    "type": ["Hook", "Sling"],
     "damage": 2,
     "range": { "melee": 1, "range": 4 },
     "hands": 1,
     "bulk": "L",
     "cost": 50,
-    "description": "After making a throwing attack with a Boomerang, roll a d6. If this roll is less than or equal to the wielder’s Grace, the weapon returns after the attack. Boomerangs fly in a curving arc, allowing them to ignore cover and Shields when thrown."
+    "description": "After making a throwing attack with a Boomerang, roll a d6. If this roll is less than or equal to the wielder's Grace, the weapon returns after the attack. Boomerangs fly in a curving arc, allowing them to ignore cover and Shields when thrown."
   },
   {
     "id": "screw",
     "name": "Screw",
-    "type": "Nail, Hook",
+    "type": ["Nail", "Hook"],
     "damage": 3,
     "range": { "melee": 1, "range": null },
     "hands": 1,
@@ -189,7 +189,7 @@
   {
     "id": "tusk",
     "name": "Tusk",
-    "type": "Tusk",
+    "type": ["Tusk"],
     "damage": 4,
     "range": { "melee": 1, "range": null },
     "hands": 2,
@@ -200,7 +200,7 @@
   {
     "id": "longtusk",
     "name": "Longtusk",
-    "type": "Tusk",
+    "type": ["Tusk"],
     "damage": 4,
     "range": { "melee": 2, "range": null },
     "hands": 3,
@@ -211,7 +211,7 @@
   {
     "id": "ultratusk",
     "name": "Ultratusk",
-    "type": "Tusk",
+    "type": ["Tusk"],
     "damage": 4,
     "range": { "melee": 1, "range": null },
     "hands": 3,
@@ -222,7 +222,7 @@
   {
     "id": "bolt",
     "name": "Bolt",
-    "type": "Tusk",
+    "type": ["Tusk"],
     "damage": 3,
     "range": { "melee": 1, "range": null },
     "hands": 1,

@@ -7,7 +7,7 @@
         "description":  "This bug\u0027s shell becomes an Absorption score instead of Shell. Absorption decreases when taking Heart damage and can be damaged by effects that would damage Shell. If dying of starvation, becomes a Husk.",
         "naturalWeapon":  null,
         "prerequisites":  [
-                              "shell_2_or_greater"
+                              {"type": "shell", "value": 2.0}
                           ],
         "incompatibleWith":  [
                                  "BODY_SOFT_BODY"

@@ -31,13 +31,12 @@
                               "weaponType":  "natural",
                               "special":  "+2 die bonus on grapple checks, 1 bulk"
                           },
-        "parentTraitId":  "NW_CRUSHING_MANDIBLES",
         "statEffects":  {
                             "creep":  0.5,
                             "cute":  -0.5
                         },
         "prerequisites":  [
-                              "NW_CRUSHING_MANDIBLES"
+                              {"type": "trait", "value": "NW_CRUSHING_MANDIBLES"}
                           ],
         "maxInstances":  1
     },
@@ -51,7 +50,6 @@
                        },
         "description":  "May be taken as a subtrait of any Trait which inflicts DoT as part of a Status Effect. The bug\u0027s venom takes the effects of a poison, or a targeted or ingested flask effect, instead of its normal DoT. The bug gains the recipe of their Exotic Venom, and can produce it even without the correct Stash Path. If taken as a Subtrait of Stinger, reduce the Hunger cost by 2.",
         "naturalWeapon":  null,
-        "parentTraitId":  ["NW_STINGER", "NW_VENOMOUS_BITE"],
         "selectFrom":  {
                            "collection":  "poison_flasks",
                            "multi":  false,
@@ -71,7 +69,7 @@
                                                         "reduceBy":  2
                                                     }
                               },
-        "prerequisites":  null,
+        "prerequisites":  [{"type": "trait_any", "value": ["NW_STINGER", "NW_VENOMOUS_BITE", "DEF_POISONOUS"]}],
         "maxInstances":  1
     },
     {
@@ -117,7 +115,7 @@
         "category":  "Natural Weapon",
         "name":  "Natural Projectile",
         "hungerCost":  4,
-        "description":  "This bug can launch a projectile from its body. It deals 2 damage and has a range of 4 squares. This natural weapon has the Sling weapon type. This Trait may be taken multiple times with different Subtraits on each.",
+        "description":  "This bug can launch a projectile from its body. It deals 2 damage and has a range of 4 squares. This natural weapon has the Sling weapon type.",
         "naturalWeapon":  {
                               "name":  "Natural Projectile",
                               "damage":  2,
@@ -142,7 +140,6 @@
         "hungerCost":  0,
         "description":  "The projectile deals no damage, instead inflicting a debuff. When this trait is taken, choose a Primary Attribute, Pool, or Speed. When the projectile hits, the affected bug makes a Shell check. The hit lowers the Attribute or maximum Pool by 1 point per 2 points in the debuff pool.",
         "naturalWeapon":  null,
-        "parentTraitId":  "NW_NATURAL_PROJECTILE",
         "selectFrom":  {
                            "collection":  "attributes_pools",
                            "multi":  false,
@@ -156,7 +153,7 @@
 
                         },
         "prerequisites":  [
-                              "NW_NATURAL_PROJECTILE"
+                              {"type": "trait", "value": "NW_NATURAL_PROJECTILE"}
                           ],
         "maxInstances":  1
     },
@@ -170,7 +167,6 @@
                        },
         "description":  "This bug\u0027s projectile can contain a certain concoction. Instead of its normal damage, the projectile delivers that flask\u0027s effects. The bug gains the recipe of their Fluids, and can produce it even without the correct Stash Path.",
         "naturalWeapon":  null,
-        "parentTraitId":  "NW_NATURAL_PROJECTILE",
         "selectFrom":  {
                            "collection":  "flasks",
                            "multi":  false,
@@ -188,7 +184,7 @@
 
                         },
         "prerequisites":  [
-                              "NW_NATURAL_PROJECTILE"
+                              {"type": "trait", "value": "NW_NATURAL_PROJECTILE"}
                           ],
         "maxInstances":  1
     },
@@ -199,12 +195,11 @@
         "hungerCost":  0,
         "description":  "The projectile deals 1 more damage and is considered a heavy weapon. Can be taken with Crippling Shot, Obscuring Shot or Spray.",
         "naturalWeapon":  null,
-        "parentTraitId":  "NW_NATURAL_PROJECTILE",
         "statEffects":  {
 
                         },
         "prerequisites":  [
-                              "NW_NATURAL_PROJECTILE"
+                              {"type": "trait", "value": "NW_NATURAL_PROJECTILE"}
                           ],
         "maxInstances":  1,
         "compatibleWith":  [
@@ -220,7 +215,6 @@
         "hungerCost":  0,
         "description":  "The projectile deals no damage, instead targeting the senses of other bugs. When this bug makes an attack, it chooses a sense to target. The bug hit loses access to the sense via a debuff.",
         "naturalWeapon":  null,
-        "parentTraitId":  "NW_NATURAL_PROJECTILE",
         "selectFrom":  {
                            "collection":  "senses",
                            "multi":  false,
@@ -233,7 +227,7 @@
 
                         },
         "prerequisites":  [
-                              "NW_NATURAL_PROJECTILE"
+                              {"type": "trait", "value": "NW_NATURAL_PROJECTILE"}
                           ],
         "maxInstances":  1
     },
@@ -241,10 +235,9 @@
         "id":  "NW_SPRAY",
         "category":  "Natural Weapon",
         "name":  "Spray",
-        "hungerCost":  2,
+        "hungerCost":  0,
         "description":  "The projectile affects a Cone of short, long or wide size. It costs 1 extra tax Stamina to use. It is resolved as an AoE. May be taken with Crippling Shot, Obscuring Shot or Fluids.",
         "naturalWeapon":  null,
-        "parentTraitId":  "NW_NATURAL_PROJECTILE",
         "selectFrom":  {
                            "collection":  "cone_sizes",
                            "multi":  false,
@@ -262,7 +255,7 @@
 
                         },
         "prerequisites":  [
-                              "NW_NATURAL_PROJECTILE"
+                              {"type": "trait", "value": "NW_NATURAL_PROJECTILE"}
                           ],
         "maxInstances":  1,
         "compatibleWith":  [
@@ -309,12 +302,11 @@
         "hungerCost":  3,
         "description":  "This bug can release a trail of their natural secretions. Every square moved through is covered by the secretions. When a bug crosses the trail, it is afflicted with the secretion\u0027s effects.",
         "naturalWeapon":  null,
-        "parentTraitId":  "NW_NATURAL_SECRETION",
         "statEffects":  {
 
                         },
         "prerequisites":  [
-                              "NW_NATURAL_SECRETION"
+                              {"type": "trait", "value": "NW_NATURAL_SECRETION"}
                           ],
         "maxInstances":  1
     },
@@ -348,14 +340,13 @@
         "hungerCost":  0,
         "description":  "May be taken as a subtrait of any Trait which inflicts DoT. In place of DoT, twice as many stacks of Paralyzing Venom are applied. Paralyzing Venom is a Status Effect with escalating effects based on stack count.",
         "naturalWeapon":  null,
-        "parentTraitId":  ["NW_STINGER", "NW_VENOMOUS_BITE"],
         "incompatibleWith":  [
                                  "NW_EXOTIC_VENOM"
                              ],
         "statEffects":  {
 
                         },
-        "prerequisites":  null,
+        "prerequisites":  [{"type": "trait_any", "value": ["NW_STINGER", "NW_VENOMOUS_BITE", "DEF_POISONOUS"]}],
         "maxInstances":  1
     },
     {
@@ -390,13 +381,12 @@
                               "weaponType":  "Tusk",
                               "special":  "4 damage vs grappled bugs, 1 bulk, limits dexterity"
                           },
-        "parentTraitId":  "NW_PINCERS",
         "statEffects":  {
                             "creep":  0.5,
                             "cute":  -0.5
                         },
         "prerequisites":  [
-                              "NW_PINCERS"
+                              {"type": "trait", "value": "NW_PINCERS"}
                           ],
         "maxInstances":  1
     },
@@ -546,12 +536,11 @@
         "hungerCost":  2,
         "description":  "This bug\u0027s stinger is located at the end of a tail, and has no penalty to hit.",
         "naturalWeapon":  null,
-        "parentTraitId":  "NW_STINGER",
         "statEffects":  {
                             "creep":  0.5
                         },
         "prerequisites":  [
-                              "NW_STINGER"
+                              {"type": "trait", "value": "NW_STINGER"}
                           ],
         "maxInstances":  1
     },
@@ -604,8 +593,7 @@
     "name": "Bloodsucker",
     "hungerCost": 4,
     "description": "This bug may drink fresh blood for sustenance. It may draw blood using a 0-damage bite attack; on a success, it gains 5 Belly and the target loses 10 Belly. If the target is willing, incapacitated, or freshly slain, those numbers double and the bug may trigger this ability multiple times, paying 1 Stamina per additional use. This trait may be taken as a subtrait of a natural weapon used for a bite attack; if so, it may only be used with that natural weapon.",
-    "prerequisites": null,
-    "parentTraitId":  ["NW_SHARP_PROBOSCIS", "NW_CRUSHING_MANDIBLES"],
+    "prerequisites": [{"type": "trait_any", "value": ["NW_SHARP_PROBOSCIS", "NW_CRUSHING_MANDIBLES"]}],
     "maxInstances": 1
   }
 ]

@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "id": "BODY_ARMLESS",
         "category": "Body",
@@ -26,10 +26,9 @@
         "hungerCost": 2,
         "description": "This bug may spend 1 Stamina to stretch its body out, occupying 4 squares in a straight line. Returns to normal on next turn.",
         "naturalWeapon": null,
-        "parentTraitId": "BODY_CONTORTIONIST",
         "prerequisites": [
-            "BODY_CONTORTIONIST",
-            "large_size"
+            {"type": "trait", "value": "BODY_CONTORTIONIST"},
+            {"type": "size", "value": "large"}
         ],
         "maxInstances": 1
     },
@@ -63,9 +62,8 @@
         "hungerCost": 3,
         "description": "This bug has many legs. Cannot be knocked down or displaced unless fully lifted. May ignore rough terrain by reducing Speed by 1.",
         "naturalWeapon": null,
-        "parentTraitId": "BODY_EXTRA_LEGS",
         "prerequisites": [
-            "BODY_EXTRA_LEGS"
+            {"type": "trait", "value": "BODY_EXTRA_LEGS"}
         ],
         "maxInstances": 1
     },
@@ -84,7 +82,7 @@
             "ATTR_WEAK"
         ],
         "prerequisites": [
-            "small_size"
+            {"type": "size", "value": "small"}
         ],
         "maxInstances": 1
     },
@@ -109,9 +107,8 @@
         "hungerCost": 1,
         "description": "This bug\u0027s tail allows swift movement in water. No dodge penalty in water, +3 Speed while swimming.",
         "naturalWeapon": null,
-        "parentTraitId": "BODY_LEGLESS",
         "prerequisites": [
-            "BODY_LEGLESS"
+            {"type": "trait", "value": "BODY_LEGLESS"}
         ],
         "maxInstances": 1
     },
@@ -167,12 +164,11 @@
         "hungerCost": 5,
         "description": "This bug has an external shell for protection. Shell has Absorption equal to base Shell. Can retreat into shell for 1 Stamina.",
         "naturalWeapon": null,
-        "parentTraitId": "BODY_SOFT_BODY",
         "incompatibleWith": [
             "BODY_REGENERATION"
         ],
         "prerequisites": [
-            "BODY_SOFT_BODY"
+            {"type": "trait", "value": "BODY_SOFT_BODY"}
         ],
         "maxInstances": 1
     },
@@ -183,9 +179,8 @@
         "hungerCost": 2,
         "description": "This bug\u0027s shell is made of trinkets. Can produce mundane objects (100 Geo or less) at cost of 1 Durability.",
         "naturalWeapon": null,
-        "parentTraitId": "BODY_SOFT_BODY",
         "prerequisites": [
-            "BODY_EXTERNAL_SHELL", "BODY_SOFT_BODY"
+            {"type": "trait_any", "value": ["BODY_EXTERNAL_SHELL", "BODY_SOFT_BODY"]}
         ],
         "maxInstances": 1
     },
@@ -196,9 +191,8 @@
         "hungerCost": 0,
         "description": "This bug uses shells from other bugs. Shell uses original owner\u0027s Shell scores for Absorption and durability. Shell always counts as object. Durability only recovered by repair.",
         "naturalWeapon": null,
-        "parentTraitId": "BODY_SOFT_BODY",
         "prerequisites": [
-            "BODY_EXTERNAL_SHELL", "BODY_SOFT_BODY"
+            {"type": "trait_any", "value": ["BODY_EXTERNAL_SHELL", "BODY_SOFT_BODY"]}
         ],
         "maxInstances": 1
     },
@@ -209,12 +203,11 @@
         "hungerCost": 5,
         "description": "If ending turn with missing Heart, may roll Shell check to heal Hearts (5 Belly per Heart). Cannot regenerate Vulnerable damage.",
         "naturalWeapon": null,
-        "parentTraitId": "BODY_SOFT_BODY",
         "incompatibleWith": [
             "BODY_EXTERNAL_SHELL"
         ],
         "prerequisites": [
-            "BODY_SOFT_BODY"
+            {"type": "trait", "value": "BODY_SOFT_BODY"}
         ],
         "maxInstances": 1
     },
