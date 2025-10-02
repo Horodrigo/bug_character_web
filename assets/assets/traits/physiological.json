@@ -5,9 +5,12 @@
     "name": "Alien Body",
     "hungerCost": -4,
     "description": "This bug’s body is configured strangely. Depending on how visible these differences are, this Trait grants up to +2 Creep at the cost of equal loss of Cute. Healers find it difficult to heal this bug: any attempt by an outside source to heal this bug loses 1 success after it is rolled. When using a drug or potion not specifically made for this kind of bug, roll a die: 1-2 no effect, 3-4 normal, 5-6 double effect.",
-    "statEffects": {
-      "creep": "+0 to +2",
-      "cute": "-0 to -2"
+    "configurableTradeoff": {
+      "bonusStat": "creep",
+      "penaltyStat": "cute",
+      "maxBonus": 2.0,
+      "increment": 0.5,
+      "configKey": "creepBonus"
     },
     "prerequisites": null,
     "maxInstances": 1

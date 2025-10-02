@@ -7,7 +7,10 @@
         "description": "This bug has no arms, and cannot wield weapons or shields. Has great difficulty with manual dexterity tasks(Adjusted by the DM).",
         "naturalWeapon": null,
         "prerequisites": null,
-        "maxInstances": 1
+        "maxInstances": 1,
+        "incompatibleWith": [
+            "BODY_EXTRA_ARMS", "BODY_ONE_ARM"
+        ]
     },
     {
         "id": "BODY_CONTORTIONIST",
@@ -40,7 +43,10 @@
         "description": "This bug has an extra pair of arms equally as functional as their others.",
         "naturalWeapon": null,
         "prerequisites": null,
-        "maxInstances": 1
+        "maxInstances": 1,
+        "incompatibleWith": [
+            "BODY_ARMLESS"
+        ]
     },
     {
         "id": "BODY_EXTRA_LEGS",
@@ -53,7 +59,10 @@
             "load": 1
         },
         "prerequisites": null,
-        "maxInstances": 1
+        "maxInstances": 1,
+        "incompatibleWith": [
+            "BODY_LEGLESS"
+        ]
     },
     {
         "id": "BODY_POLYPOD",
@@ -98,7 +107,10 @@
             "speed": -1
         },
         "prerequisites": null,
-        "maxInstances": 1
+        "maxInstances": 1,
+        "incompatibleWith": [
+            "BODY_EXTRA_LEGS"
+        ]
     },
     {
         "id": "BODY_AQUATIC_TAIL",
