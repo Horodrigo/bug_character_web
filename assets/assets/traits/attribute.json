@@ -25,7 +25,7 @@
         "category":  "Attribute",
         "name":  "Bug of Burden",
         "hungerCost":  1,
-        "description":  "This bug\u0027s Load is increased by 1. This trait may be taken up to three times.",
+        "description":  "This bug\u0027s Load is increased by 1. This trait may be taken up to three times, costing 2 hunger after the first time.",
         "naturalWeapon":  null,
         "stacking":  {
                          "repeatable":  true,

@@ -1,0 +1,73 @@
+[
+    {
+        "id": "SMOD_LIGHTENED",
+        "name": "Lightened",
+        "description": "The shield has -1 Bulk and -1 Quality.",
+        "cost": "100",
+        "plusHalfBaseCost": true,
+        "statEffects": {
+            "bulk": -1,
+            "quality": -1
+        }
+    },
+    {
+        "id": "SMOD_FORTIFIED",
+        "name": "Fortified",
+        "description": "The shield has +1 Bulk and +1 Quality.",
+        "cost": "50",
+        "plusHalfBaseCost": true,
+        "statEffects": {
+            "bulk": 1,
+            "quality": 1
+        }
+    },
+    {
+        "id": "SMOD_SPIKED",
+        "name": "Spiked",
+        "description": "When the wielder parries a valid attack with this shield, the attacker risks damage as though the wielder parried with spikes from the Spiky trait.",
+        "cost": "50",
+        "plusHalfBaseCost": true
+    },
+    {
+        "id": "SMOD_TRICK",
+        "name": "Trick",
+        "description": "The shield may change shape into a weapon, chosen upon taking this modifier, and back. This costs 1 Stamina. Its Bulk is equal to the higher of the two forms. The weapon's Quality is 1, plus any bonuses to shield Quality from other modifiers.",
+        "cost": "50",
+        "plusHalfBaseCost": false,
+        "specialAbility": "morph",
+        "selectFrom": {
+            "collection": "weapons",
+            "multi": false,
+            "required": true
+        }
+    },
+    {
+        "id": "SMOD_PRAGMATIC",
+        "name": "Pragmatic",
+        "description": "This shield counts as a particular tool as well, chosen when applying this modifier, and Quality equal to its shield Quality, to a minimum of 1.",
+        "cost": "50",
+        "plusHalfBaseCost": true,
+        "grantsTool": {
+            "selectFrom": {
+                "collection": "tools",
+                "multi": false,
+                "required": true
+            }
+        }
+    },
+    {
+        "id": "SMOD_BALANCED",
+        "name": "Balanced",
+        "description": "When used to bash, this shield becomes a viable weapon. A shield with 2+ Bulk deals 4 damage, a shield with 1 Bulk deals 3 damage, a Light shield deals 2 damage. The weapon Quality of a shield used to attack in this way is equal to 1 plus any bonuses to the shield's Quality from Modifiers or effects.",
+        "cost": "50",
+        "plusHalfBaseCost": true,
+        "specialAbility": "bashWeapon"
+    },
+    {
+        "id": "SMOD_REFLECTIVE",
+        "name": "Reflective",
+        "description": "This shield may parry spells (and other spell-like attacks) and grants its bearer a single reroll when parrying spells or making an opposed Insight check to resist a magical effect.",
+        "cost": "100",
+        "plusHalfBaseCost": true
+    }
+]

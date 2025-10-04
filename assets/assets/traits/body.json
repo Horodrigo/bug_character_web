@@ -231,10 +231,10 @@
         "description": "This bug has a particular weakness. When damaged or affected by vulnerability, takes 1 unsoakable damage immediately after.",
         "naturalWeapon": null,
         "selectFrom": {
-            "collection": "damage_types",
+            "collection": "user_input",
             "multi": false,
             "required": true,
-            "note": "choose vulnerability type (blunt, fire, etc)"
+            "note": "Enter vulnerability type (e.g., Fire, Ice, Acid, Blunt)"
         },
         "prerequisites": null,
         "maxInstances": 1

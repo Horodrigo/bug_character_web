@@ -1,6 +1,6 @@
 [
   {
-    "id": "MOD_THREADED",
+    "id": "WMOD_THREADED",
     "name": "Threaded",
     "description": "The weapon has been modified to allow a length of attached thread or silk. The weapon can be pulled back to the wielder from afar using the string at the cost of 1 Speed. Thread or silk is sold separately. Can be taken with other Modifiers.",
     "cost": "25",
@@ -8,7 +8,7 @@
     "exclusive": false
   },
   {
-    "id": "MOD_EXTENDED",
+    "id": "WMOD_EXTENDED",
     "name": "Extended",
     "description": "The weapon gains Reach, and +1 handedness. Cannot be applied to Reach weapons. Weapon has +1 Bulk.",
     "cost": "50",
@@ -19,7 +19,7 @@
     }
   },
   {
-    "id": "MOD_HEAVY",
+    "id": "WMOD_HEAVY",
     "name": "Heavy",
     "description": "Inflicts -1 die penalty to hit, but grants a +1 flat damage bonus. Weapon has +1 Bulk.",
     "cost": "50",
@@ -32,7 +32,7 @@
     
   },
   {
-    "id": "MOD_LIGHTENED",
+    "id": "WMOD_LIGHTENED",
     "name": "Lightened",
     "description": "Inflicts a flat -1 damage penalty, but grants a +1 die bonus to hit. Weapon has -1 Bulk.",
     "cost": "50",
@@ -44,14 +44,14 @@
     }
   },
   {
-    "id": "MOD_REFINED",
+    "id": "WMOD_REFINED",
     "name": "Refined",
     "description": "This weapon may roll one more success into damage.",
     "cost": "100",
     "plusHalfBaseCost": true
   },
   {
-    "id": "MOD_TRICK",
+    "id": "WMOD_TRICK",
     "name": "Trick",
     "description": "Choose another weapon. The weapon can 'morph' into that weapon, once for free and then at the cost of Speed equal to its Bulk for additional morphs in the same round. The weapon's Bulk is always as much as its heavier form, and this modifier uses the base cost of the more expensive weapon.",
     "cost": "50",
@@ -64,7 +64,7 @@
                        }
   },
   {
-    "id": "MOD_VERSATILE",
+    "id": "WMOD_VERSATILE",
     "name": "Versatile",
     "description": "Add one weapon type to this weapon for the purposes of Art compatibility, except for Natural.",
     "cost": "50",
@@ -74,28 +74,28 @@
     }
   },
   {
-    "id": "MOD_DROPPER",
+    "id": "WMOD_DROPPER",
     "name": "Dropper",
     "description": "The weapon may be loaded with a single Flask. When it hits a target, it may apply the flask to them. The Flask is expended. The user may also apply the Flask to themselves freely as if it were on the Belt.",
     "cost": "50",
     "plusHalfBaseCost": true
   },
   {
-    "id": "MOD_SORCEROUS",
+    "id": "WMOD_SORCEROUS",
     "name": "Sorcerous",
     "description": "The weapon may deliver spells to the first target of an attack. Soul spent on the spell is added to the attack roll. The spell’s range is limited to the weapon’s if the spell’s is greater.",
     "cost": "100",
     "plusHalfBaseCost": true
   },
   {
-    "id": "MOD_RAZOR",
+    "id": "WMOD_RAZOR",
     "name": "Razor",
     "description": "A weapon with this modifier inflicts a -1 die penalty to attempts to Soak its damage.",
     "cost": "50",
     "plusHalfBaseCost": true
   },
   {
-    "id": "MOD_BALANCED",
+    "id": "WMOD_BALANCED",
     "name": "Balanced",
     "description": "If the weapon this modifier is applied to already has range 3 or higher, increase its range by 1. It gains the Sling weapon type if it did not have it already.",
     "cost": "50",
@@ -107,14 +107,14 @@
     }
   },
   {
-    "id": "MOD_DREAMFORGED",
+    "id": "WMOD_DREAMFORGED",
     "name": "Dreamforged",
     "description": "The weapon can harm semicorporeal targets and spirits normally. Slings, Slingshots, and Slingapults with this modifier have 3 Dreamforged Ammunition. It must be re-collected after combat or recreated at the cost of 1 Essence apiece.",
     "cost": "100",
     "plusHalfBaseCost": true
   },
   {
-    "id": "MOD_BEAST_SLAYING",
+    "id": "WMOD_BEAST_SLAYING",
     "name": "Beast-Slaying",
     "description": "This weapon deals a flat 2 additional damage to Feral creatures. Weapon has +1 Bulk.",
     "cost": "100",
@@ -124,14 +124,14 @@
     }
   },
   {
-    "id": "MOD_BRUTAL",
+    "id": "WMOD_BRUTAL",
     "name": "Brutal",
     "description": "This weapon is barbed or serrated, and catches when the victim struggles. If the target dedicates extra Stamina to defend against it, the attack deals +1 damage. Enemies grappled by a brutal weapon suffer 2 soakable damage each time they attempt to break free from the grapple.",
     "cost": "50",
     "plusHalfBaseCost": true
   },
   {
-    "id": "MOD_CULLING",
+    "id": "WMOD_CULLING",
     "name": "Culling",
     "description": "This weapon is designed to slice through unprotected flesh. It has +1 base damage, but is not very effective against shells. Soak rolls against this weapon treat results of 4+ as successes.",
     "cost": "50",

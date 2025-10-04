@@ -318,18 +318,11 @@
         "description":  "This bug has a body part that can be used as a certain Tool with 1 Quality. Tools that fill a very specific role may have increased Quality.",
         "naturalWeapon":  null,
         "selectFrom":  {
-                           "collection":  "tools",
+                           "collection":  "user_input",
                            "multi":  false,
-                           "required":  true
+                           "required":  true,
+                           "note":  "Enter tool name (e.g., Hammer, Lockpick, Rope)"
                        },
-        "selectableEffects":  {
-                                  "effectSource":  "selectedTool",
-                                  "quality":  1,
-                                  "specializedBonus":  "possible quality increase for specific roles"
-                              },
-        "statEffects":  {
-
-                        },
         "prerequisites":  null,
         "maxInstances":  1
     },

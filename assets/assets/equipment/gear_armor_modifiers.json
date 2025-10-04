@@ -1,0 +1,93 @@
+[
+    {
+        "id": "AMOD_PIECEMEAL",
+        "name": "Piecemeal",
+        "description": "The armor has -1 Bulk and -2 Maximum Durability.",
+        "cost": "-50",
+        "plusBaseCost": false,
+        "statEffects": {
+            "bulk": -1,
+            "maxDurability": -2
+        }
+    },
+    {
+        "id": "AMOD_SADDLED",
+        "name": "Saddled",
+        "description": "A single bug being carried by the wearer is treated as 2 Bulk lighter.",
+        "cost": "25",
+        "plusBaseCost": false
+    },
+    {
+        "id": "AMOD_DURABLE",
+        "name": "Durable",
+        "description": "The armor has +1 Bulk and +2 Maximum Durability.",
+        "cost": "50",
+        "plusBaseCost": false,
+        "statEffects": {
+            "bulk": 1,
+            "maxDurability": 2
+        }
+    },
+    {
+        "id": "AMOD_PADDED",
+        "name": "Padded",
+        "description": "The wearer gains an additional +1 die to Soak. Cannot be taken with Weighted or Spiked.",
+        "cost": "70",
+        "plusBaseCost": false,
+        "exclusiveWith": [
+            "AMOD_WEIGHTED",
+            "AMOD_SPIKED"
+        ]
+    },
+    {
+        "id": "AMOD_WEIGHTED",
+        "name": "Weighted",
+        "description": "The armor has +1 Bulk. The wearer gains the Slam Trait, which has 1 Quality, or 0 if the armor is broken. Cannot be taken with Padded or Spiked.",
+        "cost": "100",
+        "plusBaseCost": false,
+        "exclusiveWith": [
+            "AMOD_PADDED",
+            "AMOD_SPIKED"
+        ],
+        "statEffects": {
+            "bulk": 1
+        },
+        "grantsTrait": {
+            "id": "NW_SLAM"
+        }
+    },
+    {
+        "id": "AMOD_SPIKED",
+        "name": "Spiked",
+        "description": "The wearer gains the Spiky trait, which has 1 Quality, or 0 if the armor is broken. Cannot be taken with Weighted or Padded.",
+        "cost": "150",
+        "plusBaseCost": false,
+        "exclusiveWith": [
+            "AMOD_WEIGHTED",
+            "AMOD_PADDED"
+        ],
+        "grantsTrait": {
+            "id": "NW_SPIKY"
+        }
+    },
+    {
+        "id": "AMOD_X_PROOFED",
+        "name": "X-Proofed",
+        "description": "The wearer gains the Damage Resistant trait towards the type of damage the armor is proofed against. For example, slashing, bludgeoning, or fire. These attacks must roll at least two 6s to damage the armor's Durability.",
+        "cost": "100",
+        "plusBaseCost": true,
+        "selectFrom": {
+            "collection": "damage_types",
+            "multi": false,
+            "required": true,
+            "note": "choose vulnerability type (blunt, fire, etc)"
+        }
+    },
+    {
+        "id": "AMOD_LUSTROUS",
+        "name": "Lustrous",
+        "description": "The armor provides a bonus equal to its DR + 1 on opposed rolls to resist spell effects. Spell attacks may be Soaked with dice equal to the armor's DR + 1.",
+        "cost": "300",
+        "plusBaseCost": true
+    }
+]
