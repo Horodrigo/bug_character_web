@@ -1,74 +1,83 @@
 [
   {
-    "id": "raw_plant",
+    "id": "FOOD_RAW_PLANT",
     "name": "Raw Plant",
     "belly": 5,
     "bulk": 0.5,
     "cost": 1,
-    "description": "Every five rests, halve this food's Belly value and roll a d6. On a 1, it now causes 1 poison DoT."
+    "description": "Every five rests, halve this food's Belly value and roll a d6. On a 1, it now causes 1 poison DoT.",
+    "type": "Food"
   },
   {
-    "id": "raw_meat",
+    "id": "FOOD_RAW_MEAT",
     "name": "Raw Meat",
     "belly": 10,
     "bulk": 0.25,
     "cost": 5,
-    "description": "Every five rests, halve this food's Belly value and roll a d6. On a 1, it now causes 1 poison DoT."
+    "description": "Every five rests, halve this food's Belly value and roll a d6. On a 1, it now causes 1 poison DoT.",
+    "type": "Food"
   },
   {
-    "id": "raw_fungus",
+    "id": "FOOD_RAW_FUNGUS",
     "name": "Raw Fungus",
     "belly": 10,
     "bulk": 0.25,
     "cost": 6,
-    "description": "Every five rests, halve this food's Belly value and roll a d6. On a 1, it now causes 1 poison DoT."
+    "description": "Every five rests, halve this food's Belly value and roll a d6. On a 1, it now causes 1 poison DoT.",
+    "type": "Food"
   },
   {
-    "id": "plant_ration",
+    "id": "FOOD_PLANT_RATION",
     "name": "Plant Ration",
     "belly": 6,
     "bulk": 0.25,
     "cost": 2,
-    "description": "Rations don’t spoil over time."
+    "description": "Rations don’t spoil over time.",
+    "type": "Food"
   },
   {
-    "id": "meat_ration",
+    "id": "FOOD_MEAT_RATION",
     "name": "Meat Ration",
     "belly": 15,
     "bulk": 0.2,
     "cost": 10,
-    "description": "Rations don’t spoil over time."
+    "description": "Rations don’t spoil over time.",
+    "type": "Food"
   },
   {
-    "id": "fungal_ration",
+    "id": "FOOD_FUNGAL_RATION",
     "name": "Fungal Ration",
     "belly": 10,
     "bulk": 0.2,
     "cost": 10,
-    "description": "Rations don’t spoil over time."
+    "description": "Rations don’t spoil over time.",
+    "type": "Food"
   },
   {
-    "id": "nectar",
+    "id": "FOOD_NECTAR",
     "name": "Nectar",
     "belly": 10,
     "bulk": 0.5,
     "cost": 15,
-    "description": "Nectar spoils after one scene outside of its flower. Carnivores gain no benefit from eating Nectar."
+    "description": "Nectar spoils after one scene outside of its flower. Carnivores gain no benefit from eating Nectar.",
+    "type": "Food"
   },
   {
-    "id": "honey",
+    "id": "FOOD_HONEY",
     "name": "Honey",
     "belly": 20,
     "bulk": 0.5,
     "cost": 50,
-    "description": "Grants 1 Glory Stamina when eaten, which fades when the bug next rests."
+    "description": "Grants 1 Glory Stamina when eaten, which fades when the bug next rests.",
+    "type": "Food"
   },
   {
-    "id": "ambrosia",
+    "id": "FOOD_AMBROSIA",
     "name": "Ambrosia",
     "belly": null,
-    "bulk": "L",
+    "bulk": 0,
     "cost": null,
-    "description": "The food of the gods, Ambrosia is a divine experience to consume. It fully restores a bug as if they had a full rest, and fully restores Belly."
+    "description": "The food of the gods, Ambrosia is a divine experience to consume. It fully restores a bug as if they had a full rest, and fully restores Belly.",
+    "type": "Food"
   }
 ]

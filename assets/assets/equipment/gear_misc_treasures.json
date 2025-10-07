@@ -1,0 +1,138 @@
+[
+    {
+        "id": "TREASURE_BANDOLIER",
+        "name": "Bandolier",
+        "category": "TREASURE",
+        "description": "A bandolier expands the number of Belt slots a bug has access to by +1 for every 50 spent on the bandolier.",
+        "bulk": 0,
+        "cost": 50
+    },
+    {
+        "id": "TREASURE_FANCY_CLOTHES",
+        "name": "Fancy Clothes",
+        "category": "TREASURE",
+        "description": "The wearer's Cute is increased by 0.5.",
+        "bulk": 0,
+        "cost": 50
+    },
+    {
+        "id": "TREASURE_THIRSTY_STRAW",
+        "name": "Thirsty Straw",
+        "category": "TREASURE",
+        "description": "Portable pump resembling a proboscis. Pumps liquids into a container or expels them as a spray. When used with a flask, flask's contents affect a Short Cone instead of being thrown; Terrain+ flasks affect a Large Cone instead.",
+        "bulk": 0,
+        "cost": 50
+    },
+    {
+        "id": "TREASURE_THREAD",
+        "name": "1 square of Thread",
+        "category": "TREASURE",
+        "description": "Ordinary thread has a Load cap of 5 and will break if it exceeds its Load.",
+        "bulk": 0,
+        "cost": 1
+    },
+    {
+        "id": "TREASURE_SILK",
+        "name": "1 square of Silk",
+        "category": "TREASURE",
+        "description": "Spider silk is stronger than ordinary thread, capable of handling heavier loads without breaking. Load cap 10.",
+        "bulk": 0,
+        "cost": 5
+    },
+    {
+        "id": "TREASURE_FLASKFUSE",
+        "name": "1 square of Flaskfuse",
+        "category": "TREASURE",
+        "description": "A bit of rope soaked in greaseslime. When lit, it burns away rapidly and causes the flask it is attached to to burst.",
+        "bulk": 0,
+        "cost": 5
+    },
+    {
+        "id": "TREASURE_MATCHSTICK",
+        "name": "Matchstick",
+        "category": "TREASURE",
+        "description": "0 quality weapon with 1 base damage; can be lit to cast light in range 4. Deals 1 environmental fire damage on hit when lit. Burns out at the end of the scene and cannot be reused.",
+        "bulk": 0,
+        "cost": 10
+    },
+    {
+        "id": "TREASURE_VESPINE_PAPER",
+        "name": "Sheet of Vespine Paper",
+        "category": "TREASURE",
+        "description": "Durable paper that is hard to wreck.",
+        "bulk": 0,
+        "cost": 5
+    },
+    {
+        "id": "TREASURE_VIAL_OF_INK",
+        "name": "Vial of Ink",
+        "category": "TREASURE",
+        "description": "Ink used for writing.",
+        "bulk": 0,
+        "cost": 10
+    },
+    {
+        "id": "TREASURE_HERBAL_BALM",
+        "name": "Herbal Balm",
+        "category": "TREASURE",
+        "description": "When applied during a rest, enhances natural healing; increases Hearts recovered that rest by 1.",
+        "bulk": 0,
+        "cost": 15
+    },
+    {
+        "id": "TREASURE_POLLEN_TREATED_BANDAGES",
+        "name": "Pollen-treated Bandages",
+        "category": "TREASURE",
+        "description": "When applied during a rest, enhance natural healing; increases Hearts recovered that rest by 2.",
+        "bulk": 0,
+        "cost": 30
+    },
+    {
+        "id": "TREASURE_SCRAP_PATCH",
+        "name": "Scrap Patch",
+        "category": "TREASURE",
+        "description": "When applied to armor outside combat, restores 1 Durability.",
+        "bulk": 0,
+        "cost": 10
+    },
+    {
+        "id": "TREASURE_ARMOR_PATCH",
+        "name": "Armor Patch",
+        "category": "TREASURE",
+        "description": "When applied to armor outside combat, restores 2 Durability.",
+        "bulk": 0,
+        "cost": 20
+    },
+    {
+        "id": "TREASURE_REPAIR_WAX",
+        "name": "Repair Wax",
+        "category": "TREASURE",
+        "description": "Can be applied to a piece of equipment at any time for 1 Stamina. Restores 2 Durability/Deterioration immediately. Can also be applied to a bug's Shell to restore up to 2 lost Shell.",
+        "bulk": 0,
+        "cost": 50
+    },
+    {
+        "id": "TREASURE_CHUNK_SHELLWOOD",
+        "name": "Chunk of Shellwood",
+        "category": "TREASURE",
+        "description": "A piece of tough wood, used to make shields, armor, furniture, or buildings.",
+        "bulk": 1,
+        "cost": 25
+    },
+    {
+        "id": "TREASURE_CHUNK_ORE",
+        "name": "Chunk of Ore",
+        "category": "TREASURE",
+        "description": "Metal ore used to craft various weapons and tools.",
+        "bulk": 1,
+        "cost": 50
+    },
+    {
+        "id": "TREASURE_CHUNK_PALE_ORE",
+        "name": "Chunk of Pale Ore",
+        "category": "TREASURE",
+        "description": "A strong and incredibly rare metal ore. Can be used to upgrade weapons.",
+        "bulk": 1,
+        "cost": 1000
+    }
+]

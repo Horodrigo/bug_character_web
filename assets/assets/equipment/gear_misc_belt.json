@@ -1,0 +1,90 @@
+[
+  {
+    "id": "BELT_POUCH",
+    "name": "Pouch",
+    "category": "BELT_ITEMS",
+    "description": "May hold up to 1 Bulk of items that do not count against the carrier's Load. Additional Bulk in the pouch counts normally. Items damaged by environment aren't harmed unless pouch is destroyed. If only one item is contained, it may be accessed as a Belt item. A light source held in a pouch is carried in a harness and still provides light.",
+    "bulk": 0,
+    "cost": 50
+  },
+  {
+    "id": "BELT_SADDLE",
+    "name": "Saddle",
+    "category": "BELT_ITEMS",
+    "description": "A bug equipped with a saddle can treat one carried bug as being 2 Bulk less.",
+    "bulk": 0,
+    "cost": 25
+  },
+  {
+    "id": "BELT_LUMAROCK",
+    "name": "Lumarock",
+    "category": "BELT_ITEMS",
+    "description": "A rock covered in glowing moss that passively lights an area within Range 1 from the carrier. Carrier may hold it in a free hand to increase Range to 2.",
+    "bulk": 1,
+    "cost": 10
+  },
+  {
+    "id": "BELT_LUMAFLY_BULB",
+    "name": "Lumafly Bulb",
+    "category": "BELT_ITEMS",
+    "description": "Passively lights an area within Range 3. Carrier may take the bulb in a free hand to increase Range to 5. Bulb may break if dropped or damaged, releasing the lumafly.",
+    "bulk": 0,
+    "cost": 25
+  },
+  {
+    "id": "BELT_LUMAFLY_LANTERN",
+    "name": "Lumafly Lantern",
+    "category": "BELT_ITEMS",
+    "description": "Passively lights an area within Range 4. Carrier may take the lantern in a free hand to increase Range to 6. Sturdy material with Durability 4.",
+    "bulk": 1,
+    "cost": 50
+  },
+  {
+    "id": "BELT_DREAMSNATCHER",
+    "name": "Dreamsnatcher",
+    "category": "BELT_ITEMS",
+    "description": "Totems charged by extracting Soul from fresh corpses; an empty dreamsnatcher can be filled by waving it over a fresh corpse. Contains 1 Soul when filled, which a bug may draw out as a Focus Action.",
+    "bulk": 0,
+    "cost": 100
+  },
+  {
+    "id": "BELT_GREASEGLAND",
+    "name": "Greasegland",
+    "category": "BELT_ITEMS",
+    "description": "Produces enough greaseslime to fill a Grease Flask once per rest. While carried, greaseslime on the bearer does not wear or wash off.",
+    "bulk": 0,
+    "cost": 10
+  },
+  {
+    "id": "BELT_BLESSED_AMBER_CRYSTAL_HEART",
+    "name": "Blessed Amber or Crystal Heart",
+    "category": "BELT_ITEMS",
+    "description": "A bug bearing a piece of blessed mineral may perform a Great Dash if they have not yet moved that turn. Great Dash expends all Speed but allows indefinite horizontal dashing until striking a wall or choosing to end the dash.",
+    "bulk": 0,
+    "cost": null
+  },
+  {
+    "id": "BELT_MANTIS_CLAWS",
+    "name": "Mantis Claws",
+    "category": "BELT_ITEMS",
+    "description": "While carried, the bug is treated as though it possessed Climbing. If the bug already has Climbing, they may climb even on greased surfaces.",
+    "bulk": 0,
+    "cost": null
+  },
+  {
+    "id": "BELT_MOTHWING_CLOAK",
+    "name": "Mothwing Cloak",
+    "category": "BELT_ITEMS",
+    "description": "While carried, a bug's dash and jump action gains +1 maximum distance.",
+    "bulk": 0,
+    "cost": null
+  },
+  {
+    "id": "BELT_ROYAL_WINGS",
+    "name": "Royal Wings",
+    "category": "BELT_ITEMS",
+    "description": "May spend a Soul during their turn to act as though they possessed Flight. Bugs that already possess Lesser Flight or Flight may use the wings to reduce Stamina costs of those traits by 1.",
+    "bulk": 0,
+    "cost": null
+  }
+]

@@ -1,119 +1,132 @@
 [
   {
-    "id": "fooleater_jaw",
+    "id": "TRAP_FOOLEATER_JAW",
     "name": "Fooleater Jaw",
     "rarity": "Common",
-    "reusable": "Yes",
+    "reusable": true,
     "bulk": 1,
     "cost": 50,
-    "description": "A jawed trap that, when tripped, snaps up to 'bite' the unfortunate victim. The trap deals 4 soakable damage when triggered. This is a single target attack with 2 successes."
+    "description": "A jawed trap that, when tripped, snaps up to 'bite' the unfortunate victim. The trap deals 4 soakable damage when triggered. This is a single target attack with 2 successes.",
+    "type": "Trap"
   },
   {
-    "id": "mosscreep_snare",
+    "id": "TRAP_MOSSCREEP_SNARE",
     "name": "Mosscreep Snare",
     "rarity": "Common",
-    "reusable": "Yes",
+    "reusable": true,
     "bulk": 1,
     "cost": 50,
-    "description": "Appears to be an unassuming ball of moss. When a creature steps next to it, it erupts into a net and ensnares the creature. This is a single target grapple attempt with 2 successes. The snare requires 2 successes to escape from once grappled by it."
+    "description": "Appears to be an unassuming ball of moss. When a creature steps next to it, it erupts into a net and ensnares the creature. This is a single target grapple attempt with 2 successes. The snare requires 2 successes to escape from once grappled by it.",
+    "type": "Trap"
   },
   {
-    "id": "pop_mine",
+    "id": "TRAP_POP_MINE",
     "name": "Pop Mine",
     "rarity": "Common",
-    "reusable": "No",
-    "bulk": "Light",
+    "reusable": false,
+    "bulk": 0,
     "cost": 25,
-    "description": "A pop mine must be loaded with a flask to be armed. When tripped, the flask within is sprayed out. If the flask is Terrain+, its radius is increased by one. Otherwise, the flask affects all bugs or tiles on or adjacent to the pop mine's tile, as a 2 success AoE effect. A bug creating a pop mine using Stash may give it the effect of any common flask for no additional cost, or any known flask recipe for 1 additional Stash."
+    "description": "A pop mine must be loaded with a flask to be armed. When tripped, the flask within is sprayed out. If the flask is Terrain+, its radius is increased by one. Otherwise, the flask affects all bugs or tiles on or adjacent to the pop mine's tile, as a 2 success AoE effect. A bug creating a pop mine using Stash may give it the effect of any common flask for no additional cost, or any known flask recipe for 1 additional Stash.",
+    "type": "Trap"
   },
   {
-    "id": "spines",
+    "id": "TRAP_SPINES",
     "name": "Spines",
     "rarity": "Common",
-    "reusable": "Yes",
+    "reusable": true,
     "bulk": 1,
     "cost": 50,
-    "description": "When placed, this trap turns its current tile into rough terrain that deals 2 soakable damage when traversed. The trap may be poisoned, and cannot be activated, nor does it have activation squares."
+    "description": "When placed, this trap turns its current tile into rough terrain that deals 2 soakable damage when traversed. The trap may be poisoned, and cannot be activated, nor does it have activation squares.",
+    "type": "Trap"
   },
   {
-    "id": "spiders_snare",
+    "id": "TRAP_SPIDERS_SNARE",
     "name": "Spider’s Snare",
     "rarity": "Common",
-    "reusable": "Yes",
+    "reusable": true,
     "bulk": 1,
     "cost": 50,
-    "description": "Covers up to five squares in between two solid objects, all activation squares. Can have weapons placed at connections for single target attacks, may move triggering bug into environmental hazards, activate switches, or act as a simple alarm."
+    "description": "Covers up to five squares in between two solid objects, all activation squares. Can have weapons placed at connections for single target attacks, may move triggering bug into environmental hazards, activate switches, or act as a simple alarm.",
+    "type": "Trap"
   },
   {
-    "id": "barbed_web",
+    "id": "TRAP_BARBED_WEB",
     "name": "Barbed Web",
     "rarity": "Uncommon",
-    "reusable": "No",
-    "bulk": "Light",
+    "reusable": false,
+    "bulk": 0,
     "cost": 75,
-    "description": "Creates a 3x3x3 cube of barbed web above target's square. Rough terrain costs 4 Speed to traverse, or 2 Speed and 2 soakable damage. Can be cleared with fire."
+    "description": "Creates a 3x3x3 cube of barbed web above target's square. Rough terrain costs 4 Speed to traverse, or 2 Speed and 2 soakable damage. Can be cleared with fire.",
+    "type": "Trap"
   },
   {
-    "id": "bombardiers_deadfall",
+    "id": "TRAP_BOMBARDIERS_DEADFALL",
     "name": "Bombardier’s Deadfall",
     "rarity": "Uncommon",
-    "reusable": "No",
-    "bulk": "Light",
+    "reusable": false,
+    "bulk": 0,
     "cost": 75,
-    "description": "Controlled explosion collapses ceiling above activation squares. 2 success AoE attack, deals 4 soakable damage. Targets trapped under rubble may attempt to remove with 2 success Might checks costing 1 Stamina per attempt."
+    "description": "Controlled explosion collapses ceiling above activation squares. 2 success AoE attack, deals 4 soakable damage. Targets trapped under rubble may attempt to remove with 2 success Might checks costing 1 Stamina per attempt.",
+    "type": "Trap"
   },
   {
-    "id": "little_antlion",
+    "id": "TRAP_LITTLE_ANTLION",
     "name": "Little Antlion",
     "rarity": "Uncommon",
-    "reusable": "No",
+    "reusable": false,
     "bulk": 1,
     "cost": 75,
-    "description": "Digs a pit 3 squares wide and 3 squares deep when triggered. Can be placed on wall or ceiling to dig sideways or upwards."
+    "description": "Digs a pit 3 squares wide and 3 squares deep when triggered. Can be placed on wall or ceiling to dig sideways or upwards.",
+    "type": "Trap"
   },
   {
-    "id": "locust_kick",
+    "id": "TRAP_LOCUST_KICK",
     "name": "Locust Kick",
     "rarity": "Uncommon",
-    "reusable": "No",
+    "reusable": false,
     "bulk": 1,
     "cost": 75,
-    "description": "Deals 2 soakable damage as single target 2 success attack and knocks target up to 3 squares away unless dodged."
+    "description": "Deals 2 soakable damage as single target 2 success attack and knocks target up to 3 squares away unless dodged.",
+    "type": "Trap"
   },
   {
-    "id": "clockwork_belfly",
+    "id": "TRAP_CLOCKWORK_BELFLY",
     "name": "Clockwork Belfly",
     "rarity": "Rare",
-    "reusable": "No",
+    "reusable": false,
     "bulk": 1,
     "cost": 100,
-    "description": "Activation radius up to 2 squares. When non-designated bug moves into radius, trap flies at them and explodes. 2 success AoE, 3 soakable damage. Rearms if missed; destroyed if hit."
+    "description": "Activation radius up to 2 squares. When non-designated bug moves into radius, trap flies at them and explodes. 2 success AoE, 3 soakable damage. Rearms if missed; destroyed if hit.",
+    "type": "Trap"
   },
   {
-    "id": "clockwork_spitter",
+    "id": "TRAP_CLOCKWORK_SPITTER",
     "name": "Clockwork Spitter",
     "rarity": "Rare",
-    "reusable": "No",
+    "reusable": false,
     "bulk": 1,
     "cost": 100,
-    "description": "Activation radius up to 4 squares. Fires at non-designated bugs once per target per round. 3 success attack deals 1 soakable damage, can roll successes into damage. Fires 6 times before breakdown."
+    "description": "Activation radius up to 4 squares. Fires at non-designated bugs once per target per round. 3 success attack deals 1 soakable damage, can roll successes into damage. Fires 6 times before breakdown.",
+    "type": "Trap"
   },
   {
-    "id": "fooleater_gigantia",
+    "id": "TRAP_FOOLEATER_GIGANTIA",
     "name": "Fooleater Gigantia",
     "rarity": "Rare",
-    "reusable": "No",
+    "reusable": false,
     "bulk": 2,
     "cost": 100,
-    "description": "Engulfs all bugs on or adjacent to trap's square. Plant has 10 Hearts, Vulnerable to fire. Targets take 3 environmental acid damage each turn. Resets when all targets die."
+    "description": "Engulfs all bugs on or adjacent to trap's square. Plant has 10 Hearts, Vulnerable to fire. Targets take 3 environmental acid damage each turn. Resets when all targets die.",
+    "type": "Trap"
   },
   {
-    "id": "totem",
+    "id": "TRAP_TOTEM",
     "name": "Totem",
     "rarity": "Rare",
-    "reusable": "No",
-    "bulk": "Light",
+    "reusable": false,
+    "bulk": 0,
     "cost": 100,
-    "description": "Can store a spell cast during trap creation. Parry one spell using totem, absorbs it. Spell cast on touching bug with successes equal to spell's original successes."
+    "description": "Can store a spell cast during trap creation. Parry one spell using totem, absorbs it. Spell cast on touching bug with successes equal to spell's original successes.",
+    "type": "Trap"
   }
 ]

@@ -1,16 +1,5 @@
 [
     {
-        "id": "AMOD_PIECEMEAL",
-        "name": "Piecemeal",
-        "description": "The armor has -1 Bulk and -2 Maximum Durability.",
-        "cost": "-50",
-        "plusBaseCost": false,
-        "statEffects": {
-            "bulk": -1,
-            "maxDurability": -2
-        }
-    },
-    {
         "id": "AMOD_SADDLED",
         "name": "Saddled",
         "description": "A single bug being carried by the wearer is treated as 2 Bulk lighter.",
@@ -77,10 +66,10 @@
         "cost": "100",
         "plusBaseCost": true,
         "selectFrom": {
-            "collection": "damage_types",
+            "collection": "user_input",
             "multi": false,
             "required": true,
-            "note": "choose vulnerability type (blunt, fire, etc)"
+            "note": "Choose vulnerability type (blunt, fire, etc)"
         }
     },
     {

@@ -13,9 +13,10 @@
     "description": "The weapon gains Reach, and +1 handedness. Cannot be applied to Reach weapons. Weapon has +1 Bulk.",
     "cost": "50",
     "plusHalfBaseCost": true,
-    "statEffects":  {
-            "hands": 1,
-            "bulk": 1
+    "statEffects": {
+      "hands": 1,
+      "bulk": 1,
+      "melee": 1
     }
   },
   {
@@ -24,12 +25,11 @@
     "description": "Inflicts -1 die penalty to hit, but grants a +1 flat damage bonus. Weapon has +1 Bulk.",
     "cost": "50",
     "plusHalfBaseCost": true,
-    "statEffects":  {
-            "bonus": -1,
-            "damage": 1,
-            "bulk": 1
+    "statEffects": {
+      "bonus": -1,
+      "damage": 1,
+      "bulk": 1
     }
-    
   },
   {
     "id": "WMOD_LIGHTENED",
@@ -37,10 +37,10 @@
     "description": "Inflicts a flat -1 damage penalty, but grants a +1 die bonus to hit. Weapon has -1 Bulk.",
     "cost": "50",
     "plusHalfBaseCost": true,
-    "statEffects":  {
-            "bonus": 1,
-            "damage": -1,
-            "bulk": -1
+    "statEffects": {
+      "bonus": 1,
+      "damage": -1,
+      "bulk": -1
     }
   },
   {
@@ -57,11 +57,11 @@
     "cost": "50",
     "plusHalfBaseCost": true,
     "specialAbility": "morph",
-    "selectFrom":  {
-                           "collection":  "weapons",
-                           "multi":  false,
-                           "required":  true
-                       }
+    "selectFrom": {
+      "collection": "weapons",
+      "multi": false,
+      "required": true
+    }
   },
   {
     "id": "WMOD_VERSATILE",
@@ -69,8 +69,11 @@
     "description": "Add one weapon type to this weapon for the purposes of Art compatibility, except for Natural.",
     "cost": "50",
     "plusHalfBaseCost": true,
-    "statEffects":  {
-            "type" : "Select"
+    "selectFrom": {
+      "collection": "weapon_types",
+      "multi": false,
+      "required": true,
+      "note": "for Arts compatibility"
     }
   },
   {
@@ -78,7 +81,8 @@
     "name": "Dropper",
     "description": "The weapon may be loaded with a single Flask. When it hits a target, it may apply the flask to them. The Flask is expended. The user may also apply the Flask to themselves freely as if it were on the Belt.",
     "cost": "50",
-    "plusHalfBaseCost": true
+    "plusHalfBaseCost": true,
+    "specialAbility": "dropper"
   },
   {
     "id": "WMOD_SORCEROUS",
@@ -100,10 +104,14 @@
     "description": "If the weapon this modifier is applied to already has range 3 or higher, increase its range by 1. It gains the Sling weapon type if it did not have it already.",
     "cost": "50",
     "plusHalfBaseCost": true,
-    "prerequisite": {"range": { "range": 3 }},
-    "statEffects":  {
-            "type": "Sling",
-            "range" : 1
+    "prerequisite": {
+      "range": {
+        "range": 3
+      }
+    },
+    "statEffects": {
+      "type": "Sling",
+      "range": 1
     }
   },
   {
@@ -119,8 +127,8 @@
     "description": "This weapon deals a flat 2 additional damage to Feral creatures. Weapon has +1 Bulk.",
     "cost": "100",
     "plusHalfBaseCost": true,
-    "statEffects":  {
-            "bulk" : 1
+    "statEffects": {
+      "bulk": 1
     }
   },
   {
@@ -136,8 +144,8 @@
     "description": "This weapon is designed to slice through unprotected flesh. It has +1 base damage, but is not very effective against shells. Soak rolls against this weapon treat results of 4+ as successes.",
     "cost": "50",
     "plusHalfBaseCost": true,
-    "statEffects":  {
-            "damage" : 1
+    "statEffects": {
+      "damage": 1
     }
   }
 ]

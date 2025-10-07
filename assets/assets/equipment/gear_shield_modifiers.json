@@ -47,13 +47,12 @@
         "description": "This shield counts as a particular tool as well, chosen when applying this modifier, and Quality equal to its shield Quality, to a minimum of 1.",
         "cost": "50",
         "plusHalfBaseCost": true,
-        "grantsTool": {
-            "selectFrom": {
-                "collection": "tools",
-                "multi": false,
-                "required": true
-            }
-        }
+        "selectFrom":  {
+                           "collection":  "user_input",
+                           "multi":  false,
+                           "required":  true,
+                           "note":  "Enter tool name (e.g., Hammer, Lockpick, Rope)"
+                       }
     },
     {
         "id": "SMOD_BALANCED",

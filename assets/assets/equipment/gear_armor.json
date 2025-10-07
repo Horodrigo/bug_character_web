@@ -1,6 +1,6 @@
 [
   {
-    "id": "light_armor",
+    "id": "A_LIGHT_ARMOR",
     "name": "Light Armor",
     "maxDurability": 5,
     "DR": 0,
@@ -9,7 +9,7 @@
     "description": "Grants +1 die to Soak, and +1 die reroll on Soak checks."
   },
   {
-    "id": "medium_armor",
+    "id": "A_MEDIUM_ARMOR",
     "name": "Medium Armor",
     "maxDurability": 7,
     "DR": 1,
@@ -18,7 +18,7 @@
     "description": "Grants +1 die to Soak. When taking the dash or jump action, the distance decreases by 1."
   },
   {
-    "id": "heavy_armor",
+    "id": "A_HEAVY_ARMOR",
     "name": "Heavy Armor",
     "maxDurability": 9,
     "DR": 2,

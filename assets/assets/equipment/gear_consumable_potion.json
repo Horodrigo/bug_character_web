@@ -1,6 +1,6 @@
 [
   {
-    "id": "greyseed_extract",
+    "id": "POTION_GREYSEED_EXTRACT",
     "name": "Greyseed Extract",
     "type": "Potion",
     "rarity": "Common",
@@ -10,7 +10,7 @@
     "overdose": "Stamina becomes 0 and user falls unconscious. Recovers 1 Stamina/turn. Regains consciousness at 3 Stamina."
   },
   {
-    "id": "sacred_water",
+    "id": "POTION_SACRED_WATER",
     "name": "Sacred Water",
     "type": "Potion",
     "rarity": "Common",
@@ -20,7 +20,7 @@
     "overdose": null
   },
   {
-    "id": "filtered_murksap",
+    "id": "POTION_FILTERED_MURKSAP",
     "name": "Filtered Murksap",
     "type": "Potion",
     "rarity": "Common",
@@ -30,7 +30,7 @@
     "overdose": "User loses 1 Soul. If no Soul, lose 1 Heart instead."
   },
   {
-    "id": "windweald_mint",
+    "id": "POTION_WINDWEALD_MINT",
     "name": "Windweald Mint",
     "type": "Potion",
     "rarity": "Uncommon",
@@ -40,7 +40,7 @@
     "overdose": "User hallucinates and loses all senses but touch until end of scene."
   },
   {
-    "id": "octopamine",
+    "id": "POTION_OCTOPAMINE",
     "name": "Octopamine",
     "type": "Potion",
     "rarity": "Uncommon",
@@ -50,7 +50,7 @@
     "overdose": "User cannot discern friend/foe. For 3 rounds, attacks nearest target (even if dead)."
   },
   {
-    "id": "spiderbite",
+    "id": "POTION_SPIDERBITE",
     "name": "Spiderbite",
     "type": "Potion",
     "rarity": "Uncommon",
@@ -60,7 +60,7 @@
     "overdose": "User cannot spend Stamina to burn off DoT until end of scene."
   },
   {
-    "id": "icevein_root_powder",
+    "id": "POTION_ICEVEIN_ROOT_POWDER",
     "name": "Icevein Root Powder",
     "type": "Potion",
     "rarity": "Uncommon",
@@ -70,7 +70,7 @@
     "overdose": "User loses 1 Stamina. If no Stamina, take 1 Off-Balance."
   },
   {
-    "id": "beetlebulk",
+    "id": "POTION_BEETLEBULK",
     "name": "Beetlebulk",
     "type": "Potion",
     "rarity": "Uncommon",
@@ -80,7 +80,7 @@
     "overdose": "User suffers -2 Insight for 3 rounds."
   },
   {
-    "id": "blood_salts",
+    "id": "POTION_BLOOD_SALTS",
     "name": "Blood Salts",
     "type": "Potion",
     "rarity": "Uncommon",
@@ -90,7 +90,7 @@
     "overdose": "User loses Hearts equal to current Glory Stamina."
   },
   {
-    "id": "luma_dust",
+    "id": "POTION_LUMA_DUST",
     "name": "Luma Dust",
     "type": "Potion",
     "rarity": "Uncommon",
@@ -100,7 +100,7 @@
     "overdose": "Takes 1 unsoakable damage whenever ending turn with Stamina left, for 3 rounds."
   },
   {
-    "id": "roach_milk",
+    "id": "POTION_ROACH_MILK",
     "name": "Roach Milk",
     "type": "Potion",
     "rarity": "Rare",
@@ -110,7 +110,7 @@
     "overdose": "User cannot receive healing for 1 round."
   },
   {
-    "id": "mutagen",
+    "id": "POTION_MUTAGEN",
     "name": "Mutagen",
     "type": "Potion",
     "rarity": "Rare",
@@ -120,7 +120,7 @@
     "overdose": "Suffers 2 unsoakable damage from body rejection."
   },
   {
-    "id": "widows_embrace",
+    "id": "POTION_WIDOWS_EMBRACE",
     "name": "Widow’s Embrace",
     "type": "Potion",
     "rarity": "Rare",
@@ -130,7 +130,7 @@
     "overdose": "User drops to Death's Door and loses 1 Stamina/turn until healed."
   },
   {
-    "id": "gutbrew",
+    "id": "ALCOHOL_GUTBREW",
     "name": "Gutbrew",
     "type": "Alcohol",
     "rarity": "Common",
@@ -140,7 +140,7 @@
     "overdose": "User vomits, loses Belly as if rested, alcohol Strain reset."
   },
   {
-    "id": "grasswine",
+    "id": "ALCOHOL_GRASSWINE",
     "name": "Grasswine",
     "type": "Alcohol",
     "rarity": "Common",
@@ -150,7 +150,7 @@
     "overdose": "User vomits, loses Belly as if rested, alcohol Strain reset."
   },
   {
-    "id": "bugbeer",
+    "id": "ALCOHOL_BUGBEER",
     "name": "Bugbeer",
     "type": "Alcohol",
     "rarity": "Common",
@@ -160,7 +160,7 @@
     "overdose": "User vomits, loses Belly as if rested, alcohol Strain reset."
   },
   {
-    "id": "shroom_ale",
+    "id": "ALCOHOL_SHROOM_ALE",
     "name": "Shroom Ale",
     "type": "Alcohol",
     "rarity": "Common",
@@ -170,7 +170,7 @@
     "overdose": "User vomits, loses Belly as if rested, alcohol Strain reset."
   },
   {
-    "id": "golden_whiskey",
+    "id": "ALCOHOL_GOLDEN_WHISKEY",
     "name": "Golden Whiskey",
     "type": "Alcohol",
     "rarity": "Common",
@@ -180,7 +180,7 @@
     "overdose": "User vomits, loses Belly as if rested, alcohol Strain reset."
   },
   {
-    "id": "mead",
+    "id": "ALCOHOL_MEAD",
     "name": "Mead",
     "type": "Alcohol",
     "rarity": "Uncommon",
@@ -190,7 +190,7 @@
     "overdose": "User vomits, loses Belly as if rested, alcohol Strain reset."
   },
   {
-    "id": "amber_brandy",
+    "id": "ALCOHOL_AMBER_BRANDY",
     "name": "Amber Brandy",
     "type": "Alcohol",
     "rarity": "Uncommon",
@@ -200,7 +200,7 @@
     "overdose": "User vomits, loses Belly as if rested, alcohol Strain reset."
   },
   {
-    "id": "sunshine",
+    "id": "ALCOHOL_SUNSHINE",
     "name": "Sunshine",
     "type": "Alcohol",
     "rarity": "Uncommon",

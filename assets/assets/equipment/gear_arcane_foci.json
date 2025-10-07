@@ -1,6 +1,6 @@
 [
   {
-    "id": "talisman",
+    "id": "AF_TALISMAN",
     "name": "Talisman",
     "type": null,
     "damage": null,
@@ -9,12 +9,12 @@
       "range": null
     },
     "hands": 0,
-    "bulk": "L",
+    "bulk": 0,
     "cost": 50,
     "description": "A talisman is worn, rather than wielded, and so requires no hands to function in any capacity. Wearing a talisman grants +1 reroll on resistance checks against magic."
   },
   {
-    "id": "wand",
+    "id": "AF_WAND",
     "name": "Wand",
     "type": "Sling",
     "damage": 1,
@@ -23,12 +23,12 @@
       "range": 5
     },
     "hands": 1,
-    "bulk": "L",
+    "bulk": 0,
     "cost": 100,
     "description": "Wand attacks may use Insight to hit, and can be parried as ranged attacks. Their first point of damage is magic damage. A spell contained in the wand may be cast using Grace in place of Insight while the wand is attuned, including opposed checks, spell range and duration."
   },
   {
-    "id": "sceptre",
+    "id": "AF_SCEPTRE",
     "name": "Sceptre",
     "type": "Tusk",
     "damage": 1,
@@ -42,7 +42,7 @@
     "description": "May deliver Touch spells at Reach, adding its Quality to the spell’s attack roll. While the sceptre is attuned, spells have +1 reroll per Quality on opposed rolls to overcome resistance."
   },
   {
-    "id": "staff",
+    "id": "AF_STAFF",
     "name": "Staff",
     "type": "Nail",
     "damage": 1,

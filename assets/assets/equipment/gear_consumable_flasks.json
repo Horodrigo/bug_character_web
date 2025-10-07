@@ -1,189 +1,210 @@
 [
   {
-    "id": "water",
+    "id": "FLASKS_WATER",
     "name": "Water",
     "rarity": "common",
-    "subcategory": "Flask",
     "rejuvenating": false,
     "cost": 10,
-    "bulk": "L",
+    "bulk": 0,
     "targeted": "Any fires on the target are extinguished. The target becomes wet, rendering them unable to fly, unless they have the Water Treading or Waterbreathing Trait. The target also gains a 1-point Status Effect that grants Resistant (Fire).",
-    "terrain": "Any fire on the target square is extinguished."
+    "terrain": "Any fire on the target square is extinguished.",
+    "type": "Flask"
   },
   {
-    "id": "blood",
+    "id": "FLASKS_BLOOD",
     "name": "Blood",
     "rarity": "common",
     "rejuvenating": false,
     "cost": 10,
     "targeted": "Any fires on the target are extinguished. The target becomes coated in blood.",
     "terrain": "Any fire on the target square is extinguished.",
-    "ingested": "If the imbiber is a bloodsucker, they regain 10 Belly."
+    "ingested": "If the imbiber is a bloodsucker, they regain 10 Belly.",
+    "type": "Flask"
   },
   {
-    "id": "toxic",
+    "id": "FLASKS_TOXIC",
     "name": "Toxic",
     "rarity": "common",
     "rejuvenating": false,
     "cost": 25,
-    "targeted": "The target suffers a 3-point Status Effect that lowers their maximum Stamina by 1."
+    "targeted": "The target suffers a 3-point Status Effect that lowers their maximum Stamina by 1.",
+    "type": "Flask"
   },
   {
-    "id": "greaseslime",
+    "id": "FLASKS_GREASESLIME",
     "name": "Greaseslime",
     "rarity": "common",
     "rejuvenating": false,
     "cost": 25,
     "targeted": "Attempts to grapple or be grappled by the target suffer a -2 penalty. It gains a +1 bonus to squeeze into small spaces, and does not suffer penalties to defense while squeezing.",
-    "terrain": "A bug entering the square slides across to the other side and suffers 1 Off-Balance."
+    "terrain": "A bug entering the square slides across to the other side and suffers 1 Off-Balance.",
+    "type": "Flask"
   },
   {
-    "id": "flammable",
+    "id": "FLASKS_FLAMMABLE",
     "name": "Flammable",
     "rarity": "common",
     "rejuvenating": false,
     "cost": 25,
     "targeted": "The target is dried if wet, and suffers 1 environmental fire damage, and 1 non-decaying fire DoT.",
-    "terrain": "Flammable terrain is ignited, causing the targeted effect when a creature steps or ends its turn on it."
+    "terrain": "Flammable terrain is ignited, causing the targeted effect when a creature steps or ends its turn on it.",
+    "type": "Flask"
   },
   {
-    "id": "smoke",
+    "id": "FLASKS_SMOKE",
     "name": "Smoke",
     "rarity": "common",
     "rejuvenating": false,
     "cost": 25,
-    "terrain": "The target square is covered in choking smoke. Flight, speech, and sight are impossible whilst in the smoke. The cloud dissipates in 2 rounds."
+    "terrain+": "The target square is covered in choking smoke. Flight, speech, and sight are impossible whilst in the smoke. The cloud dissipates in 2 rounds.",
+    "type": "Flask"
   },
   {
-    "id": "rust",
+    "id": "FLASKS_RUST",
     "name": "Rust",
     "rarity": "common",
     "rejuvenating": false,
     "cost": 25,
-    "targeted": "If the target is a piece of armor, it suffers 2 Durability damage. If the target is a piece of equipment, it suffers 1 Deterioration. If applied as an AoE, this flask only damages one piece of equipment per bug."
+    "targeted": "If the target is a piece of armor, it suffers 2 Durability damage. If the target is a piece of equipment, it suffers 1 Deterioration. If applied as an AoE, this flask only damages one piece of equipment per bug.",
+    "type": "Flask"
   },
   {
-    "id": "pheromone",
+    "id": "FLASKS_PHEROMONE",
     "name": "Pheromone",
     "rarity": "common",
     "rejuvenating": false,
     "cost": 25,
-    "terrain": "The sense of smell is obscured within the targeted square, and social checks against bugs in the targeted square are given a +1 die bonus, for 2 rounds.",
-    "ingested": "If the imbiber is berserk, mesmerised, panicked, unconscious while still having Hearts, or otherwise senseless, their mind is cleared of these effects."
+    "terrain+": "The sense of smell is obscured within the targeted square, and social checks against bugs in the targeted square are given a +1 die bonus, for 2 rounds.",
+    "ingested": "If the imbiber is berserk, mesmerised, panicked, unconscious while still having Hearts, or otherwise senseless, their mind is cleared of these effects.",
+    "type": "Flask"
   },
   {
-    "id": "pollen",
+    "id": "FLASKS_POLLEN",
     "name": "Pollen",
     "rarity": "uncommon",
     "rejuvenating": true,
     "cost": 50,
-    "terrain": "Any bugs on the target square are healed for 1 Heart.",
-    "ingested": "The target heals for 2 Hearts."
+    "terrain+": "Any bugs on the target square are healed for 1 Heart.",
+    "ingested": "The target heals for 2 Hearts.",
+    "type": "Flask"
   },
   {
-    "id": "acid",
+    "id": "FLASKS_ACID",
     "name": "Acid",
     "rarity": "uncommon",
     "rejuvenating": false,
     "cost": 50,
-    "targeted": "The target is afflicted with a 2-point Status Effect, which inflicts 2 damage to the target's armor each turn. If the target has no armor, or broken armor, they take soakable damage equal to the Status Effect instead."
+    "targeted": "The target is afflicted with a 2-point Status Effect, which inflicts 2 damage to the target's armor each turn. If the target has no armor, or broken armor, they take soakable damage equal to the Status Effect instead.",
+    "type": "Flask"
   },
   {
-    "id": "explosive",
+    "id": "FLASKS_EXPLOSIVE",
     "name": "Explosive",
     "rarity": "uncommon",
     "rejuvenating": false,
     "cost": 50,
-    "terrain": "Bugs within the target square take 3 damage. Explosive flasks ignore 2 DR, and Soak gained from armor. Scenery in the target square may be destroyed as well."
+    "terrain+": "Bugs within the target square take 3 damage. Explosive flasks ignore 2 DR, and Soak gained from armor. Scenery in the target square may be destroyed as well.",
+    "type": "Flask"
   },
   {
-    "id": "scale",
+    "id": "FLASKS_SCALE",
     "name": "Scale",
     "rarity": "uncommon",
     "rejuvenating": false,
     "cost": 50,
-    "terrain": "Bugs within the target square are afflicted with a 3 point debuff that decreases attack and defense rolls by 1, as they inhale tiny moth scales. Scale flasks restrict visibility in the same way Smoke flasks do. The cloud dissipates in 2 rounds."
+    "terrain+": "Bugs within the target square are afflicted with a 3 point debuff that decreases attack and defense rolls by 1, as they inhale tiny moth scales. Scale flasks restrict visibility in the same way Smoke flasks do. The cloud dissipates in 2 rounds.",
+    "type": "Flask"
   },
   {
-    "id": "glue",
+    "id": "FLASKS_GLUE",
     "name": "Glue",
     "rarity": "uncommon",
     "rejuvenating": false,
     "cost": 50,
     "targeted": "The target's Speed is reduced by 2, and it is unable to use any special form of movement. The glue may be pulled off as a Skill Action with a 2 success Might check, to which Stamina may be dedicated.",
-    "terrain": "The targeted square becomes rough terrain, requiring 2 Speed to traverse."
+    "terrain+": "The targeted square becomes rough terrain, requiring 2 Speed to traverse.",
+    "type": "Flask"
   },
   {
-    "id": "volt",
+    "id": "FLASKS_VOLT",
     "name": "Volt",
     "rarity": "uncommon",
     "rejuvenating": false,
     "cost": 50,
-    "terrain": "Charged lumaflies swarm around the square, dealing 1 environmental damage to bugs which are currently in, enter or end their turn in it. The lumaflies scatter after 2 rounds."
+    "terrain+": "Charged lumaflies swarm around the square, dealing 1 environmental damage to bugs which are currently in, enter or end their turn in it. The lumaflies scatter after 2 rounds.",
+    "type": "Flask"
   },
   {
-    "id": "fellwind",
+    "id": "FLASKS_FELLWIND",
     "name": "Fellwind",
     "rarity": "uncommon",
     "rejuvenating": false,
     "cost": 50,
-    "terrain": "Contains spores from a Fellwind mushroom. Bugs within the target square are afflicted with a 3 point Debuff, which disallows dedicating additional Stamina or Stamina substitutes to attack or defense rolls."
+    "terrain+": "Contains spores from a Fellwind mushroom. Bugs within the target square are afflicted with a 3 point Debuff, which disallows dedicating additional Stamina or Stamina substitutes to attack or defense rolls.",
+    "type": "Flask"
   },
   {
-    "id": "swamp",
+    "id": "FLASKS_SWAMP",
     "name": "Swamp",
     "rarity": "uncommon",
     "rejuvenating": false,
     "cost": 50,
-    "targeted": "The target suffers DoT equal to half of their lost hearts, rounded up. Husks instead suffer 2 completely unsoakable damage, which bypasses Absorption."
+    "targeted": "The target suffers DoT equal to half of their lost hearts, rounded up. Husks instead suffer 2 completely unsoakable damage, which bypasses Absorption.",
+    "type": "Flask"
   },
   {
-    "id": "lifeblood",
+    "id": "FLASKS_LIFEBLOOD",
     "name": "Lifeblood",
     "rarity": "rare",
     "rejuvenating": true,
     "cost": 75,
     "terrain": "This effect may only affect one square per use, and may not be used as a payload effect. Three lifeseeds are born on the targeted square, which take their turns on initiative 0, attempting to safely flee the area.",
-    "ingested": "The target gains 2 Lifeblood Hearts."
+    "ingested": "The target gains 2 Lifeblood Hearts.",
+    "type": "Flask"
   },
   {
-    "id": "widows_bite",
+    "id": "FLASKS_WIDOW’S_BITE",
     "name": "Widow’s Bite",
     "rarity": "rare",
     "rejuvenating": false,
     "cost": 75,
-    "targeted": "The target suffers a 2 point DoT. All of their equipment suffers 1 point of Deterioration, and their armor takes 2 points of damage to Durability."
+    "targeted": "The target suffers a 2 point DoT. All of their equipment suffers 1 point of Deterioration, and their armor takes 2 points of damage to Durability.",
+    "type": "Flask"
   },
   {
-    "id": "pestilent_bile",
+    "id": "FLASKS_PESTILENT_BILE",
     "name": "Pestilent Bile",
     "rarity": "rare",
     "rejuvenating": false,
     "cost": 75,
-    "terrain": "All bugs on the target square take 3 soakable damage, and 2 points of Soul damage."
+    "terrain+": "All bugs on the target square take 3 soakable damage, and 2 points of Soul damage.",
+    "type": "Flask"
   },
   {
-    "id": "vengeful_soul",
+    "id": "FLASKS_VENGEFUL_SOUL",
     "name": "Vengeful Soul",
     "rarity": "rare",
     "rejuvenating": false,
     "cost": 75,
-    "terrain": "Four soulmasses are created in the target tile. Each one launches itself at a chosen bug within 4 squares, as a spell attack that deals 1 magic damage and 1 Soul damage. The spell attack roll has successes equal to the attack roll to throw the flask."
+    "terrain": "Four soulmasses are created in the target tile. Each one launches itself at a chosen bug within 4 squares, as a spell attack that deals 1 magic damage and 1 Soul damage. The spell attack roll has successes equal to the attack roll to throw the flask.",
+    "type": "Flask"
   },
   {
-    "id": "bottled_storm",
+    "id": "FLASKS_BOTTLED_STORM",
     "name": "Bottled Storm",
     "rarity": "rare",
     "rejuvenating": false,
     "cost": 75,
-    "terrain": "For 3 rounds, all squares adjacent to the target square toss bugs that enter them 5 spaces in a direction which is either clockwise or counterclockwise to the “circle” of squares, chosen when the flask is thrown. The centre tile is unaffected, even if the radius is increased. Projectiles passing through the affected squares have a -3 penalty to hit."
+    "terrain": "For 3 rounds, all squares adjacent to the target square toss bugs that enter them 5 spaces in a direction which is either clockwise or counterclockwise to the “circle” of squares, chosen when the flask is thrown. The centre tile is unaffected, even if the radius is increased. Projectiles passing through the affected squares have a -3 penalty to hit.",
+    "type": "Flask"
   },
   {
-    "id": "philosophical_egg",
+    "id": "FLASKS_PHILOSOPHICAL_EGG",
     "name": "Philosophical Egg",
     "rarity": "legendary",
     "rejuvenating": false,
     "cost": 500,
-    "description": "Philosophical Eggs are geodes found in deep and ancient places, and are about as fragile as a glass flask. Curiously, when a bug throws or cracks open a philosophical egg, it contains one flask's-worth of precisely the liquid they had hoped for. Scholars have as-of-yet unable to replicate liquids that would theoretically be worth over 200 per flask's-worth. Soup or similar edibles found within are treated as if they were 1 Bulk (2 servings) of fresh Honey."
+    "description": "Philosophical Eggs are geodes found in deep and ancient places, and are about as fragile as a glass flask. Curiously, when a bug throws or cracks open a philosophical egg, it contains one flask's-worth of precisely the liquid they had hoped for. Scholars have as-of-yet unable to replicate liquids that would theoretically be worth over 200 per flask's-worth. Soup or similar edibles found within are treated as if they were 1 Bulk (2 servings) of fresh Honey.",
+    "type": "Flask"
   }
 ]

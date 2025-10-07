@@ -3,7 +3,7 @@
     "id": "button_shield",
     "name": "Button Shield",
     "quality": 1,
-    "bulk": "L",
+    "bulk": 0,
     "cost": 50,
     "description": "If the bearer of this shield has Grace equal to or higher than their Might, they may add an extra die to their parry attempts with the shield."
   },

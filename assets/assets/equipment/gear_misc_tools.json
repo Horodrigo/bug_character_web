@@ -1,0 +1,82 @@
+[
+  {
+    "id": "TOOLS_PICKAXE",
+    "name": "Pickaxe",
+    "category": "TOOLS",
+    "description": "Mining, Digging. Usable as a throwing bolt.",
+    "bulk": 1,
+    "cost": 25
+  },
+  {
+    "id": "TOOLS_CROWBAR",
+    "name": "Crowbar",
+    "category": "TOOLS",
+    "description": "Feats of Might; prying open a box. (Tusk, Hook listed as related uses/tools.)",
+    "bulk": 1,
+    "cost": 50
+  },
+  {
+    "id": "TOOLS_CAMOUFLAGE_CLOAK",
+    "name": "Camouflage Cloak",
+    "category": "TOOLS",
+    "description": "Stealth net / camouflage cloak.",
+    "bulk": 0,
+    "cost": 25
+  },
+  {
+    "id": "TOOLS_FISHING_ROD",
+    "name": "Fishing Rod",
+    "category": "TOOLS",
+    "description": "Fishing; snagging an item across the room. (Twigstaff, Whip listed as related tools.)",
+    "bulk": 0,
+    "cost": 50
+  },
+  {
+    "id": "TOOLS_HARDCOVER_BOOK",
+    "name": "Hardcover Book",
+    "category": "TOOLS",
+    "description": "A Lore skill reference (Tusk).",
+    "bulk": 1,
+    "cost": 25
+  },
+  {
+    "id": "TOOLS_SURGEONS_TOOLS",
+    "name": "Surgeon's Tools",
+    "category": "TOOLS",
+    "description": "Surgery, Medicine. Acts purely as a tool.",
+    "bulk": 0,
+    "cost": 100
+  },
+  {
+    "id": "TOOLS_THIEVES_TOOLS",
+    "name": "Thieves' Tools",
+    "category": "TOOLS",
+    "description": "Lock picking, Trap disarming. Acts purely as a tool.",
+    "bulk": 0,
+    "cost": 50
+  },
+  {
+    "id": "TOOLS_HAMMER_AND_PITONS",
+    "name": "Hammer and Pitons",
+    "category": "TOOLS",
+    "description": "Climbing gear, includes pitons and hammer; used with bolts for climbing.",
+    "bulk": 1,
+    "cost": 25
+  },
+  {
+    "id": "TOOLS_SAW",
+    "name": "Saw",
+    "category": "TOOLS",
+    "description": "Building, cutting down plants. (Hook, Polehook listed as related tools.)",
+    "bulk": 1,
+    "cost": 25
+  },
+  {
+    "id": "TOOLS_MEASURING_TOOL",
+    "name": "Measuring Tool",
+    "category": "TOOLS",
+    "description": "Building, Trapmaking. Acts purely as a tool.",
+    "bulk": 0,
+    "cost": 10
+  }
+]

@@ -24,7 +24,7 @@
   {
     "id": "nail_lance",
     "name": "Nail Lance",
-    "type": ["Nail", "Lance"],
+    "type": ["Nail"],
     "damage": 3,
     "range": { "melee": 2, "range": null },
     "hands": 2,
@@ -72,7 +72,7 @@
     "damage": 2,
     "range": { "melee": 1, "range": null },
     "hands": 1,
-    "bulk": "L",
+    "bulk": 0,
     "cost": 150,
     "description": "A Pin may be paired with itself if it is wielded alone. The wielder may reroll one die when attacking a bug that has lower Initiative with this weapon."
   },
@@ -83,7 +83,7 @@
     "damage": 1,
     "range": { "melee": 1, "range": 4 },
     "hands": 1,
-    "bulk": "L",
+    "bulk": 0,
     "cost": 10,
     "description": "Tacks may be paired with any weapon, and Soak rolls against Tacks lose 1 success."
   },
@@ -94,7 +94,7 @@
     "damage": 1,
     "range": { "melee": 1, "range": 4 },
     "hands": 1,
-    "bulk": "L",
+    "bulk": 0,
     "cost": 10,
     "description": "Stakes may be paired with any weapon. A Stake's rollover cap is equal to 5x its base damage."
   },
@@ -105,7 +105,7 @@
     "damage": 1,
     "range": { "melee": 1, "range": 4 },
     "hands": 1,
-    "bulk": "L",
+    "bulk": 0,
     "cost": 50,
     "description": "A Quill can be drawn during Initiative, granting a +2 die bonus on the Initiative check. At the start of combat, a Quill on the Belt may be loaded with any Poison on the Belt at no Stamina cost."
   },
@@ -160,7 +160,7 @@
     "damage": 2,
     "range": { "melee": 2, "range": null },
     "hands": 1,
-    "bulk": "L",
+    "bulk": 0,
     "cost": 50,
     "description": "Attempts to dodge a Whip when adjacent to the wielder have a -1 die penalty. Attempts to parry it when not adjacent have a -1 die penalty."
   },
@@ -171,7 +171,7 @@
     "damage": 2,
     "range": { "melee": 1, "range": 4 },
     "hands": 1,
-    "bulk": "L",
+    "bulk": 0,
     "cost": 50,
     "description": "After making a throwing attack with a Boomerang, roll a d6. If this roll is less than or equal to the wielder's Grace, the weapon returns after the attack. Boomerangs fly in a curving arc, allowing them to ignore cover and Shields when thrown."
   },
@@ -237,7 +237,7 @@
     "damage": 2,
     "range": { "melee": 1, "range": 3 },
     "hands": 1,
-    "bulk": "L",
+    "bulk": 0,
     "cost": 20,
     "description": "Throwing Bolts ignore 1 DR, and Soak gained from armor."
   },
@@ -270,7 +270,7 @@
     "damage": 2,
     "range": { "melee": null, "range": 5 },
     "hands": 1,
-    "bulk": "L",
+    "bulk": 0,
     "cost": 20,
     "description": "Attempting to make an attack at an adjacent enemy with this weapon provokes an attack of opportunity from that enemy. This weapon may be strapped to the top of a Staff."
   },
@@ -347,7 +347,7 @@
     "damage": 1,
     "range": { "melee": 1, "range": null },
     "hands": 0,
-    "bulk": "L",
+    "bulk": 0,
     "cost": 20,
     "description": "A Claw Glove’s Quality may be used in place of unarmed strike’s Quality when grappling. Objects may be held in a gloved hand."
   },
@@ -369,7 +369,7 @@
     "damage": 0,
     "range": { "melee": null, "range": 3 },
     "hands": 1,
-    "bulk": "L",
+    "bulk": 0,
     "cost": 20,
     "description": "An attack made with a Net is a grapple. The Net requires successes equal to its Quality to break free of its grapples."
   }
