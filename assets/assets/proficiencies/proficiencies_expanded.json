@@ -1,0 +1,38 @@
+[
+  {
+    "id": "PROF_SCHOLAR",
+    "name": "Scholar",
+    "skills": ["Research", "Ancient Languages", "Analysis", "Lore (History)"],
+    "description": "An academic dedicated to learning and knowledge preservation."
+  },
+  {
+    "id": "PROF_TRADER",
+    "name": "Trader",
+    "skills": ["Negotiation", "Appraisal", "Social Navigation", "Lore (Commerce)"],
+    "description": "A merchant skilled in business and social interactions."
+  },
+  {
+    "id": "PROF_EXPLORER",
+    "name": "Explorer",
+    "skills": ["Navigation", "Survival", "Climbing", "Lore (Geography)"],
+    "description": "An adventurer who seeks out new places and hidden secrets."
+  },
+  {
+    "id": "PROF_ARTISAN",
+    "name": "Artisan",
+    "skills": ["Crafting", "Repair", "Design", "Lore (Materials)"],
+    "description": "A skilled craftsperson who creates and maintains tools and art."
+  },
+  {
+    "id": "PROF_ENTERTAINER",
+    "name": "Entertainer",
+    "skills": ["Performance", "Social Navigation", "Storytelling", "Lore (Culture)"],
+    "description": "A performer who brings joy and stories to others."
+  },
+  {
+    "id": "PROF_HEALER",
+    "name": "Healer",
+    "skills": ["Medicine", "Herbalism", "Diagnosis", "Lore (Anatomy)"],
+    "description": "A medical practitioner dedicated to helping others recover."
+  }
+]

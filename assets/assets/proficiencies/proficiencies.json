@@ -1,0 +1,44 @@
+[
+  {
+    "id": "PROF_SOLDIER",
+    "name": "Soldier",
+    "skills": ["Equipment Maintenance", "Athletics", "Tactics", "Lore (War)"],
+    "description": "A disciplined fighter trained in warfare, tactics, and battlefield survival."
+  },
+  {
+    "id": "PROF_PRIEST",
+    "name": "Priest",
+    "skills": ["Medicine", "Persuasion", "Ritualcraft", "Lore (Theology)"],
+    "description": "A spiritual guide versed in healing, rituals, and the mysteries of faith."
+  },
+  {
+    "id": "PROF_NOBLE",
+    "name": "Noble",
+    "skills": ["Etiquette", "Deception", "Kenning", "Lore (Politics)"],
+    "description": "An aristocrat skilled in courtly manners, intrigue, and political influence."
+  },
+  {
+    "id": "PROF_FARMER",
+    "name": "Farmer",
+    "skills": ["Endurance", "Equipment Maintenance", "Barter", "Lore (Local)"],
+    "description": "A hardworking cultivator of the land, adept at trade and community knowledge."
+  },
+  {
+    "id": "PROF_HUNTER",
+    "name": "Hunter",
+    "skills": ["Survival", "Perception", "Stealth", "Lore (Nature)"],
+    "description": "A skilled tracker who thrives in the wild, blending patience and precision."
+  },
+  {
+    "id": "PROF_STAGE_MAGICIAN",
+    "name": "Stage Magician",
+    "skills": ["Perform (Tricks)", "Perception", "Deception", "Lore (Magic)"],
+    "description": "An entertainer who dazzles crowds with illusions, tricks, and arcane flair."
+  },
+  {
+    "id": "PROF_BANDIT",
+    "name": "Bandit",
+    "skills": ["Survival", "Stealth", "Bullying", "Lore (Crime)"],
+    "description": "A ruthless outlaw who relies on ambush, intimidation, and criminal cunning."
+  }
+]
