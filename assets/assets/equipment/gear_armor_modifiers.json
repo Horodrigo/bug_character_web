@@ -69,7 +69,7 @@
             "collection": "user_input",
             "multi": false,
             "required": true,
-            "note": "Choose vulnerability type (blunt, fire, etc)"
+            "note": "Choose resistance type (blunt, fire, etc)"
         }
     },
     {

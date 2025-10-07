@@ -63,7 +63,7 @@ const RESOURCES = {"flutter.js": "888483df48293866f9f41d3d9274a779",
 "assets/assets/equipment/gear_charms_weaponArts.json": "99cc9d8ea65de8ba8cf4b2c03db32828",
 "assets/assets/equipment/gear_shield.json": "a973b1f2f3155d393a25dd826c635ed7",
 "assets/assets/equipment/gear_misc_tools.json": "5faeb6fe6273640d3e75a5741a08f2b9",
-"assets/assets/equipment/gear_armor_modifiers.json": "c55a30d0438b9d3d00c0cc8f19799f78",
+"assets/assets/equipment/gear_armor_modifiers.json": "f852eb47be7c63810d6c17809a37ee8e",
 "assets/assets/equipment/gear_charms_magic.json": "dff4859a5369449821c0561b86a70b27",
 "assets/assets/equipment/gear_charms_combat.json": "fdda4306a4c0a8d9119c3c0dac04ad9c",
 "assets/assets/equipment/gear_arcane_foci.json": "57728b553c5ce4f2aeffe8b325f6350c",
@@ -96,9 +96,9 @@ const RESOURCES = {"flutter.js": "888483df48293866f9f41d3d9274a779",
 "canvaskit/canvaskit.js.symbols": "58832fbed59e00d2190aa295c4d70360",
 "canvaskit/skwasm.js.symbols": "0088242d10d7e7d6d2649d1fe1bda7c1",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"flutter_bootstrap.js": "681bc67794427422c2a4aeb264435708",
+"flutter_bootstrap.js": "aea9221aa66b10d9a191411811b4b415",
 "version.json": "402aae3e1fce99bf4a2d70a35f9601d1",
-"main.dart.js": "502d4bf260c0ceccb4f631902eaf46e5"};
+"main.dart.js": "b891c2e4816c9776c1b76ecf1418bafe"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
