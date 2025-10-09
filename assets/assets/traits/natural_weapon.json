@@ -1,592 +1,633 @@
 ﻿[
     {
-        "id":  "NW_CRUSHING_MANDIBLES",
-        "category":  "Natural Weapon",
-        "name":  "Crushing Mandibles",
-        "hungerCost":  1,
-        "description":  "This bug has large mandibles capable of tearing through flesh. These are a natural bite weapon which deals 2 damage. The mandibles may be dedicated to grapples as if they were a limb.",
-        "naturalWeapon":  {
-                              "name":  "Crushing Mandibles",
-                              "damage":  2,
-                              "range":  "melee",
-                              "weaponType":  "natural",
-                              "special":  "can be dedicated to grapples as if a limb"
-                          },
-        "statEffects":  {
-                            "creep":  0.5
-                        },
-        "prerequisites":  null,
-        "maxInstances":  1
+        "id": "NW_CRUSHING_MANDIBLES",
+        "category": "Natural Weapon",
+        "name": "Crushing Mandibles",
+        "hungerCost": 1,
+        "description": "This bug has large mandibles capable of tearing through flesh. These are a natural bite weapon which deals 2 damage. The mandibles may be dedicated to grapples as if they were a limb.",
+        "naturalWeapon": {
+            "name": "Crushing Mandibles",
+            "damage": 2,
+            "range": "melee",
+            "weaponType": "natural",
+            "special": "can be dedicated to grapples as if a limb"
+        },
+        "statEffects": {
+            "creep": 0.5
+        },
+        "prerequisites": null,
+        "maxInstances": 1
     },
     {
-        "id":  "NW_OVERSIZED_MANDIBLES",
-        "category":  "Natural Weapon",
-        "name":  "Oversized Mandibles",
-        "hungerCost":  2,
-        "description":  "This bug\u0027s mandibles are incredibly huge, dealing 3 damage instead of 2, and granting a +2 die bonus on checks to grapple or maintain a grapple they are dedicated to. Oversized Mandibles have 1 bulk.",
-        "naturalWeapon":  {
-                              "name":  "Oversized Mandibles",
-                              "damage":  3,
-                              "range":  "melee",
-                              "weaponType":  "natural",
-                              "special":  "+2 die bonus on grapple checks, 1 bulk"
-                          },
-        "statEffects":  {
-                            "creep":  0.5,
-                            "cute":  -0.5
-                        },
-        "prerequisites":  [
-                              {"type": "trait", "value": "NW_CRUSHING_MANDIBLES"}
-                          ],
-        "maxInstances":  1
+        "id": "NW_OVERSIZED_MANDIBLES",
+        "category": "Natural Weapon",
+        "name": "Oversized Mandibles",
+        "hungerCost": 2,
+        "description": "This bug\u0027s mandibles are incredibly huge, dealing 3 damage instead of 2, and granting a +2 die bonus on checks to grapple or maintain a grapple they are dedicated to. Oversized Mandibles have 1 bulk.",
+        "naturalWeapon": {
+            "name": "Oversized Mandibles",
+            "damage": 3,
+            "range": "melee",
+            "weaponType": "natural",
+            "special": "+2 die bonus on grapple checks, 1 bulk"
+        },
+        "statEffects": {
+            "creep": 0.5,
+            "cute": -0.5
+        },
+        "prerequisites": [
+            {
+                "type": "trait",
+                "value": "NW_CRUSHING_MANDIBLES"
+            }
+        ],
+        "maxInstances": 1
     },
     {
-        "id":  "NW_EXOTIC_VENOM",
-        "category":  "Natural Weapon",
-        "name":  "Exotic Venom",
-        "hungerCost":  {
-                           "common":  0,
-                           "uncommon":  2
-                       },
-        "description":  "May be taken as a subtrait of any Trait which inflicts DoT as part of a Status Effect. The bug\u0027s venom takes the effects of a poison, or a targeted or ingested flask effect, instead of its normal DoT. The bug gains the recipe of their Exotic Venom, and can produce it even without the correct Stash Path. If taken as a Subtrait of Stinger, reduce the Hunger cost by 2.",
-        "naturalWeapon":  null,
-        "selectFrom":  {
-                           "collection":  "poison_flasks",
-                           "multi":  false,
-                           "required":  true,
-                           "rarityFilter":  [
-                                                "common",
-                                                "uncommon"
-                                            ]
-                       },
-        "incompatibleWith":  [
-                                 "NW_PARALYZING_VENOM"
-                             ],
-        "selectableEffects":  {
-                                  "effectSource":  "selectedPoisonFlask",
-                                  "costReduction":  {
-                                                        "whenParentIs":  "NW_STINGER",
-                                                        "reduceBy":  2
-                                                    }
-                              },
-        "prerequisites":  [{"type": "trait_any", "value": ["NW_STINGER", "NW_VENOMOUS_BITE", "DEF_POISONOUS"]}],
-        "maxInstances":  1
+        "id": "NW_EXOTIC_VENOM",
+        "category": "Natural Weapon",
+        "name": "Exotic Venom",
+        "hungerCost": {
+            "common": 0,
+            "uncommon": 2
+        },
+        "description": "May be taken as a subtrait of any Trait which inflicts DoT as part of a Status Effect. The bug\u0027s venom takes the effects of a poison, or a targeted or ingested flask effect, instead of its normal DoT. The bug gains the recipe of their Exotic Venom, and can produce it even without the correct Stash Path. If taken as a Subtrait of Stinger, reduce the Hunger cost by 2.",
+        "naturalWeapon": null,
+        "selectFrom": {
+            "collection": "poison_flasks",
+            "multi": false,
+            "required": true,
+            "rarityFilter": [
+                "common",
+                "uncommon"
+            ]
+        },
+        "incompatibleWith": [
+            "NW_PARALYZING_VENOM"
+        ],
+        "selectableEffects": {
+            "effectSource": "selectedPoisonFlask",
+            "costReduction": {
+                "whenParentIs": "NW_STINGER",
+                "reduceBy": 2
+            }
+        },
+        "prerequisites": [
+            {
+                "type": "trait_any",
+                "value": [
+                    "NW_STINGER",
+                    "NW_VENOMOUS_BITE",
+                    "DEF_POISONOUS"
+                ]
+            }
+        ],
+        "maxInstances": 1
     },
     {
-        "id":  "NW_HORN",
-        "category":  "Natural Weapon",
-        "name":  "Horn",
-        "hungerCost":  2,
-        "description":  "This bug has a large horn atop its head. This is a natural weapon which deals 2 damage. The first successful hit with a horn attack each round also causes one stack of Off-Balance to the target.",
-        "naturalWeapon":  {
-                              "name":  "Horn",
-                              "damage":  2,
-                              "range":  "melee",
-                              "weaponType":  "natural",
-                              "special":  "first successful hit each round inflicts Off-Balance"
-                          },
-        "statEffects":  {
-
-                        },
-        "prerequisites":  null,
-        "maxInstances":  1
+        "id": "NW_HORN",
+        "category": "Natural Weapon",
+        "name": "Horn",
+        "hungerCost": 2,
+        "description": "This bug has a large horn atop its head. This is a natural weapon which deals 2 damage. The first successful hit with a horn attack each round also causes one stack of Off-Balance to the target.",
+        "naturalWeapon": {
+            "name": "Horn",
+            "damage": 2,
+            "range": "melee",
+            "weaponType": "natural",
+            "special": "first successful hit each round inflicts Off-Balance"
+        },
+        "statEffects": {},
+        "prerequisites": null,
+        "maxInstances": 1
     },
     {
-        "id":  "NW_IRRITANT_BRISTLES",
-        "category":  "Natural Weapon",
-        "name":  "Irritant Bristles",
-        "hungerCost":  3,
-        "description":  "This bug has bristles that lodge into attackers. Whenever a bug hits this bug with an attack from within 3 squares, they are inflicted with a 3-point Status Effect that gives all rolls beside Shell checks a -1 die penalty per 3 points of the status. The bug may also attack with the bristles as a range 3 or melee natural weapon, dealing no damage besides the Status Effect.",
-        "naturalWeapon":  {
-                              "name":  "Irritant Bristles",
-                              "damage":  0,
-                              "range":  "3 or melee",
-                              "weaponType":  "natural",
-                              "special":  "inflicts status effect instead of damage"
-                          },
-        "statEffects":  {
-                            "cute":  0.5
-                        },
-        "prerequisites":  null,
-        "maxInstances":  1
+        "id": "NW_IRRITANT_BRISTLES",
+        "category": "Natural Weapon",
+        "name": "Irritant Bristles",
+        "hungerCost": 3,
+        "description": "This bug has bristles that lodge into attackers. Whenever a bug hits this bug with an attack from within 3 squares, they are inflicted with a 3-point Status Effect that gives all rolls beside Shell checks a -1 die penalty per 3 points of the status. The bug may also attack with the bristles as a range 3 or melee natural weapon, dealing no damage besides the Status Effect.",
+        "naturalWeapon": {
+            "name": "Irritant Bristles",
+            "damage": 0,
+            "range": "3 or melee",
+            "weaponType": "natural",
+            "special": "inflicts status effect instead of damage"
+        },
+        "statEffects": {
+            "cute": 0.5
+        },
+        "prerequisites": null,
+        "maxInstances": 1
     },
     {
-        "id":  "NW_NATURAL_PROJECTILE",
-        "category":  "Natural Weapon",
-        "name":  "Natural Projectile",
-        "hungerCost":  4,
-        "description":  "This bug can launch a projectile from its body. It deals 2 damage and has a range of 4 squares. This natural weapon has the Sling weapon type.",
-        "naturalWeapon":  {
-                              "name":  "Natural Projectile",
-                              "damage":  2,
-                              "range":  4,
-                              "weaponType":  "Sling"
-                          },
-        "stacking":  {
-                         "repeatable":  true,
-                         "maxInstances":  "multiple",
-                         "note":  "different subtraits allowed per instance"
-                     },
-        "statEffects":  {
-
-                        },
-        "prerequisites":  null,
-        "maxInstances":  "multiple"
+        "id": "NW_NATURAL_PROJECTILE",
+        "category": "Natural Weapon",
+        "name": "Natural Projectile",
+        "hungerCost": 4,
+        "description": "This bug can launch a projectile from its body. It deals 2 damage and has a range of 4 squares. This natural weapon has the Sling weapon type.",
+        "naturalWeapon": {
+            "name": "Natural Projectile",
+            "damage": 2,
+            "range": 4,
+            "weaponType": "Sling"
+        },
+        "stacking": {
+            "repeatable": true,
+            "maxInstances": "multiple",
+            "note": "different subtraits allowed per instance"
+        },
+        "statEffects": {},
+        "prerequisites": null,
+        "maxInstances": "multiple"
     },
     {
-        "id":  "NW_CRIPPLING_SHOT",
-        "category":  "Natural Weapon",
-        "name":  "Crippling Shot",
-        "hungerCost":  0,
-        "description":  "The projectile deals no damage, instead inflicting a debuff. When this trait is taken, choose a Primary Attribute, Pool, or Speed. When the projectile hits, the affected bug makes a Shell check. The hit lowers the Attribute or maximum Pool by 1 point per 2 points in the debuff pool.",
-        "naturalWeapon":  null,
-        "selectFrom":  {
-                           "collection":  "attributes_pools",
-                           "multi":  false,
-                           "required":  true
-                       },
-        "selectableEffects":  {
-                                  "effectSource":  "selectedAttributePool",
-                                  "debuffFormula":  "1 point reduction per 2 debuff pool points"
-                              },
-        "statEffects":  {
-
-                        },
-        "prerequisites":  [
-                              {"type": "trait", "value": "NW_NATURAL_PROJECTILE"}
-                          ],
-        "maxInstances":  1
+        "id": "NW_CRIPPLING_SHOT",
+        "category": "Natural Weapon",
+        "name": "Crippling Shot",
+        "hungerCost": 0,
+        "description": "The projectile deals no damage, instead inflicting a debuff. When this trait is taken, choose a Primary Attribute, Pool, or Speed. When the projectile hits, the affected bug makes a Shell check. The hit lowers the Attribute or maximum Pool by 1 point per 2 points in the debuff pool.",
+        "naturalWeapon": null,
+        "selectFrom": {
+            "collection": "attributes_pools",
+            "multi": false,
+            "required": true
+        },
+        "selectableEffects": {
+            "effectSource": "selectedAttributePool",
+            "debuffFormula": "1 point reduction per 2 debuff pool points"
+        },
+        "statEffects": {},
+        "incompatibleWith": [
+            "NW_OBSCURING_SHOT",
+            "NW_FLUIDS"
+        ],
+        "prerequisites": [
+            {
+                "type": "trait",
+                "value": "NW_NATURAL_PROJECTILE"
+            }
+        ],
+        "maxInstances": 1
     },
     {
-        "id":  "NW_FLUIDS",
-        "category":  "Natural Weapon",
-        "name":  "Fluids",
-        "hungerCost":  {
-                           "common":  0,
-                           "uncommon":  2
-                       },
-        "description":  "This bug\u0027s projectile can contain a certain concoction. Instead of its normal damage, the projectile delivers that flask\u0027s effects. The bug gains the recipe of their Fluids, and can produce it even without the correct Stash Path.",
-        "naturalWeapon":  null,
-        "selectFrom":  {
-                           "collection":  "flasks",
-                           "multi":  false,
-                           "required":  true,
-                           "rarityFilter":  [
-                                                "common",
-                                                "uncommon"
-                                            ]
-                       },
-        "selectableEffects":  {
-                                  "effectSource":  "selectedFlask",
-                                  "recipeGain":  true
-                              },
-        "statEffects":  {
-
-                        },
-        "prerequisites":  [
-                              {"type": "trait", "value": "NW_NATURAL_PROJECTILE"}
-                          ],
-        "maxInstances":  1
+        "id": "NW_FLUIDS",
+        "category": "Natural Weapon",
+        "name": "Fluids",
+        "hungerCost": {
+            "common": 0,
+            "uncommon": 2
+        },
+        "description": "This bug\u0027s projectile can contain a certain concoction. Instead of its normal damage, the projectile delivers that flask\u0027s effects. The bug gains the recipe of their Fluids, and can produce it even without the correct Stash Path.",
+        "naturalWeapon": null,
+        "selectFrom": {
+            "collection": "flasks",
+            "multi": false,
+            "required": true,
+            "rarityFilter": [
+                "common",
+                "uncommon"
+            ]
+        },
+        "selectableEffects": {
+            "effectSource": "selectedFlask",
+            "recipeGain": true
+        },
+        "statEffects": {},
+        "incompatibleWith": [
+            "NW_CRIPPLING_SHOT",
+            "NW_OBSCURING_SHOT"
+        ],
+        "prerequisites": [
+            {
+                "type": "trait",
+                "value": "NW_NATURAL_PROJECTILE"
+            }
+        ],
+        "maxInstances": 1
     },
     {
-        "id":  "NW_HEAVY_SHOT",
-        "category":  "Natural Weapon",
-        "name":  "Heavy Shot",
-        "hungerCost":  0,
-        "description":  "The projectile deals 1 more damage and is considered a heavy weapon. Can be taken with Crippling Shot, Obscuring Shot or Spray.",
-        "naturalWeapon":  null,
-        "statEffects":  {
-
-                        },
-        "prerequisites":  [
-                              {"type": "trait", "value": "NW_NATURAL_PROJECTILE"}
-                          ],
-        "maxInstances":  1,
-        "compatibleWith":  [
-                               "NW_CRIPPLING_SHOT",
-                               "NW_OBSCURING_SHOT",
-                               "NW_SPRAY"
-                           ]
+        "id": "NW_HEAVY_SHOT",
+        "category": "Natural Weapon",
+        "name": "Heavy Shot",
+        "hungerCost": 0,
+        "description": "The projectile deals 1 more damage and is considered a heavy weapon. Can be taken with Crippling Shot, Obscuring Shot or Spray.",
+        "naturalWeapon": null,
+        "statEffects": {},
+        "prerequisites": [
+            {
+                "type": "trait",
+                "value": "NW_NATURAL_PROJECTILE"
+            }
+        ],
+        "maxInstances": 1,
+        "compatibleWith": [
+            "NW_CRIPPLING_SHOT",
+            "NW_OBSCURING_SHOT",
+            "NW_SPRAY"
+        ]
     },
     {
-        "id":  "NW_OBSCURING_SHOT",
-        "category":  "Natural Weapon",
-        "name":  "Obscuring Shot",
-        "hungerCost":  0,
-        "description":  "The projectile deals no damage, instead targeting the senses of other bugs. When this bug makes an attack, it chooses a sense to target. The bug hit loses access to the sense via a debuff.",
-        "naturalWeapon":  null,
-        "selectFrom":  {
-                           "collection":  "senses",
-                           "multi":  false,
-                           "required":  true
-                       },
-        "selectableEffects":  {
-                                  "effectSource":  "selectedSense"
-                              },
-        "statEffects":  {
-
-                        },
-        "prerequisites":  [
-                              {"type": "trait", "value": "NW_NATURAL_PROJECTILE"}
-                          ],
-        "maxInstances":  1
+        "id": "NW_OBSCURING_SHOT",
+        "category": "Natural Weapon",
+        "name": "Obscuring Shot",
+        "hungerCost": 0,
+        "description": "The projectile deals no damage, instead targeting the senses of other bugs. When this bug makes an attack, it chooses a sense to target. The bug hit loses access to the sense via a debuff.",
+        "naturalWeapon": null,
+        "selectFrom": {
+            "collection": "senses",
+            "multi": false,
+            "required": true
+        },
+        "selectableEffects": {
+            "effectSource": "selectedSense"
+        },
+        "statEffects": {},
+        "incompatibleWith": [
+            "NW_CRIPPLING_SHOT",
+            "NW_FLUIDS"
+        ],
+        "prerequisites": [
+            {
+                "type": "trait",
+                "value": "NW_NATURAL_PROJECTILE"
+            }
+        ],
+        "maxInstances": 1
     },
     {
-        "id":  "NW_SPRAY",
-        "category":  "Natural Weapon",
-        "name":  "Spray",
-        "hungerCost":  0,
-        "description":  "The projectile affects a Cone of short, long or wide size. It costs 1 extra tax Stamina to use. It is resolved as an AoE. May be taken with Crippling Shot, Obscuring Shot or Fluids.",
-        "naturalWeapon":  null,
-        "selectFrom":  {
-                           "collection":  "cone_sizes",
-                           "multi":  false,
-                           "required":  true,
-                           "options":  [
-                                           "short",
-                                           "long",
-                                           "wide"
-                                       ]
-                       },
-        "selectableEffects":  {
-                                  "effectSource":  "selectedConeSize"
-                              },
-        "statEffects":  {
-
-                        },
-        "prerequisites":  [
-                              {"type": "trait", "value": "NW_NATURAL_PROJECTILE"}
-                          ],
-        "maxInstances":  1,
-        "compatibleWith":  [
-                               "NW_CRIPPLING_SHOT",
-                               "NW_OBSCURING_SHOT",
-                               "NW_FLUIDS"
-                           ]
+        "id": "NW_SPRAY",
+        "category": "Natural Weapon",
+        "name": "Spray",
+        "hungerCost": 0,
+        "description": "The projectile affects a Cone of short, long or wide size. It costs 1 extra tax Stamina to use. It is resolved as an AoE. May be taken with Crippling Shot, Obscuring Shot or Fluids.",
+        "naturalWeapon": null,
+        "selectFrom": {
+            "collection": "cone_sizes",
+            "multi": false,
+            "required": true,
+            "options": [
+                "short",
+                "long",
+                "wide"
+            ]
+        },
+        "selectableEffects": {
+            "effectSource": "selectedConeSize"
+        },
+        "statEffects": {},
+        "prerequisites": [
+            {
+                "type": "trait",
+                "value": "NW_NATURAL_PROJECTILE"
+            }
+        ],
+        "maxInstances": 1,
+        "compatibleWith": [
+            "NW_CRIPPLING_SHOT",
+            "NW_OBSCURING_SHOT",
+            "NW_FLUIDS"
+        ]
     },
     {
-        "id":  "NW_NATURAL_SECRETION",
-        "category":  "Natural Weapon",
-        "name":  "Natural Secretion",
-        "hungerCost":  3,
-        "description":  "During their turn, this bug may spend Stamina equal to the Stash cost of a chosen flask to gain a 2-point Status Effect. While under this effect, the bug applies flask effects to grapplers or melee attackers. The bug is immune to its own secretions.",
-        "naturalWeapon":  null,
-        "selectFrom":  {
-                           "collection":  "flasks",
-                           "multi":  false,
-                           "required":  true,
-                           "rarityFilter":  [
-                                                "common",
-                                                "uncommon"
-                                            ]
-                       },
-        "statEffects":  {
-                            "creep":  0.5,
-                            "cute":  0.5,
-                            "choice":  [
-                                           "creep",
-                                           "cute"
-                                       ]
-                        },
-        "selectableEffects":  {
-                                  "effectSource":  "selectedFlask",
-                                  "staminaCost":  "equal to flask stash cost"
-                              },
-        "prerequisites":  null,
-        "maxInstances":  1
+        "id": "NW_NATURAL_SECRETION",
+        "category": "Natural Weapon",
+        "name": "Natural Secretion",
+        "hungerCost": 3,
+        "description": "During their turn, this bug may spend Stamina equal to the Stash cost of a chosen flask to gain a 2-point Status Effect. While under this effect, the bug applies flask effects to grapplers or melee attackers. The bug is immune to its own secretions.",
+        "naturalWeapon": null,
+        "selectFrom": {
+            "collection": "flasks",
+            "multi": false,
+            "required": true,
+            "rarityFilter": [
+                "common",
+                "uncommon"
+            ]
+        },
+        "statEffects": {
+            "creep": 0.5,
+            "cute": 0.5,
+            "choice": [
+                "creep",
+                "cute"
+            ]
+        },
+        "selectableEffects": {
+            "effectSource": "selectedFlask",
+            "staminaCost": "equal to flask stash cost"
+        },
+        "prerequisites": null,
+        "maxInstances": 1
     },
     {
-        "id":  "NW_SECRETION_TRAIL",
-        "category":  "Natural Weapon",
-        "name":  "Secretion Trail",
-        "hungerCost":  3,
-        "description":  "This bug can release a trail of their natural secretions. Every square moved through is covered by the secretions. When a bug crosses the trail, it is afflicted with the secretion\u0027s effects.",
-        "naturalWeapon":  null,
-        "statEffects":  {
-
-                        },
-        "prerequisites":  [
-                              {"type": "trait", "value": "NW_NATURAL_SECRETION"}
-                          ],
-        "maxInstances":  1
+        "id": "NW_SECRETION_TRAIL",
+        "category": "Natural Weapon",
+        "name": "Secretion Trail",
+        "hungerCost": 3,
+        "description": "This bug can release a trail of their natural secretions. Every square moved through is covered by the secretions. When a bug crosses the trail, it is afflicted with the secretion\u0027s effects.",
+        "naturalWeapon": null,
+        "statEffects": {},
+        "prerequisites": [
+            {
+                "type": "trait",
+                "value": "NW_NATURAL_SECRETION"
+            }
+        ],
+        "maxInstances": 1
     },
     {
-        "id":  "NW_NATURAL_TOOL",
-        "category":  "Natural Weapon",
-        "name":  "Natural Tool",
-        "hungerCost":  1,
-        "description":  "This bug has a body part that can be used as a certain Tool with 1 Quality. Tools that fill a very specific role may have increased Quality.",
-        "naturalWeapon":  null,
-        "selectFrom":  {
-                           "collection":  "user_input",
-                           "multi":  false,
-                           "required":  true,
-                           "note":  "Enter tool name (e.g., Hammer, Lockpick, Rope)"
-                       },
-        "prerequisites":  null,
-        "maxInstances":  1
+        "id": "NW_NATURAL_TOOL",
+        "category": "Natural Weapon",
+        "name": "Natural Tool",
+        "hungerCost": 1,
+        "description": "This bug has a body part that can be used as a certain Tool with 1 Quality. Tools that fill a very specific role may have increased Quality.",
+        "naturalWeapon": null,
+        "selectFrom": {
+            "collection": "user_input",
+            "multi": false,
+            "required": true,
+            "note": "Enter tool name (e.g., Hammer, Lockpick, Rope)"
+        },
+        "prerequisites": null,
+        "maxInstances": 1
     },
     {
-        "id":  "NW_PARALYZING_VENOM",
-        "category":  "Natural Weapon",
-        "name":  "Paralyzing Venom",
-        "hungerCost":  0,
-        "description":  "May be taken as a subtrait of any Trait which inflicts DoT. In place of DoT, twice as many stacks of Paralyzing Venom are applied. Paralyzing Venom is a Status Effect with escalating effects based on stack count.",
-        "naturalWeapon":  null,
-        "incompatibleWith":  [
-                                 "NW_EXOTIC_VENOM"
-                             ],
-        "statEffects":  {
-
-                        },
-        "prerequisites":  [{"type": "trait_any", "value": ["NW_STINGER", "NW_VENOMOUS_BITE", "DEF_POISONOUS"]}],
-        "maxInstances":  1
+        "id": "NW_PARALYZING_VENOM",
+        "category": "Natural Weapon",
+        "name": "Paralyzing Venom",
+        "hungerCost": 0,
+        "description": "May be taken as a subtrait of any Trait which inflicts DoT. In place of DoT, twice as many stacks of Paralyzing Venom are applied. Paralyzing Venom is a Status Effect with escalating effects based on stack count.",
+        "naturalWeapon": null,
+        "incompatibleWith": [
+            "NW_EXOTIC_VENOM"
+        ],
+        "statEffects": {},
+        "prerequisites": [
+            {
+                "type": "trait_any",
+                "value": [
+                    "NW_STINGER",
+                    "NW_VENOMOUS_BITE",
+                    "DEF_POISONOUS"
+                ]
+            }
+        ],
+        "maxInstances": 1
     },
     {
-        "id":  "NW_PINCERS",
-        "category":  "Natural Weapon",
-        "name":  "Pincers",
-        "hungerCost":  1,
-        "description":  "This bug has a pair of formidable pincers at the end of two of its arms. These are natural weapons which deal 1 damage. They have +2 rerolls on grapple checks and deal 2 damage to grappled bugs. Pincers may be used for Unarmed Arts.",
-        "naturalWeapon":  {
-                              "name":  "Pincers",
-                              "damage":  1,
-                              "range":  "melee",
-                              "weaponType":  "natural",
-                              "special":  "+2 rerolls on grapple checks, 2 damage vs grappled bugs"
-                          },
-        "statEffects":  {
-                            "creep":  0.5
-                        },
-        "prerequisites":  null,
-        "maxInstances":  1
+        "id": "NW_PINCERS",
+        "category": "Natural Weapon",
+        "name": "Pincers",
+        "hungerCost": 1,
+        "description": "This bug has a pair of formidable pincers at the end of two of its arms. These are natural weapons which deal 1 damage. They have +2 rerolls on grapple checks and deal 2 damage to grappled bugs. Pincers may be used for Unarmed Arts.",
+        "naturalWeapon": {
+            "name": "Pincers",
+            "damage": 1,
+            "range": "melee",
+            "weaponType": "natural",
+            "special": "+2 rerolls on grapple checks, 2 damage vs grappled bugs"
+        },
+        "statEffects": {
+            "creep": 0.5
+        },
+        "prerequisites": null,
+        "maxInstances": 1
     },
     {
-        "id":  "NW_OVERSIZED_PINCERS",
-        "category":  "Natural Weapon",
-        "name":  "Oversized Pincers",
-        "hungerCost":  5,
-        "description":  "One or both pincers now deal 3 damage instead of 1, and 4 to grappled bugs. Oversized pincers cannot wield weapons effectively or perform dexterous tasks. They have 1 Bulk and are a Tusk weapon.",
-        "naturalWeapon":  {
-                              "name":  "Oversized Pincers",
-                              "damage":  3,
-                              "range":  "melee",
-                              "weaponType":  "Tusk",
-                              "special":  "4 damage vs grappled bugs, 1 bulk, limits dexterity"
-                          },
-        "statEffects":  {
-                            "creep":  0.5,
-                            "cute":  -0.5
-                        },
-        "prerequisites":  [
-                              {"type": "trait", "value": "NW_PINCERS"}
-                          ],
-        "maxInstances":  1
+        "id": "NW_OVERSIZED_PINCERS",
+        "category": "Natural Weapon",
+        "name": "Oversized Pincers",
+        "hungerCost": 5,
+        "description": "One or both pincers now deal 3 damage instead of 1, and 4 to grappled bugs. Oversized pincers cannot wield weapons effectively or perform dexterous tasks. They have 1 Bulk and are a Tusk weapon.",
+        "naturalWeapon": {
+            "name": "Oversized Pincers",
+            "damage": 3,
+            "range": "melee",
+            "weaponType": "Tusk",
+            "special": "4 damage vs grappled bugs, 1 bulk, limits dexterity"
+        },
+        "statEffects": {
+            "creep": 0.5,
+            "cute": -0.5
+        },
+        "prerequisites": [
+            {
+                "type": "trait",
+                "value": "NW_PINCERS"
+            }
+        ],
+        "maxInstances": 1
     },
     {
-        "id":  "NW_SCYTHE_ARMS",
-        "category":  "Natural Weapon",
-        "name":  "Scythe Arms",
-        "hungerCost":  0,
-        "description":  "Two of this bug\u0027s arms end in scythes, which are natural weapons that deal 2 damage and can always be paired. Scythe arms can grasp objects but not wield weapons effectively. Count as any one weapon type for Arts.",
-        "naturalWeapon":  {
-                              "name":  "Scythe Arms",
-                              "damage":  2,
-                              "range":  "melee",
-                              "weaponType":  "natural",
-                              "special":  "always pairable, begins with weapon modifier"
-                          },
-        "selectFrom":  {
-                           "collection":  "weapon_types",
-                           "multi":  false,
-                           "required":  true,
-                           "note":  "for Arts compatibility"
-                       },
-        "statEffects":  {
-                            "creep":  0.5
-                        },
-        "prerequisites":  null,
-        "maxInstances":  1
+        "id": "NW_SCYTHE_ARMS",
+        "category": "Natural Weapon",
+        "name": "Scythe Arms",
+        "hungerCost": 0,
+        "description": "Two of this bug\u0027s arms end in scythes, which are natural weapons that deal 2 damage and can always be paired. Scythe arms can grasp objects but not wield weapons effectively. Count as any one weapon type for Arts.",
+        "naturalWeapon": {
+            "name": "Scythe Arms",
+            "damage": 2,
+            "range": "melee",
+            "weaponType": "natural",
+            "special": "always pairable, begins with weapon modifier"
+        },
+        "selectFrom": {
+            "collection": "weapon_types",
+            "multi": false,
+            "required": true,
+            "note": "for Arts compatibility"
+        },
+        "statEffects": {
+            "creep": 0.5
+        },
+        "prerequisites": null,
+        "maxInstances": 1
     },
     {
-        "id":  "NW_SHARP_CLAWS",
-        "category":  "Natural Weapon",
-        "name":  "Sharp Claws",
-        "hungerCost":  1,
-        "description":  "This bug\u0027s fingers are tipped with vicious claws, which deal 1 damage and can always be paired with any weapon. They may hold objects without penalty. When striking as a paired attack, base damage increases by 1.",
-        "naturalWeapon":  {
-                              "name":  "Sharp Claws",
-                              "damage":  1,
-                              "range":  "melee",
-                              "weaponType":  "natural",
-                              "special":  "always pairable, +1 damage when paired"
-                          },
-        "statEffects":  {
-
-                        },
-        "prerequisites":  null,
-        "maxInstances":  1
+        "id": "NW_SHARP_CLAWS",
+        "category": "Natural Weapon",
+        "name": "Sharp Claws",
+        "hungerCost": 1,
+        "description": "This bug\u0027s fingers are tipped with vicious claws, which deal 1 damage and can always be paired with any weapon. They may hold objects without penalty. When striking as a paired attack, base damage increases by 1.",
+        "naturalWeapon": {
+            "name": "Sharp Claws",
+            "damage": 1,
+            "range": "melee",
+            "weaponType": "natural",
+            "special": "always pairable, +1 damage when paired"
+        },
+        "statEffects": {},
+        "prerequisites": null,
+        "maxInstances": 1
     },
     {
-        "id":  "NW_SHARP_PROBOSCIS",
-        "category":  "Natural Weapon",
-        "name":  "Sharp Proboscis",
-        "hungerCost":  1,
-        "description":  "This bug possesses a long needle-like mouth. This is a natural bite weapon that deals 1 damage. It bypasses armor damage reduction and Soak rolls are made at -2. Synergizes with Bloodsucker.",
-        "naturalWeapon":  {
-                              "name":  "Sharp Proboscis",
-                              "damage":  1,
-                              "range":  "melee",
-                              "weaponType":  "natural",
-                              "special":  "bypasses armor reduction, Soak at -2"
-                          },
-        "statEffects":  {
-
-                        },
-        "prerequisites":  null,
-        "maxInstances":  1
+        "id": "NW_SHARP_PROBOSCIS",
+        "category": "Natural Weapon",
+        "name": "Sharp Proboscis",
+        "hungerCost": 1,
+        "description": "This bug possesses a long needle-like mouth. This is a natural bite weapon that deals 1 damage. It bypasses armor damage reduction and Soak rolls are made at -2. Synergizes with Bloodsucker.",
+        "naturalWeapon": {
+            "name": "Sharp Proboscis",
+            "damage": 1,
+            "range": "melee",
+            "weaponType": "natural",
+            "special": "bypasses armor reduction, Soak at -2"
+        },
+        "statEffects": {},
+        "prerequisites": null,
+        "maxInstances": 1
     },
     {
-        "id":  "NW_SLAM",
-        "category":  "Natural Weapon",
-        "name":  "Slam",
-        "hungerCost":  {
-                           "small":  1,
-                           "average":  2,
-                           "large":  3
-                       },
-        "description":  "This bug is weighted to allow it to throw its bulk around. If the bug moves toward a target or jumps, it can make a Slam attack. Attempts to parry it are made at -2.",
-        "naturalWeapon":  {
-                              "name":  "Slam",
-                              "damage":  {
-                                             "small":  2,
-                                             "average":  3,
-                                             "large":  4
-                                         },
-                              "range":  "melee",
-                              "weaponType":  "natural",
-                              "special":  "parry at -2, heavy weapon for large, 1 bulk for average"
-                          },
-        "selectFrom":  {
-                           "collection":  "bug_sizes",
-                           "multi":  false,
-                           "required":  true,
-                           "options":  [
-                                           "small",
-                                           "average",
-                                           "large"
-                                       ]
-                       },
-        "statEffects":  {
-
-                        },
-        "prerequisites":  null,
-        "maxInstances":  1
+        "id": "NW_SLAM",
+        "category": "Natural Weapon",
+        "name": "Slam",
+        "hungerCost": {
+            "small": 1,
+            "average": 2,
+            "large": 3
+        },
+        "description": "This bug is weighted to allow it to throw its bulk around. If the bug moves toward a target or jumps, it can make a Slam attack. Attempts to parry it are made at -2.",
+        "naturalWeapon": {
+            "name": "Slam",
+            "damage": {
+                "small": 2,
+                "average": 3,
+                "large": 4
+            },
+            "range": "melee",
+            "weaponType": "natural",
+            "special": "parry at -2, heavy weapon for large, 1 bulk for average"
+        },
+        "selectFrom": {
+            "collection": "bug_sizes",
+            "multi": false,
+            "required": true,
+            "options": [
+                "small",
+                "average",
+                "large"
+            ]
+        },
+        "statEffects": {},
+        "prerequisites": null,
+        "maxInstances": 1
     },
     {
-        "id":  "NW_SPIKY",
-        "category":  "Natural Weapon",
-        "name":  "Spiky",
-        "hungerCost":  3,
-        "description":  "This bug is partially covered in spikes, and may use these as a natural weapon dealing 2 damage. Additionally, attackers take damage when hitting or grappling this bug.",
-        "naturalWeapon":  {
-                              "name":  "Spiky",
-                              "damage":  2,
-                              "range":  "melee",
-                              "weaponType":  "natural",
-                              "special":  "retaliatory damage to attackers and grapplers"
-                          },
-        "statEffects":  {
-                            "creep":  0.5
-                        },
-        "prerequisites":  null,
-        "maxInstances":  1
+        "id": "NW_SPIKY",
+        "category": "Natural Weapon",
+        "name": "Spiky",
+        "hungerCost": 3,
+        "description": "This bug is partially covered in spikes, and may use these as a natural weapon dealing 2 damage. Additionally, attackers take damage when hitting or grappling this bug.",
+        "naturalWeapon": {
+            "name": "Spiky",
+            "damage": 2,
+            "range": "melee",
+            "weaponType": "natural",
+            "special": "retaliatory damage to attackers and grapplers"
+        },
+        "statEffects": {
+            "creep": 0.5
+        },
+        "prerequisites": null,
+        "maxInstances": 1
     },
     {
-        "id":  "NW_STINGER",
-        "category":  "Natural Weapon",
-        "name":  "Stinger",
-        "hungerCost":  3,
-        "description":  "This bug has a retractable stinger in its abdomen. This is a natural weapon that inflicts 3 damage over time, but receives -2 to hit unless flying or grappling the target. Stingers are 1 Bulk.",
-        "naturalWeapon":  {
-                              "name":  "Stinger",
-                              "damage":  3,
-                              "damageType":  "over time",
-                              "range":  "melee",
-                              "weaponType":  "natural",
-                              "special":  "-2 to hit unless flying/grappling, 1 bulk"
-                          },
-        "statEffects":  {
-                            "creep":  0.5
-                        },
-        "prerequisites":  null,
-        "maxInstances":  1
+        "id": "NW_STINGER",
+        "category": "Natural Weapon",
+        "name": "Stinger",
+        "hungerCost": 3,
+        "description": "This bug has a retractable stinger in its abdomen. This is a natural weapon that inflicts 3 damage over time, but receives -2 to hit unless flying or grappling the target. Stingers are 1 Bulk.",
+        "naturalWeapon": {
+            "name": "Stinger",
+            "damage": 3,
+            "damageType": "over time",
+            "range": "melee",
+            "weaponType": "natural",
+            "special": "-2 to hit unless flying/grappling, 1 bulk"
+        },
+        "statEffects": {
+            "creep": 0.5
+        },
+        "prerequisites": null,
+        "maxInstances": 1
     },
     {
-        "id":  "NW_PREHENSILE_TAIL",
-        "category":  "Natural Weapon",
-        "name":  "Prehensile Tail",
-        "hungerCost":  2,
-        "description":  "This bug\u0027s stinger is located at the end of a tail, and has no penalty to hit.",
-        "naturalWeapon":  null,
-        "statEffects":  {
-                            "creep":  0.5
-                        },
-        "prerequisites":  [
-                              {"type": "trait", "value": "NW_STINGER"}
-                          ],
-        "maxInstances":  1
+        "id": "NW_PREHENSILE_TAIL",
+        "category": "Natural Weapon",
+        "name": "Prehensile Tail",
+        "hungerCost": 2,
+        "description": "This bug\u0027s stinger is located at the end of a tail, and has no penalty to hit.",
+        "naturalWeapon": null,
+        "statEffects": {
+            "creep": 0.5
+        },
+        "prerequisites": [
+            {
+                "type": "trait",
+                "value": "NW_STINGER"
+            }
+        ],
+        "maxInstances": 1
     },
     {
-        "id":  "NW_TENTACLE",
-        "category":  "Natural Weapon",
-        "name":  "Tentacle",
-        "hungerCost":  3,
-        "description":  "The bug possesses a long, lashing tentacle. It can hold, but not wield, objects. It has Reach and deals 1 damage. The tentacle may be used to grapple at Reach with Might 3. May be taken multiple times. +1 Might per tentacle when dedicated to grapple",
-        "naturalWeapon":  {
-                              "name":  "Tentacle",
-                              "damage":  1,
-                              "range":  "reach",
-                              "weaponType":  "natural",
-                              "special":  "Reach, grapple at Might 3, +1 Might per additional tentacle"
-                          },
-        "statEffects":  {
-                            "creep":  0.5
-                        },
-        "prerequisites":  null,
-        "maxInstances":  8
+        "id": "NW_TENTACLE",
+        "category": "Natural Weapon",
+        "name": "Tentacle",
+        "hungerCost": 3,
+        "description": "The bug possesses a long, lashing tentacle. It can hold, but not wield, objects. It has Reach and deals 1 damage. The tentacle may be used to grapple at Reach with Might 3. May be taken multiple times. +1 Might per tentacle when dedicated to grapple",
+        "naturalWeapon": {
+            "name": "Tentacle",
+            "damage": 1,
+            "range": "reach",
+            "weaponType": "natural",
+            "special": "Reach, grapple at Might 3, +1 Might per additional tentacle"
+        },
+        "statEffects": {
+            "creep": 0.5
+        },
+        "prerequisites": null,
+        "maxInstances": 8
     },
     {
-        "id":  "NW_VENOMOUS_BITE",
-        "category":  "Natural Weapon",
-        "name":  "Venomous Bite",
-        "hungerCost":  3,
-        "description":  "This bug\u0027s bite becomes a natural weapon capable of dealing 1 damage and inflicting 2 DoT. If it has any form of bite attack, it instead inflicts the DoT through said attack for 1 Stamina. Cannot be paired.",
-        "naturalWeapon":  {            
-                              "name":  "Venomous Bite",
-                              "damage":  1,
-                              "range":  "melee",
-                              "weaponType":  "natural",
-                              "special":  "inflicts 2 DoT, 1 Stamina to activate with existing bite"
-                          },
-        "statEffects":  {
-                            "creep":  0.5,
-                            "cute":  0.5,
-                            "choice":  [
-                                           "creep",
-                                           "cute"
-                                       ]
-                        },
-        "prerequisites":  null,
-        "maxInstances":  1
+        "id": "NW_VENOMOUS_BITE",
+        "category": "Natural Weapon",
+        "name": "Venomous Bite",
+        "hungerCost": 3,
+        "description": "This bug\u0027s bite becomes a natural weapon capable of dealing 1 damage and inflicting 2 DoT. If it has any form of bite attack, it instead inflicts the DoT through said attack for 1 Stamina. Cannot be paired.",
+        "naturalWeapon": {
+            "name": "Venomous Bite",
+            "damage": 1,
+            "range": "melee",
+            "weaponType": "natural",
+            "special": "inflicts 2 DoT, 1 Stamina to activate with existing bite"
+        },
+        "statEffects": {
+            "creep": 0.5,
+            "cute": 0.5,
+            "choice": [
+                "creep",
+                "cute"
+            ]
+        },
+        "prerequisites": null,
+        "maxInstances": 1
     },
-  {
-    "id": "NW_BLOODSUCKER",
-    "category": "Natural Weapon",
-    "name": "Bloodsucker",
-    "hungerCost": 4,
-    "description": "This bug may drink fresh blood for sustenance. It may draw blood using a 0-damage bite attack; on a success, it gains 5 Belly and the target loses 10 Belly. If the target is willing, incapacitated, or freshly slain, those numbers double and the bug may trigger this ability multiple times, paying 1 Stamina per additional use. This trait may be taken as a subtrait of a natural weapon used for a bite attack; if so, it may only be used with that natural weapon.",
-    "prerequisites": [{"type": "trait_any", "value": ["NW_SHARP_PROBOSCIS", "NW_CRUSHING_MANDIBLES"]}],
-    "maxInstances": 1
-  }
+    {
+        "id": "NW_BLOODSUCKER",
+        "category": "Natural Weapon",
+        "name": "Bloodsucker",
+        "hungerCost": 4,
+        "description": "This bug may drink fresh blood for sustenance. It may draw blood using a 0-damage bite attack; on a success, it gains 5 Belly and the target loses 10 Belly. If the target is willing, incapacitated, or freshly slain, those numbers double and the bug may trigger this ability multiple times, paying 1 Stamina per additional use. This trait may be taken as a subtrait of a natural weapon used for a bite attack; if so, it may only be used with that natural weapon.",
+        "prerequisites": [
+            {
+                "type": "trait_any",
+                "value": [
+                    "NW_SHARP_PROBOSCIS",
+                    "NW_CRUSHING_MANDIBLES"
+                ]
+            }
+        ],
+        "maxInstances": 1
+    }
 ]

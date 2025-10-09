@@ -33,7 +33,7 @@
     "type": "Tusk",
     "damage": 1,
     "range": {
-      "melee": "Melee",
+      "melee": 1,
       "range": null
     },
     "hands": 1,
@@ -47,7 +47,7 @@
     "type": "Nail",
     "damage": 1,
     "range": {
-      "melee": "Melee",
+      "melee": 1,
       "range": null
     },
     "hands": 2,
