@@ -149,24 +149,16 @@
         "description":  "This bug has a natural penchant for a particular skill. When using that skill to add dice to a roll, one of those dice is an automatic success instead of being rolled. This Trait may be taken multiple times, but never for the same skill more than once.",
         "naturalWeapon":  null,
         "selectFrom":  {
-                           "collection":  "skills",
+                           "collection":  "user_input",
                            "multi":  false,
                            "required":  true,
-                           "note":  "choose one skill"
+                           "note":  "Choose one skill"
                        },
-        "stacking":  {
-                         "repeatable":  true,
-                         "maxInstances":  "multiple",
-                         "restriction":  "different skills only",
-                         "perInstanceEffects":  [
-                                                    {
-                                                        "automaticSuccess":  "one die for chosen skill"
-                                                    }
-                                                ]
-                     },
-        "statEffects":  {
-                            "talentEffect":  "one automatic success for chosen skill"
-                        },
+        "stacking": {
+            "repeatable": true,
+            "maxInstances": "multiple",
+            "note": "Different skills allowed per instance."
+        },
         "prerequisites":  null,
         "maxInstances":  "multiple"
     }

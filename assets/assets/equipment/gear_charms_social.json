@@ -5,7 +5,7 @@
     "name": "Bulging Coercion",
     "rarity": "common",
     "notches": 1,
-    "description": "When attempting to Bully a target, the bearer may treat a third of their current Belly as their Spook value."
+    "description": "When attempting to Bully a target, the bearer may treat a third of their current Belly as their Creep value."
   },
   {
     "id": "darkstalkers_tongue",
@@ -21,7 +21,7 @@
     "name": "Grim Eye",
     "rarity": "rare",
     "notches": 2,
-    "description": "Unseen attacks against the bearer of this Charm suffer a penalty to hit equal to their Spook score."
+    "description": "Unseen attacks against the bearer of this Charm suffer a penalty to hit equal to their Creep score."
   },
   {
     "id": "kingseekers_eye",
@@ -45,7 +45,7 @@
     "name": "Mark of Predation",
     "rarity": "common",
     "notches": 1,
-    "description": "The bearer of this Charm radiates a threatening presence and appears more fearsome. The bearer’s Spook is increased by 1."
+    "description": "The bearer of this Charm radiates a threatening presence and appears more fearsome. The bearer’s Creep is increased by 1."
   },
   {
     "id": "oak_lotus",
@@ -77,7 +77,7 @@
     "name": "Rusted Crown",
     "rarity": "uncommon",
     "notches": 2,
-    "description": "When the bearer makes an opposed check to inflict a spell effect upon a target, they may use their Spook score in place of Insight."
+    "description": "When the bearer makes an opposed check to inflict a spell effect upon a target, they may use their Creep score in place of Insight."
   },
   {
     "id": "shared_soul",

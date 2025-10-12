@@ -8,9 +8,9 @@
         "naturalWeapon": {
             "name": "Crushing Mandibles",
             "damage": 2,
-            "range": "melee",
-            "weaponType": "natural",
-            "special": "can be dedicated to grapples as if a limb"
+            "bulk": 0,
+            "range": { "melee": 1, "range": null },
+            "type": ["Natural"]
         },
         "statEffects": {
             "creep": 0.5
@@ -27,9 +27,9 @@
         "naturalWeapon": {
             "name": "Oversized Mandibles",
             "damage": 3,
-            "range": "melee",
-            "weaponType": "natural",
-            "special": "+2 die bonus on grapple checks, 1 bulk"
+            "range": { "melee": 1, "range": null },
+            "bulk": 1,
+            "type": ["Natural"]
         },
         "statEffects": {
             "creep": 0.5,
@@ -93,9 +93,9 @@
         "naturalWeapon": {
             "name": "Horn",
             "damage": 2,
-            "range": "melee",
-            "weaponType": "natural",
-            "special": "first successful hit each round inflicts Off-Balance"
+            "bulk": 0,
+            "range": { "melee": 1, "range": null },
+            "type": ["Natural"]
         },
         "statEffects": {},
         "prerequisites": null,
@@ -110,9 +110,9 @@
         "naturalWeapon": {
             "name": "Irritant Bristles",
             "damage": 0,
-            "range": "3 or melee",
-            "weaponType": "natural",
-            "special": "inflicts status effect instead of damage"
+            "bulk": 0,
+            "range": { "melee": 1, "range": 3 },
+            "type": ["Natural"]
         },
         "statEffects": {
             "cute": 0.5
@@ -129,8 +129,9 @@
         "naturalWeapon": {
             "name": "Natural Projectile",
             "damage": 2,
-            "range": 4,
-            "weaponType": "Sling"
+            "bulk": 0,
+            "range": { "melee": null, "range": 4 },
+            "type": ["Natural", "Sling"]
         },
         "stacking": {
             "repeatable": true,
@@ -384,9 +385,9 @@
         "naturalWeapon": {
             "name": "Pincers",
             "damage": 1,
-            "range": "melee",
-            "weaponType": "natural",
-            "special": "+2 rerolls on grapple checks, 2 damage vs grappled bugs"
+            "bulk": 0,
+            "range": { "melee": 1, "range": null },
+            "type": ["Natural", "Unarmed"]
         },
         "statEffects": {
             "creep": 0.5
@@ -403,9 +404,9 @@
         "naturalWeapon": {
             "name": "Oversized Pincers",
             "damage": 3,
-            "range": "melee",
-            "weaponType": "Tusk",
-            "special": "4 damage vs grappled bugs, 1 bulk, limits dexterity"
+            "range": { "melee": 1, "range": null },
+            "bulk": 1,
+            "type": ["Natural", "Tusk"]
         },
         "statEffects": {
             "creep": 0.5,
@@ -428,9 +429,10 @@
         "naturalWeapon": {
             "name": "Scythe Arms",
             "damage": 2,
-            "range": "melee",
-            "weaponType": "natural",
-            "special": "always pairable, begins with weapon modifier"
+            "bulk": 0,
+            "range": { "melee": 1, "range": null },
+            "type": ["Natural"],
+            "description": "Always pairable and receive a free weapon modifier, cannot get more modifiers from advancement."
         },
         "selectFrom": {
             "collection": "weapon_types",
@@ -453,9 +455,9 @@
         "naturalWeapon": {
             "name": "Sharp Claws",
             "damage": 1,
-            "range": "melee",
-            "weaponType": "natural",
-            "special": "always pairable, +1 damage when paired"
+            "bulk": 0,
+            "range": { "melee": 1, "range": null },
+            "type": ["Natural"]
         },
         "statEffects": {},
         "prerequisites": null,
@@ -470,9 +472,9 @@
         "naturalWeapon": {
             "name": "Sharp Proboscis",
             "damage": 1,
-            "range": "melee",
-            "weaponType": "natural",
-            "special": "bypasses armor reduction, Soak at -2"
+            "bulk": 0,
+            "range": { "melee": 1, "range": null },
+            "type": ["Natural"]
         },
         "statEffects": {},
         "prerequisites": null,
@@ -482,34 +484,21 @@
         "id": "NW_SLAM",
         "category": "Natural Weapon",
         "name": "Slam",
-        "hungerCost": {
-            "small": 1,
-            "average": 2,
-            "large": 3
+        "hungerCost": 1,
+        "special": {
+            "sizeModifiers": {
+                "hungerCost": 1,
+                "naturalWeapon": {"bulk": 1, "damage":1}
+            }
         },
-        "description": "This bug is weighted to allow it to throw its bulk around. If the bug moves toward a target or jumps, it can make a Slam attack. Attempts to parry it are made at -2.",
+        "description": "This bug is weighted to allow it to throw its bulk around to knock out the competition. If the bug moves at least 1 space toward a target or performs a jump action, it can make a single Slam attack against that target which deals 2 damage. Attempts to parry it are made at -2. Each size category above Small it adds 1 Hunger, 1 damage and 1 bulk to this trait.",
         "naturalWeapon": {
             "name": "Slam",
-            "damage": {
-                "small": 2,
-                "average": 3,
-                "large": 4
-            },
-            "range": "melee",
-            "weaponType": "natural",
-            "special": "parry at -2, heavy weapon for large, 1 bulk for average"
+            "damage": 2,
+            "bulk": 0,
+            "range": { "melee": 1, "range": null },
+            "type": ["Natural"]
         },
-        "selectFrom": {
-            "collection": "bug_sizes",
-            "multi": false,
-            "required": true,
-            "options": [
-                "small",
-                "average",
-                "large"
-            ]
-        },
-        "statEffects": {},
         "prerequisites": null,
         "maxInstances": 1
     },
@@ -522,9 +511,9 @@
         "naturalWeapon": {
             "name": "Spiky",
             "damage": 2,
-            "range": "melee",
-            "weaponType": "natural",
-            "special": "retaliatory damage to attackers and grapplers"
+            "bulk": 0,
+            "range": { "melee": 1, "range": null },
+            "type": ["Natural"]
         },
         "statEffects": {
             "creep": 0.5
@@ -542,9 +531,9 @@
             "name": "Stinger",
             "damage": 3,
             "damageType": "over time",
-            "range": "melee",
-            "weaponType": "natural",
-            "special": "-2 to hit unless flying/grappling, 1 bulk"
+            "range": { "melee": 1, "range": null },
+            "bulk": 1,
+            "type": ["Natural"]
         },
         "statEffects": {
             "creep": 0.5
@@ -579,9 +568,9 @@
         "naturalWeapon": {
             "name": "Tentacle",
             "damage": 1,
-            "range": "reach",
-            "weaponType": "natural",
-            "special": "Reach, grapple at Might 3, +1 Might per additional tentacle"
+            "bulk": 0,
+            "range": { "melee": 2, "range": null },
+            "type": ["Natural"]
         },
         "statEffects": {
             "creep": 0.5
@@ -598,9 +587,10 @@
         "naturalWeapon": {
             "name": "Venomous Bite",
             "damage": 1,
-            "range": "melee",
-            "weaponType": "natural",
-            "special": "inflicts 2 DoT, 1 Stamina to activate with existing bite"
+            "bulk": 0,
+            "range": { "melee": 1, "range": null },
+            "type": ["Natural"],
+            "description": "inflicts 2 DoT, 1 Stamina to activate with existing bite"
         },
         "statEffects": {
             "creep": 0.5,

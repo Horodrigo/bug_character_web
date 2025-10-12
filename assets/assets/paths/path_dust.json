@@ -24,7 +24,7 @@
                       "abilities":  [
                                         {
                                             "name":  "Living Death",
-                                            "description":  "Created Husks move naturally, can pass as normal bugs (-1 Speed, no Spook bonus). Requires 3 Insight successes to identify as Husk."
+                                            "description":  "Created Husks move naturally, can pass as normal bugs (-1 Speed, no Creep bonus). Requires 3 Insight successes to identify as Husk."
                                         },
                                         {
                                             "name":  "Allegiance",

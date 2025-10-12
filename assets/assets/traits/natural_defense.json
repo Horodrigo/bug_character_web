@@ -5,13 +5,9 @@
         "name": "Blocking Arms",
         "hungerCost": 2,
         "description": "This bug has broad appendages that count as shields with Quality equal to half Shell (rounded up) when unoccupied.",
-        "naturalWeapon": null,
-        "statEffects": {
-            "shieldArms": "Quality equal to half Shell when unoccupied"
+        "naturalShield": {
+            "name": "Blocking Arms"
         },
-        "compatibleWith": [
-            "NW_SPIKY"
-        ],
         "incompatibleWith": [
             "BODY_ARMLESS"
         ],
@@ -24,7 +20,6 @@
         "name": "Shelled Arms",
         "hungerCost": 4,
         "description": "This bug\u0027s arms are massive and can block an entire face. Raising both arms gives carapace shield effect.",
-        "naturalWeapon": null,
         "prerequisites": [
             {
                 "type": "trait",

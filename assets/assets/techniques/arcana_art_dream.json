@@ -13,7 +13,7 @@
     "difficulty": 1,
     "range": "Self",
     "duration": "Scene",
-    "description": "Gives the target a new appearance chosen by the caster, increasing Spook or Cute by up to 2, or copies the appearance of a sensed individual (gaining their Spook/Cute). While active, caster may spend 1 Essence to burn the disguise into a brief mirage: during the mirage the caster may use Insight instead of Grace to dodge and inflict -1 die penalty to targets' parry and dodge."
+    "description": "Gives the target a new appearance chosen by the caster, increasing Creep or Cute by up to 2, or copies the appearance of a sensed individual (gaining their Creep/Cute). While active, caster may spend 1 Essence to burn the disguise into a brief mirage: during the mirage the caster may use Insight instead of Grace to dodge and inflict -1 die penalty to targets' parry and dodge."
   },
   {
     "id": "dream_illusion",
