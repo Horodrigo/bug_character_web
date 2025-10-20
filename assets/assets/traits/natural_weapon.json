@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "id": "NW_CRUSHING_MANDIBLES",
         "category": "Natural Weapon",
@@ -9,8 +9,14 @@
             "name": "Crushing Mandibles",
             "damage": 2,
             "bulk": 0,
-            "range": { "melee": 1, "range": null },
-            "type": ["Natural"]
+            "range": {
+                "melee": 1,
+                "range": null
+            },
+            "type": [
+                "Natural"
+            ],
+            "modifiers": false
         },
         "statEffects": {
             "creep": 0.5
@@ -23,13 +29,19 @@
         "category": "Natural Weapon",
         "name": "Oversized Mandibles",
         "hungerCost": 2,
-        "description": "This bug\u0027s mandibles are incredibly huge, dealing 3 damage instead of 2, and granting a +2 die bonus on checks to grapple or maintain a grapple they are dedicated to. Oversized Mandibles have 1 bulk.",
+        "description": "This bug's mandibles are incredibly huge, dealing 3 damage instead of 2, and granting a +2 die bonus on checks to grapple or maintain a grapple they are dedicated to. Oversized Mandibles have 1 bulk.",
         "naturalWeapon": {
             "name": "Oversized Mandibles",
             "damage": 3,
-            "range": { "melee": 1, "range": null },
+            "range": {
+                "melee": 1,
+                "range": null
+            },
             "bulk": 1,
-            "type": ["Natural"]
+            "type": [
+                "Natural"
+            ],
+            "modifiers": false
         },
         "statEffects": {
             "creep": 0.5,
@@ -51,7 +63,7 @@
             "common": 0,
             "uncommon": 2
         },
-        "description": "May be taken as a subtrait of any Trait which inflicts DoT as part of a Status Effect. The bug\u0027s venom takes the effects of a poison, or a targeted or ingested flask effect, instead of its normal DoT. The bug gains the recipe of their Exotic Venom, and can produce it even without the correct Stash Path. If taken as a Subtrait of Stinger, reduce the Hunger cost by 2.",
+        "description": "May be taken as a subtrait of any Trait which inflicts DoT as part of a Status Effect. The bug's venom takes the effects of a poison, or a targeted or ingested flask effect, instead of its normal DoT. The bug gains the recipe of their Exotic Venom, and can produce it even without the correct Stash Path. If taken as a Subtrait of Stinger, reduce the Hunger cost by 2.",
         "naturalWeapon": null,
         "selectFrom": {
             "collection": "poison_flasks",
@@ -94,8 +106,14 @@
             "name": "Horn",
             "damage": 2,
             "bulk": 0,
-            "range": { "melee": 1, "range": null },
-            "type": ["Natural"]
+            "range": {
+                "melee": 1,
+                "range": null
+            },
+            "type": [
+                "Natural"
+            ],
+            "modifiers": false
         },
         "statEffects": {},
         "prerequisites": null,
@@ -111,8 +129,14 @@
             "name": "Irritant Bristles",
             "damage": 0,
             "bulk": 0,
-            "range": { "melee": 1, "range": 3 },
-            "type": ["Natural"]
+            "range": {
+                "melee": 1,
+                "range": 3
+            },
+            "type": [
+                "Natural"
+            ],
+            "modifiers": false
         },
         "statEffects": {
             "cute": 0.5
@@ -130,8 +154,15 @@
             "name": "Natural Projectile",
             "damage": 2,
             "bulk": 0,
-            "range": { "melee": null, "range": 4 },
-            "type": ["Natural", "Sling"]
+            "range": {
+                "melee": null,
+                "range": 4
+            },
+            "type": [
+                "Natural",
+                "Sling"
+            ],
+            "modifiers": false
         },
         "stacking": {
             "repeatable": true,
@@ -179,7 +210,7 @@
             "common": 0,
             "uncommon": 2
         },
-        "description": "This bug\u0027s projectile can contain a certain concoction. Instead of its normal damage, the projectile delivers that flask\u0027s effects. The bug gains the recipe of their Fluids, and can produce it even without the correct Stash Path.",
+        "description": "This bug's projectile can contain a certain concoction. Instead of its normal damage, the projectile delivers that flask's effects. The bug gains the recipe of their Fluids, and can produce it even without the correct Stash Path.",
         "naturalWeapon": null,
         "selectFrom": {
             "collection": "flasks",
@@ -326,7 +357,7 @@
         "category": "Natural Weapon",
         "name": "Secretion Trail",
         "hungerCost": 3,
-        "description": "This bug can release a trail of their natural secretions. Every square moved through is covered by the secretions. When a bug crosses the trail, it is afflicted with the secretion\u0027s effects.",
+        "description": "This bug can release a trail of their natural secretions. Every square moved through is covered by the secretions. When a bug crosses the trail, it is afflicted with the secretion's effects.",
         "naturalWeapon": null,
         "statEffects": {},
         "prerequisites": [
@@ -386,8 +417,15 @@
             "name": "Pincers",
             "damage": 1,
             "bulk": 0,
-            "range": { "melee": 1, "range": null },
-            "type": ["Natural", "Unarmed"]
+            "range": {
+                "melee": 1,
+                "range": null
+            },
+            "type": [
+                "Natural",
+                "Unarmed"
+            ],
+            "modifiers": false
         },
         "statEffects": {
             "creep": 0.5
@@ -404,9 +442,16 @@
         "naturalWeapon": {
             "name": "Oversized Pincers",
             "damage": 3,
-            "range": { "melee": 1, "range": null },
+            "range": {
+                "melee": 1,
+                "range": null
+            },
             "bulk": 1,
-            "type": ["Natural", "Tusk"]
+            "type": [
+                "Natural",
+                "Tusk"
+            ],
+            "modifiers": false
         },
         "statEffects": {
             "creep": 0.5,
@@ -425,14 +470,20 @@
         "category": "Natural Weapon",
         "name": "Scythe Arms",
         "hungerCost": 0,
-        "description": "Two of this bug\u0027s arms end in scythes, which are natural weapons that deal 2 damage and can always be paired. Scythe arms can grasp objects but not wield weapons effectively. Count as any one weapon type for Arts.",
+        "description": "Two of this bug's arms end in scythes, which are natural weapons that deal 2 damage and can always be paired. Scythe arms can grasp objects but not wield weapons effectively. Count as any one weapon type for Arts.",
         "naturalWeapon": {
             "name": "Scythe Arms",
             "damage": 2,
             "bulk": 0,
-            "range": { "melee": 1, "range": null },
-            "type": ["Natural"],
-            "description": "Always pairable and receive a free weapon modifier, cannot get more modifiers from advancement."
+            "range": {
+                "melee": 1,
+                "range": null
+            },
+            "type": [
+                "Natural"
+            ],
+            "description": "Always pairable and receive a free weapon modifier, cannot get more modifiers from advancement.",
+            "modifiers": true
         },
         "selectFrom": {
             "collection": "weapon_types",
@@ -451,13 +502,19 @@
         "category": "Natural Weapon",
         "name": "Sharp Claws",
         "hungerCost": 1,
-        "description": "This bug\u0027s fingers are tipped with vicious claws, which deal 1 damage and can always be paired with any weapon. They may hold objects without penalty. When striking as a paired attack, base damage increases by 1.",
+        "description": "This bug's fingers are tipped with vicious claws, which deal 1 damage and can always be paired with any weapon. They may hold objects without penalty. When striking as a paired attack, base damage increases by 1.",
         "naturalWeapon": {
             "name": "Sharp Claws",
             "damage": 1,
             "bulk": 0,
-            "range": { "melee": 1, "range": null },
-            "type": ["Natural"]
+            "range": {
+                "melee": 1,
+                "range": null
+            },
+            "type": [
+                "Natural"
+            ],
+            "modifiers": false
         },
         "statEffects": {},
         "prerequisites": null,
@@ -473,8 +530,14 @@
             "name": "Sharp Proboscis",
             "damage": 1,
             "bulk": 0,
-            "range": { "melee": 1, "range": null },
-            "type": ["Natural"]
+            "range": {
+                "melee": 1,
+                "range": null
+            },
+            "type": [
+                "Natural"
+            ],
+            "modifiers": false
         },
         "statEffects": {},
         "prerequisites": null,
@@ -488,7 +551,10 @@
         "special": {
             "sizeModifiers": {
                 "hungerCost": 1,
-                "naturalWeapon": {"bulk": 1, "damage":1}
+                "naturalWeapon": {
+                    "bulk": 1,
+                    "damage": 1
+                }
             }
         },
         "description": "This bug is weighted to allow it to throw its bulk around to knock out the competition. If the bug moves at least 1 space toward a target or performs a jump action, it can make a single Slam attack against that target which deals 2 damage. Attempts to parry it are made at -2. Each size category above Small it adds 1 Hunger, 1 damage and 1 bulk to this trait.",
@@ -496,8 +562,14 @@
             "name": "Slam",
             "damage": 2,
             "bulk": 0,
-            "range": { "melee": 1, "range": null },
-            "type": ["Natural"]
+            "range": {
+                "melee": 1,
+                "range": null
+            },
+            "type": [
+                "Natural"
+            ],
+            "modifiers": false
         },
         "prerequisites": null,
         "maxInstances": 1
@@ -512,8 +584,14 @@
             "name": "Spiky",
             "damage": 2,
             "bulk": 0,
-            "range": { "melee": 1, "range": null },
-            "type": ["Natural"]
+            "range": {
+                "melee": 1,
+                "range": null
+            },
+            "type": [
+                "Natural"
+            ],
+            "modifiers": false
         },
         "statEffects": {
             "creep": 0.5
@@ -531,9 +609,15 @@
             "name": "Stinger",
             "damage": 3,
             "damageType": "over time",
-            "range": { "melee": 1, "range": null },
+            "range": {
+                "melee": 1,
+                "range": null
+            },
             "bulk": 1,
-            "type": ["Natural"]
+            "type": [
+                "Natural"
+            ],
+            "modifiers": false
         },
         "statEffects": {
             "creep": 0.5
@@ -546,7 +630,7 @@
         "category": "Natural Weapon",
         "name": "Prehensile Tail",
         "hungerCost": 2,
-        "description": "This bug\u0027s stinger is located at the end of a tail, and has no penalty to hit.",
+        "description": "This bug's stinger is located at the end of a tail, and has no penalty to hit.",
         "naturalWeapon": null,
         "statEffects": {
             "creep": 0.5
@@ -569,8 +653,14 @@
             "name": "Tentacle",
             "damage": 1,
             "bulk": 0,
-            "range": { "melee": 2, "range": null },
-            "type": ["Natural"]
+            "range": {
+                "melee": 2,
+                "range": null
+            },
+            "type": [
+                "Natural"
+            ],
+            "modifiers": false
         },
         "statEffects": {
             "creep": 0.5
@@ -583,14 +673,20 @@
         "category": "Natural Weapon",
         "name": "Venomous Bite",
         "hungerCost": 3,
-        "description": "This bug\u0027s bite becomes a natural weapon capable of dealing 1 damage and inflicting 2 DoT. If it has any form of bite attack, it instead inflicts the DoT through said attack for 1 Stamina. Cannot be paired.",
+        "description": "This bug's bite becomes a natural weapon capable of dealing 1 damage and inflicting 2 DoT. If it has any form of bite attack, it instead inflicts the DoT through said attack for 1 Stamina. Cannot be paired.",
         "naturalWeapon": {
             "name": "Venomous Bite",
             "damage": 1,
             "bulk": 0,
-            "range": { "melee": 1, "range": null },
-            "type": ["Natural"],
-            "description": "inflicts 2 DoT, 1 Stamina to activate with existing bite"
+            "range": {
+                "melee": 1,
+                "range": null
+            },
+            "type": [
+                "Natural"
+            ],
+            "description": "inflicts 2 DoT, 1 Stamina to activate with existing bite",
+            "modifiers": false
         },
         "statEffects": {
             "creep": 0.5,

@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "id": "DEF_BLOCKING_ARMS",
         "category": "Natural Defense",
@@ -6,7 +6,8 @@
         "hungerCost": 2,
         "description": "This bug has broad appendages that count as shields with Quality equal to half Shell (rounded up) when unoccupied.",
         "naturalShield": {
-            "name": "Blocking Arms"
+            "name": "Blocking Arms",
+            "modifiers": false
         },
         "incompatibleWith": [
             "BODY_ARMLESS"
@@ -19,7 +20,7 @@
         "category": "Natural Defense",
         "name": "Shelled Arms",
         "hungerCost": 4,
-        "description": "This bug\u0027s arms are massive and can block an entire face. Raising both arms gives carapace shield effect.",
+        "description": "This bug's arms are massive and can block an entire face. Raising both arms gives carapace shield effect.",
         "prerequisites": [
             {
                 "type": "trait",
@@ -49,7 +50,7 @@
         "category": "Natural Defense",
         "name": "Active Camouflage",
         "hungerCost": 3,
-        "description": "The bug\u0027s camouflage adapts to any environment. Stealth bonus applies in any terrain.",
+        "description": "The bug's camouflage adapts to any environment. Stealth bonus applies in any terrain.",
         "naturalWeapon": null,
         "prerequisites": [
             {
@@ -140,7 +141,7 @@
         "category": "Natural Defense",
         "name": "Poisonous",
         "hungerCost": 3,
-        "description": "This bug\u0027s body is toxic. Biting attackers receive Status Effect dealing environmental damage. Flesh is inedible.",
+        "description": "This bug's body is toxic. Biting attackers receive Status Effect dealing environmental damage. Flesh is inedible.",
         "naturalWeapon": null,
         "statEffects": {
             "poisonousFlesh": "biting attackers get damage Status Effect",
@@ -154,7 +155,7 @@
         "category": "Natural Defense",
         "name": "Toxic Blood",
         "hungerCost": 3,
-        "description": "This bug\u0027s blood is caustic. Damage sprays blood onto adjacent square, applying Status Effect to sprayed bugs.",
+        "description": "This bug's blood is caustic. Damage sprays blood onto adjacent square, applying Status Effect to sprayed bugs.",
         "naturalWeapon": null,
         "statEffects": {
             "bloodSpray": "damage sprays blood to adjacent square",
