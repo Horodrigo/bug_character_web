@@ -260,7 +260,7 @@
         "description":  "This bug is of a particularly hearty breed, and so they gain 1 maximum Heart.",
         "naturalWeapon":  null,
         "statEffects":  {
-                            "maxHeart":  1
+                            "heart":  1
                         },
         "prerequisites":  null,
         "maxInstances":  1
@@ -273,7 +273,7 @@
         "description":  "This bug\u0027s best years are behind it, and it has 1 fewer maximum Heart.",
         "naturalWeapon":  null,
         "statEffects":  {
-                            "maxHeart":  -1
+                            "heart":  -1
                         },
         "prerequisites":  null,
         "maxInstances":  1
