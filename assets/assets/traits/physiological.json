@@ -78,6 +78,17 @@
       "stamina": 1
     },
     "description": "When chosen, a bug selects one Pool (Heart, Soul, or Stamina). When this bug consumes at least 20 Belly worth of flesh or blood from a sapient bug, it may regain 1 point in the selected Pool, up to a cap of one higher than that pool’s maximum. If the point is Soul or Stamina, the bug can choose to save it when spending points from that pool to spend later. Devouring a corpse in combat is a Focus Action.",
+    "selectFrom": {
+      "collection": "attributes_pools",
+      "multi": false,
+      "required": true,
+      "options": [
+                "Heart",
+                "Soul",
+                "Stamina"
+            ],
+      "note": "Select the pool this trait applies to (Heart, Soul, or Stamina)"
+    },
     "prerequisites": null,
     "maxInstances": 1
   },
@@ -339,7 +350,10 @@
     "hungerCost": 1,
     "description": "This bug may emit a glow bright enough to see up to 7 squares away. While this light is on, attempts to spot this bug via sight are always successful so long as line of sight is possible.",
     "statEffects": {
-      "creepOrCuteBonus": 0.5
+            "choice": [
+                {"creep": 0.5,
+                "cute": 0.5}
+            ]
     },
     "prerequisites": null,
     "maxInstances": 1
@@ -445,6 +459,20 @@
     "hungerCost": 5,
     "description": "This bug can expel sticky strands of silk usable as rope (+2 to climbing) and to cross gaps. Web may be placed up to two spaces away by spending a Stamina (once per turn). Leaving a webbed square forces a Might check (>2 successes) or be held; extra Stamina may be used for bonus dice. Targets may be webbed directly (works as a Natural Net Weapon).",
     "prerequisites": null,
+    "naturalWeapon": {
+            "name": "Silk Net",
+            "damage": 0,
+            "bulk": 0,
+            "range": {
+                "melee": null,
+                "range": 3
+            },
+            "type": [
+                "Natural", 
+                "Sling"
+            ],
+            "modifiers": false
+        },
     "maxInstances": 1
   },
   {

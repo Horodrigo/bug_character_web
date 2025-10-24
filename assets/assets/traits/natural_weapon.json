@@ -489,7 +489,7 @@
             "collection": "weapon_types",
             "multi": false,
             "required": true,
-            "note": "for Arts compatibility"
+            "note": "For Arts compatibility"
         },
         "statEffects": {
             "creep": 0.5
@@ -689,11 +689,9 @@
             "modifiers": false
         },
         "statEffects": {
-            "creep": 0.5,
-            "cute": 0.5,
             "choice": [
-                "creep",
-                "cute"
+                {"creep": 0.5,
+                "cute": 0.5}
             ]
         },
         "prerequisites": null,

@@ -73,7 +73,7 @@
       "collection": "weapon_types",
       "multi": false,
       "required": true,
-      "note": "for Arts compatibility"
+      "note": "For Arts compatibility"
     }
   },
   {

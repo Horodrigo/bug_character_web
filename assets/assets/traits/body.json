@@ -158,13 +158,11 @@
             "MYST_BARREN"
         ],
         "statEffects": {
-            "creep": 0.5,
-            "cute": 0.5,
+            "heart":  4,
             "choice": [
-                "creep",
-                "cute"
-            ],
-            "heartBonus": 4
+                {"creep": 0.5,
+                "cute": 0.5}
+            ]
         },
         "prerequisites": null,
         "maxInstances": 1

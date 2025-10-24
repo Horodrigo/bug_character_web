@@ -99,11 +99,9 @@
         "description": "This bug has protective outer layer. Can soak environmental damage and magic damage with single die.",
         "naturalWeapon": null,
         "statEffects": {
-            "creep": 0.5,
-            "cute": 0.5,
             "choice": [
-                "creep",
-                "cute"
+                {"creep": 0.5,
+                "cute": 0.5}
             ],
             "environmentalSoak": true,
             "magicSoak": "single die vs magic damage"
@@ -119,19 +117,16 @@
         "description": "This bug resembles a particular inanimate object or different bug. When in appropriate environment, hiding dice count as sixes against unaware bugs.",
         "naturalWeapon": null,
         "selectFrom": {
-            "collection": "mimicry_targets",
+            "collection": "user_input",
             "multi": false,
             "required": true,
-            "note": "choose object or bug type to mimic"
+            "note": "Choose object or bug type to mimic"
         },
         "statEffects": {
-            "creep": 0.5,
-            "cute": 0.5,
             "choice": [
-                "creep",
-                "cute"
-            ],
-            "mimicryBonus": "hiding dice count as sixes in appropriate environment"
+                {"creep": 0.5,
+                "cute": 0.5}
+            ]
         },
         "prerequisites": null,
         "maxInstances": 1
@@ -180,7 +175,7 @@
             "collection": "user_input",
             "multi": false,
             "required": true,
-            "note": "choose resistance type (blunt, fire, etc)"
+            "note": "Choose resistance type (blunt, fire, etc)"
         },
         "prerequisites": null,
         "maxInstances": 1

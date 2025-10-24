@@ -114,14 +114,13 @@
         "description":  "This bug has a debilitating fear of something in particular. When faced with its fear, the bug must make an Insight check. If failed, they receive a -1 die penalty to all rolls other than Soak and may not willingly confront their fear.",
         "naturalWeapon":  null,
         "selectFrom":  {
-                           "collection":  "phobias",
+                           "collection":  "user_input",
                            "multi":  false,
                            "required":  true,
-                           "note":  "player defines specific phobia"
+                           "note":  "Define a specific phobia"
                        },
         "statEffects":  {
-                            "cute":  0.5,
-                            "phobiaEffect":  "-1 to all rolls except Soak when facing fear"
+                            "cute":  0.5
                         },
         "prerequisites":  null,
         "maxInstances":  1
