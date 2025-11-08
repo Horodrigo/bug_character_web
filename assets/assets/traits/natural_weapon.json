@@ -338,11 +338,9 @@
             ]
         },
         "statEffects": {
-            "creep": 0.5,
-            "cute": 0.5,
             "choice": [
-                "creep",
-                "cute"
+                {"creep": 0.5,
+                "cute": 0.5}
             ]
         },
         "selectableEffects": {

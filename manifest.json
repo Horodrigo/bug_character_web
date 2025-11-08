@@ -1,11 +1,11 @@
 {
-    "name": "hollow_knight_rpg",
-    "short_name": "hollow_knight_rpg",
+    "name": "HiveKeeper",
+    "short_name": "HiveKeeper",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "A character manager for the Unofficial Hollow Knight RPG adventures.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
